@@ -1,0 +1,5 @@
+{
+  "client_pairs": 140,
+  "imposter_pairs": 16,
+  "verdict": "NUAA lacks temporal continuity for attack class; cannot test temporal cues"
+}

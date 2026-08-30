@@ -1,0 +1,60 @@
+======================================================================
+Secure DMS rework â€” run 2026-08-06 21:36:17
+python 3.12.10 on Windows-11-10.0.26200-SP0
+numpy 2.5.1
+opencv 5.0.0
+mediapipe 1.0.0
+torch 2.11.0+cu128 | cuda available: True | NVIDIA GeForce RTX 4060 Laptop GPU
+artefact face_landmarker.task: sha256=64184E229B263107â€¦ OK
+artefact L2CSNet_gaze360.pkl: sha256=8A7F3480D868DD48â€¦ OK
+artefact 6DRepNet_300W_LP_AFLW2000.pth: sha256=9BDCD0E072DF0D21â€¦ OK
+seed 42 | run log: run_log_20260806_213617.txt
+DMD drowsiness: 16 rgb_face videos, 16 annotations | sample 1280x720 @ 29.76 fps, 5480 frames
+DMD distraction: 82 rgb_face videos, 82 annotations | sample 1280x720 @ 29.76 fps, 6777 frames
+
+DMD drowsiness ground truth: 16 sessions, 87,071 frames (48.8 min)
+  PERCLOS (ground truth, strict eyes-closed): 0.1034
+  per-session PERCLOS: min 0.0307 max 0.1757 mean 0.1028 sd 0.0410
+  blink events: 1,578 = 32.4/min (literature 15-30/min, R20 â€” DMD drowsiness is ACTED fatigue, see P1_FINDINGS Â§2)
+
+GATE G1 â€” NUAA temporal viability
+  client (bona fide)   captures   25 | median length   121 | median gap   1 | contiguous 61.3%
+  imposter (attack)    captures  118 | median length    80 | median gap   6 | contiguous 0.8%
+  truly-adjacent frame pairs â€” client 3,114 | imposter 56
+
+  GATE G1 VERDICT: NUAA temporal PAD corpus NOT VIABLE
+  -> NUAA retained for FRAME-LEVEL print-attack evaluation only (its designed purpose);
+     temporal PAD uses DMD video as bona fide + attack tiers C/D (P1_FINDINGS.md Â§4).
+perception backbone ready — EAR/MAR/iris/box/constellation per frame (DR-1)
+gaze + head-pose models loaded on cuda (inference-only, batched)
+
+P2 smoke test — gA_1_s5_2019-03-14T14;26;17+…
+  frames with face: 300/300 (100.0%)
+  EAR   mean 0.287 sd 0.128 min 0.022 max 0.652  (open-eye literature ~0.2-0.35, R9)
+  MAR   mean 0.047 sd 0.066
+  gaze  pitch +9.2+-24.0 yaw -0.0+-5.6 deg
+  head  pitch +6.3 yaw +12.5 roll -4.1 deg
+  quality guard: PASS (invalid gaze 0.000%)
+driver-state module ready — PERCLOS/EAR/MAR + gaze-off-road (DR-2, published thresholds)
+
+==============================================================================
+P3 — driver-state validation vs DMD OpenLABEL ground truth
+==============================================================================
+session          frames   PERCLOS   truth   blinks  truth     F1   verdict
+gA/1/s5             300    0.5067  0.1204        1     83  0.000    unsafe
+gA/2/s5            5416    0.2243  0.0779       42     66  0.516    unsafe
+gA/3/s5            5525    0.2876  0.0874      137    143  0.466    unsafe
+gA/4/s5            5228    0.5151  0.0937       55     90  0.308    unsafe
+gA/5/s5            5287    0.3004  0.1040       61    101  0.514    unsafe
+gB/10/s5           5965    0.3541  0.1734       85     93  0.664    unsafe
+gB/10/s5           5417    0.3229  0.1133       76     74  0.520    unsafe
+gB/6/s5            5397    0.1749  0.0325      156    186  0.314    unsafe
+gB/7/s5            5388    0.5139  0.1140       90    153  0.364    unsafe
+
+frame-level eye-closure detection (pooled, n=43,923):
+  accuracy 0.7630 | precision 0.2971 | recall 1.0000 | F1 0.4581
+  majority-class baseline (DR-4): accuracy 0.8998 F1 0.0000
+
+session-level PERCLOS agreement (the measure that drives the verdict):
+  Pearson r +0.5018 | MAE 0.2537 | bias +0.2537
+  blink-count r +0.8157 | MAPE 31.8%

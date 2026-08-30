@@ -1,0 +1,78 @@
+{
+  "S": {
+    "threat": "Spoofing",
+    "mechanism": "Temporal behavioural PAD (blink+ocular; R23/R26)",
+    "primary_evidence": "Tier D \u2014 ROSE-Youtu, real instruments (20 subjects, 5 devices)",
+    "tier_d_attack_windows": 1394,
+    "tier_d_apcer_per_species": {
+      "mask_cropped": 0.4576271186440678,
+      "mask_full": 0.00816326530612245,
+      "mask_upper": 0.5956521739130435,
+      "print_quiver": 0.025210084033613446,
+      "print_still": 0.0,
+      "replay_lenovo": 0.20388349514563106,
+      "replay_mac": 0.2727272727272727
+    },
+    "tier_d_apcer_worst": 0.5956521739130435,
+    "tier_d_bpcer": 0.5882352941176471,
+    "tier_d_acer": 0.5919437340153453,
+    "tier_c_apcer_worst_synthetic": 0.0,
+    "pass": false,
+    "result": "FAILS on real instruments: worst-species APCER 59.57% (mask_upper), BPCER 58.82%, ACER 59.19% over 1,394 Tier-D attack windows. (Tier-C synthetic APCER was 0.00% \u2014 the gap is the finding, P4_FINDINGS section6.)"
+  },
+  "T": {
+    "threat": "Tampering",
+    "mechanism": "SHA-256 + HMAC-SHA-256 (FIPS 180-4 / RFC 2104)",
+    "trials": 500,
+    "clean_passed": 500,
+    "tamper_detected": 500,
+    "hmac_forgery_detected": 500,
+    "pass": true,
+    "result": "500/500 16-byte tampers detected; 500/500 clean passed; 500/500 forged-hash-without-key rejected"
+  },
+  "R": {
+    "threat": "Repudiation",
+    "mechanism": "HMAC hash chain + DP-4 key evolution (Schneier-Kelsey)",
+    "entries": 200,
+    "chain_clean": true,
+    "field_tamper_detected": true,
+    "breaks_on_delete": true,
+    "breaks_on_reorder": true,
+    "truncation_prefix_valid": true,
+    "truncation_caught_by_count_anchor": true,
+    "dp4_forward_integrity": true,
+    "pass": true,
+    "result": "200/200 entries signed & chained; field-tamper/deletion/reorder detected; tail-truncation caught by count anchor (chain prefix stays valid); DP-4: stolen current key cannot rewrite entry 100 = True"
+  },
+  "I": {
+    "threat": "Information disclosure",
+    "mechanism": "Irreversible pixelation (GDPR minimisation)",
+    "faces": 60,
+    "recoverable": 0,
+    "detail_retained": 0.0,
+    "effective_resolution": "14x14",
+    "faces_before": 60,
+    "faces_after": 0,
+    "pass": true,
+    "result": "0/60 faces recoverable after anonymisation; 0.0% sub-block detail retained; eff. res 14x14; face detector 60->0"
+  },
+  "D": {
+    "threat": "Denial of service",
+    "mechanism": "Sliding-window rate limiter (30 fps cap)",
+    "submitted": 180,
+    "admitted": 30,
+    "rate_limited": 30,
+    "flood_blocked": 120,
+    "pass": true,
+    "result": "30/180 admitted (= 30 fps cap); 150 throttled = 30 rate-limited + 120 flood-blocked (alarm at 60); counts reconcile"
+  },
+  "E": {
+    "threat": "Elevation of privilege",
+    "mechanism": "RBAC 3 roles x 6 actions (Ferraiolo-Kuhn)",
+    "unauth_denied": "6/6",
+    "auth_granted": "4/4",
+    "matrix": "18/18",
+    "pass": true,
+    "result": "6/6 unauthorised denied; 4/4 authorised granted; 18/18 role x action cells match policy"
+  }
+}

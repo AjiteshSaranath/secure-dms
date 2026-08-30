@@ -1,0 +1,26 @@
+{
+  "model_py_identical": true,
+  "model_py_local_sha256": "bad26b9f1664d4ba020a66661f426163d189fb2d4468ba126030b9ef4374006d",
+  "model_py_official_sha256": "bad26b9f1664d4ba020a66661f426163d189fb2d4468ba126030b9ef4374006d",
+  "weights_sha256": "8A7F3480D868DD48261E1D59F915B0EF0BB33EA12EA00938FB2168F212080665",
+  "n_tensors": 324,
+  "n_params": 23936181,
+  "head_shapes": {
+    "fc_yaw_gaze.weight": [
+      90,
+      2048
+    ],
+    "fc_pitch_gaze.weight": [
+      90,
+      2048
+    ],
+    "fc_finetune.weight": [
+      3,
+      2051
+    ]
+  },
+  "architecture_checks": {
+    "resnet50_layer4_present": true,
+    "two_gaze_heads": true
+  }
+}

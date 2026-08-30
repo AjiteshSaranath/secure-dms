@@ -1,0 +1,7366 @@
+{
+  "seed": 42,
+  "n_genuine": 240,
+  "n_per_attack": 120,
+  "extracted": 1051,
+  "failed": 29,
+  "items": [
+    {
+      "file": "G_NT_IP_wg_E_10_16.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 390,
+      "read": 390
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_11_48.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 181,
+      "read": 181
+    },
+    {
+      "file": "G_NT_5s_g_E_12_2.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 328,
+      "read": 328
+    },
+    {
+      "file": "G_NT_5s_g_E_13_2.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 402,
+      "read": 402
+    },
+    {
+      "file": "G_NT_ZTE_g_E_14_45.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 166,
+      "read": 166
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_15_22.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 149,
+      "read": 149
+    },
+    {
+      "file": "G_NT_ZTE_g_E_16_43.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 188,
+      "read": 188
+    },
+    {
+      "file": "G_NT_IP_g_E_17_35.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 370,
+      "read": 370
+    },
+    {
+      "file": "G_NT_HW_wg_E_18_26.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 168,
+      "read": 168
+    },
+    {
+      "file": "G_NT_5s_g_E_2_5.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 364,
+      "read": 364
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_20_47.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 150,
+      "read": 150
+    },
+    {
+      "file": "G_NT_5s_wg_E_21_7.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 438,
+      "read": 438
+    },
+    {
+      "file": "G_NT_IP_wg_E_22_38.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_23_24.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 207,
+      "read": 207
+    },
+    {
+      "file": "G_NT_5s_wg_E_3_8.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 301,
+      "read": 301
+    },
+    {
+      "file": "G_NT_5s_wg_E_4_7.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 668,
+      "read": 668
+    },
+    {
+      "file": "G_NT_ZTE_g_E_5_45.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 198,
+      "read": 198
+    },
+    {
+      "file": "G_NT_HS_g_E_6_15.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 386,
+      "read": 386
+    },
+    {
+      "file": "G_NT_5s_wg_E_7_2.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "G_NT_ZTE_g_E_9_42.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 331,
+      "read": 331
+    },
+    {
+      "file": "G_NT_HS_wg_E_10_10.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 375,
+      "read": 375
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_11_50.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 276,
+      "read": 276
+    },
+    {
+      "file": "G_NT_HS_wg_E_12_17.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 351,
+      "read": 351
+    },
+    {
+      "file": "G_NT_IP_wg_E_13_37.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 376,
+      "read": 376
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_14_48.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 183,
+      "read": 183
+    },
+    {
+      "file": "G_NT_5s_wg_E_15_3.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 376,
+      "read": 376
+    },
+    {
+      "file": "G_NT_HW_g_E_16_25.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 270,
+      "read": 270
+    },
+    {
+      "file": "G_NT_IP_wg_E_17_36.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 423,
+      "read": 423
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_18_50.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "G_NT_IP_g_E_2_32.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 496,
+      "read": 496
+    },
+    {
+      "file": "G_NT_IP_wg_E_20_39.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 342,
+      "read": 342
+    },
+    {
+      "file": "G_NT_HW_wg_E_21_28.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 303,
+      "read": 305
+    },
+    {
+      "file": "G_NT_HW_g_E_22_24.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 233,
+      "read": 233
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_23_25.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 190,
+      "read": 190
+    },
+    {
+      "file": "G_NT_ZTE_g_E_3_42.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_4_49.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 240,
+      "read": 242
+    },
+    {
+      "file": "G_NT_IP_g_E_5_34.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 404,
+      "read": 404
+    },
+    {
+      "file": "G_NT_HW_g_E_6_25.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 277,
+      "read": 277
+    },
+    {
+      "file": "G_NT_HW_wg_E_7_14.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 307,
+      "read": 307
+    },
+    {
+      "file": "G_NT_5s_wg_E_9_8.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 367,
+      "read": 367
+    },
+    {
+      "file": "G_NT_IP_wg_E_10_19.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 383,
+      "read": 383
+    },
+    {
+      "file": "G_NT_HS_g_E_11_15.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "G_NT_HW_g_E_12_22.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 169,
+      "read": 169
+    },
+    {
+      "file": "G_NT_HS_wg_E_13_16.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 369,
+      "read": 369
+    },
+    {
+      "file": "G_NT_5s_wg_E_14_9.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 366,
+      "read": 366
+    },
+    {
+      "file": "G_NT_HW_wg_E_15_15.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 268,
+      "read": 268
+    },
+    {
+      "file": "G_NT_HW_wg_E_16_27.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 206,
+      "read": 206
+    },
+    {
+      "file": "G_NT_HS_g_E_17_14.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 454,
+      "read": 454
+    },
+    {
+      "file": "G_NT_HW_wg_E_18_27.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 169,
+      "read": 169
+    },
+    {
+      "file": "G_NT_HS_g_E_2_15.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "G_NT_HW_g_E_20_25.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "G_NT_HW_g_E_21_23.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 252,
+      "read": 252
+    },
+    {
+      "file": "G_NT_5s_wg_E_22_10.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 372,
+      "read": 372
+    },
+    {
+      "file": "G_NT_5s_wg_E_23_1.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 366,
+      "read": 366
+    },
+    {
+      "file": "G_NT_HS_g_E_3_14.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 309,
+      "read": 309
+    },
+    {
+      "file": "G_NT_IP_wg_E_4_38.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 432,
+      "read": 432
+    },
+    {
+      "file": "G_NT_HS_g_E_5_12.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 424,
+      "read": 424
+    },
+    {
+      "file": "G_NT_5s_g_E_6_4.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 657,
+      "read": 657
+    },
+    {
+      "file": "G_NT_HW_wg_E_7_15.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 377,
+      "read": 377
+    },
+    {
+      "file": "G_NT_HW_g_E_9_25.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 260,
+      "read": 260
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_10_25.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 195,
+      "read": 195
+    },
+    {
+      "file": "G_NT_5s_wg_E_11_8.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "G_NT_HW_wg_E_12_27.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 183,
+      "read": 183
+    },
+    {
+      "file": "G_NT_IP_g_E_13_33.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 363,
+      "read": 364
+    },
+    {
+      "file": "G_NT_ZTE_g_E_14_42.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 165,
+      "read": 165
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_15_24.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 181,
+      "read": 181
+    },
+    {
+      "file": "G_NT_HW_g_E_16_21.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "G_NT_IP_g_E_17_31.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 445,
+      "read": 445
+    },
+    {
+      "file": "G_NT_HS_g_E_18_15.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 335,
+      "read": 335
+    },
+    {
+      "file": "G_NT_HS_g_E_2_13.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 356,
+      "read": 356
+    },
+    {
+      "file": "G_NT_IP_g_E_20_32.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "G_NT_IP_g_E_21_35.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 341,
+      "read": 341
+    },
+    {
+      "file": "G_NT_5s_g_E_22_2.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "G_NT_HS_wg_E_23_10.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 381,
+      "read": 381
+    },
+    {
+      "file": "G_NT_HS_wg_E_3_17.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 294,
+      "read": 294
+    },
+    {
+      "file": "G_NT_HW_g_E_4_24.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 212,
+      "read": 212
+    },
+    {
+      "file": "G_NT_5s_g_E_5_2.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 438,
+      "read": 438
+    },
+    {
+      "file": "G_NT_HS_g_E_6_11.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 591,
+      "read": 591
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_7_23.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 176,
+      "read": 176
+    },
+    {
+      "file": "G_NT_HW_wg_E_9_27.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 198,
+      "read": 198
+    },
+    {
+      "file": "G_NT_HW_wg_E_10_14.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 176,
+      "read": 176
+    },
+    {
+      "file": "G_NT_HW_wg_E_11_29.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 163,
+      "read": 164
+    },
+    {
+      "file": "G_NT_5s_g_E_12_1.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "G_NT_HS_g_E_13_14.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 382,
+      "read": 382
+    },
+    {
+      "file": "G_NT_HS_wg_E_14_16.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 485,
+      "read": 504
+    },
+    {
+      "file": "G_NT_HS_wg_E_15_8.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "G_NT_5s_wg_E_16_7.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "G_NT_IP_g_E_17_32.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 331,
+      "read": 331
+    },
+    {
+      "file": "G_NT_5s_g_E_18_4.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 327,
+      "read": 327
+    },
+    {
+      "file": "G_NT_HS_wg_E_2_18.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 376,
+      "read": 376
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_20_48.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 149,
+      "read": 149
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_21_49.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 183,
+      "read": 184
+    },
+    {
+      "file": "G_NT_5s_wg_E_22_8.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 367,
+      "read": 367
+    },
+    {
+      "file": "G_NT_IP_wg_E_23_20.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 363,
+      "read": 363
+    },
+    {
+      "file": "G_NT_HW_wg_E_3_26.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 148,
+      "read": 148
+    },
+    {
+      "file": "G_NT_IP_g_E_4_34.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 466,
+      "read": 466
+    },
+    {
+      "file": "G_NT_HW_wg_E_5_29.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 300,
+      "read": 300
+    },
+    {
+      "file": "G_NT_HW_wg_E_6_30.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 276,
+      "read": 276
+    },
+    {
+      "file": "G_NT_HS_wg_E_7_7.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 406,
+      "read": 406
+    },
+    {
+      "file": "G_NT_5s_wg_E_9_10.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "G_NT_HW_wg_E_10_11.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 184,
+      "read": 184
+    },
+    {
+      "file": "G_NT_IP_g_E_11_35.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 379,
+      "read": 379
+    },
+    {
+      "file": "G_NT_HW_g_E_12_24.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 173,
+      "read": 173
+    },
+    {
+      "file": "G_NT_IP_wg_E_13_40.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 402,
+      "read": 402
+    },
+    {
+      "file": "G_NT_ZTE_g_E_14_41.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 195,
+      "read": 195
+    },
+    {
+      "file": "G_NT_HS_wg_E_15_9.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 343,
+      "read": 343
+    },
+    {
+      "file": "G_NT_HS_wg_E_16_19.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 389,
+      "read": 389
+    },
+    {
+      "file": "G_NT_HS_wg_E_17_18.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 435,
+      "read": 435
+    },
+    {
+      "file": "G_NT_IP_g_E_18_33.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 342,
+      "read": 342
+    },
+    {
+      "file": "G_NT_5s_g_E_2_2.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 372,
+      "read": 372
+    },
+    {
+      "file": "G_NT_ZTE_g_E_20_45.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "G_NT_ZTE_g_E_21_44.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 177,
+      "read": 178
+    },
+    {
+      "file": "G_NT_HW_g_E_22_21.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 249,
+      "read": 249
+    },
+    {
+      "file": "G_NT_IP_wg_E_23_16.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 360,
+      "read": 360
+    },
+    {
+      "file": "G_NT_5s_wg_E_3_9.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "G_NT_ZTE_g_E_4_43.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 243,
+      "read": 243
+    },
+    {
+      "file": "G_NT_HS_g_E_5_13.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 418,
+      "read": 418
+    },
+    {
+      "file": "G_NT_5s_g_E_6_2.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 534,
+      "read": 534
+    },
+    {
+      "file": "G_NT_IP_wg_E_7_20.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 456,
+      "read": 456
+    },
+    {
+      "file": "G_NT_HW_g_E_9_23.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 254,
+      "read": 254
+    },
+    {
+      "file": "G_NT_IP_wg_E_10_18.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 350,
+      "read": 350
+    },
+    {
+      "file": "G_NT_IP_g_E_11_34.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 383,
+      "read": 383
+    },
+    {
+      "file": "G_NT_IP_g_E_12_34.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 352,
+      "read": 352
+    },
+    {
+      "file": "G_NT_HS_g_E_13_11.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "G_NT_5s_wg_E_14_6.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 371,
+      "read": 371
+    },
+    {
+      "file": "G_NT_HW_wg_E_15_12.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 152,
+      "read": 152
+    },
+    {
+      "file": "G_NT_HW_g_E_16_24.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 268,
+      "read": 268
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_17_47.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 212,
+      "read": 212
+    },
+    {
+      "file": "G_NT_ZTE_g_E_18_44.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "G_NT_IP_wg_E_2_39.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "G_NT_HW_g_E_20_21.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "G_NT_ZTE_g_E_21_41.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 174,
+      "read": 175
+    },
+    {
+      "file": "G_NT_ZTE_g_E_22_45.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "G_NT_HW_wg_E_23_13.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 437,
+      "read": 437
+    },
+    {
+      "file": "G_NT_5s_g_E_3_4.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 323,
+      "read": 323
+    },
+    {
+      "file": "G_NT_HS_g_E_4_14.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 529,
+      "read": 529
+    },
+    {
+      "file": "G_NT_IP_wg_E_5_40.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 407,
+      "read": 407
+    },
+    {
+      "file": "G_NT_IP_g_E_6_33.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 359,
+      "read": 359
+    },
+    {
+      "file": "G_NT_HW_wg_E_7_11.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 471,
+      "read": 489
+    },
+    {
+      "file": "G_NT_HS_g_E_9_11.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 352,
+      "read": 352
+    },
+    {
+      "file": "G_NT_HW_wg_E_10_12.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 321,
+      "read": 321
+    },
+    {
+      "file": "G_NT_HS_wg_E_11_16.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 407,
+      "read": 407
+    },
+    {
+      "file": "G_NT_IP_wg_E_12_37.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 367,
+      "read": 367
+    },
+    {
+      "file": "G_NT_ZTE_g_E_13_42.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 232,
+      "read": 232
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_14_50.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 198,
+      "read": 198
+    },
+    {
+      "file": "G_NT_5s_wg_E_15_1.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 377,
+      "read": 377
+    },
+    {
+      "file": "G_NT_HS_g_E_16_11.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 404,
+      "read": 404
+    },
+    {
+      "file": "G_NT_HW_g_E_17_24.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 239,
+      "read": 239
+    },
+    {
+      "file": "G_NT_ZTE_g_E_18_42.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "G_NT_HS_wg_E_2_17.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 382,
+      "read": 382
+    },
+    {
+      "file": "G_NT_IP_g_E_20_31.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 353,
+      "read": 353
+    },
+    {
+      "file": "G_NT_5s_g_E_21_5.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 423,
+      "read": 425
+    },
+    {
+      "file": "G_NT_IP_wg_E_22_39.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_23_22.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 186,
+      "read": 186
+    },
+    {
+      "file": "G_NT_HW_g_E_3_21.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 141,
+      "read": 141
+    },
+    {
+      "file": "G_NT_HW_wg_E_4_30.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 367,
+      "read": 367
+    },
+    {
+      "file": "G_NT_IP_g_E_5_31.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 423,
+      "read": 423
+    },
+    {
+      "file": "G_NT_ZTE_g_E_6_42.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 284,
+      "read": 284
+    },
+    {
+      "file": "G_NT_HW_wg_E_7_12.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 246,
+      "read": 246
+    },
+    {
+      "file": "G_NT_5s_g_E_9_2.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 342,
+      "read": 342
+    },
+    {
+      "file": "G_NT_HW_wg_E_10_15.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 178,
+      "read": 178
+    },
+    {
+      "file": "G_NT_IP_wg_E_11_39.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 342,
+      "read": 344
+    },
+    {
+      "file": "G_NT_IP_wg_E_12_39.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 350,
+      "read": 350
+    },
+    {
+      "file": "G_NT_HW_wg_E_13_27.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 221,
+      "read": 221
+    },
+    {
+      "file": "G_NT_ZTE_g_E_14_44.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 164,
+      "read": 164
+    },
+    {
+      "file": "G_NT_IP_wg_E_15_20.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "G_NT_HS_wg_E_16_20.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 478,
+      "read": 478
+    },
+    {
+      "file": "G_NT_HS_wg_E_17_19.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 391,
+      "read": 391
+    },
+    {
+      "file": "G_NT_HS_g_E_18_12.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 356,
+      "read": 356
+    },
+    {
+      "file": "G_NT_HS_g_E_2_12.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 395,
+      "read": 395
+    },
+    {
+      "file": "G_NT_IP_wg_E_20_37.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 407,
+      "read": 407
+    },
+    {
+      "file": "G_NT_5s_g_E_21_4.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 394,
+      "read": 396
+    },
+    {
+      "file": "G_NT_HW_wg_E_22_29.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 265,
+      "read": 265
+    },
+    {
+      "file": "G_NT_HW_wg_E_23_14.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 315,
+      "read": 315
+    },
+    {
+      "file": "G_NT_ZTE_g_E_3_44.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 149,
+      "read": 149
+    },
+    {
+      "file": "G_NT_HW_wg_E_4_29.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 377,
+      "read": 377
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_5_50.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 198,
+      "read": 198
+    },
+    {
+      "file": "G_NT_5s_g_E_6_5.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 335,
+      "read": 335
+    },
+    {
+      "file": "G_NT_HW_wg_E_7_13.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 218,
+      "read": 218
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_9_49.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "G_NT_IP_wg_E_10_17.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 371,
+      "read": 371
+    },
+    {
+      "file": "G_NT_HW_wg_E_11_27.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 185,
+      "read": 185
+    },
+    {
+      "file": "G_NT_5s_wg_E_12_10.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 382,
+      "read": 382
+    },
+    {
+      "file": "G_NT_HS_wg_E_13_20.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 368,
+      "read": 368
+    },
+    {
+      "file": "G_NT_HW_g_E_14_25.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 210,
+      "read": 213
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_15_25.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 175,
+      "read": 175
+    },
+    {
+      "file": "G_NT_ZTE_g_E_16_42.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 189,
+      "read": 189
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_17_50.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 159,
+      "read": 159
+    },
+    {
+      "file": "G_NT_5s_g_E_18_5.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 300,
+      "read": 300
+    },
+    {
+      "file": "G_NT_HW_g_E_2_21.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 194,
+      "read": 194
+    },
+    {
+      "file": "G_NT_5s_wg_E_20_9.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "G_NT_5s_g_E_21_2.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 359,
+      "read": 365
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_22_46.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 207,
+      "read": 207
+    },
+    {
+      "file": "G_NT_5s_wg_E_23_2.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 410,
+      "read": 410
+    },
+    {
+      "file": "G_NT_HS_g_E_3_12.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 310,
+      "read": 310
+    },
+    {
+      "file": "G_NT_HW_wg_E_4_26.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 311,
+      "read": 311
+    },
+    {
+      "file": "G_NT_IP_wg_E_5_38.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 422,
+      "read": 422
+    },
+    {
+      "file": "G_NT_HW_g_E_6_24.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 269,
+      "read": 269
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_7_22.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 190,
+      "read": 190
+    },
+    {
+      "file": "G_NT_HW_g_E_9_24.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 146,
+      "read": 146
+    },
+    {
+      "file": "G_NT_5s_wg_E_10_2.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 363,
+      "read": 363
+    },
+    {
+      "file": "G_NT_5s_g_E_11_5.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "G_NT_HW_wg_E_12_28.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 186,
+      "read": 186
+    },
+    {
+      "file": "G_NT_HW_wg_E_13_29.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 222,
+      "read": 222
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_14_46.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 181,
+      "read": 181
+    },
+    {
+      "file": "G_NT_HW_wg_E_15_13.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 188,
+      "read": 188
+    },
+    {
+      "file": "G_NT_HW_g_E_16_22.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 155,
+      "read": 155
+    },
+    {
+      "file": "G_NT_ZTE_g_E_17_42.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 203,
+      "read": 203
+    },
+    {
+      "file": "G_NT_HW_wg_E_18_28.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 170,
+      "read": 170
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_2_46.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 227,
+      "read": 227
+    },
+    {
+      "file": "G_NT_HS_g_E_20_15.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "G_NT_HS_wg_E_21_18.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 490,
+      "read": 492
+    },
+    {
+      "file": "G_NT_ZTE_g_E_22_44.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 162,
+      "read": 162
+    },
+    {
+      "file": "G_NT_HW_wg_E_23_15.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 284,
+      "read": 286
+    },
+    {
+      "file": "G_NT_5s_wg_E_3_7.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 309,
+      "read": 309
+    },
+    {
+      "file": "G_NT_HS_g_E_4_11.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 643,
+      "read": 643
+    },
+    {
+      "file": "G_NT_ZTE_g_E_5_42.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 197,
+      "read": 197
+    },
+    {
+      "file": "G_NT_HS_g_E_6_14.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 637,
+      "read": 637
+    },
+    {
+      "file": "G_NT_5s_wg_E_7_1.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "G_NT_ZTE_wg_E_9_50.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 171,
+      "read": 171
+    },
+    {
+      "file": "G_NT_HW_wg_E_10_13.mp4",
+      "subject": "10",
+      "species": "genuine",
+      "detected": 268,
+      "read": 268
+    },
+    {
+      "file": "G_NT_IP_wg_E_11_38.mp4",
+      "subject": "11",
+      "species": "genuine",
+      "detected": 337,
+      "read": 338
+    },
+    {
+      "file": "G_NT_IP_g_E_12_32.mp4",
+      "subject": "12",
+      "species": "genuine",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "G_NT_ZTE_g_E_13_43.mp4",
+      "subject": "13",
+      "species": "genuine",
+      "detected": 168,
+      "read": 168
+    },
+    {
+      "file": "G_NT_HW_wg_E_14_30.mp4",
+      "subject": "14",
+      "species": "genuine",
+      "detected": 194,
+      "read": 194
+    },
+    {
+      "file": "G_NT_HS_wg_E_15_10.mp4",
+      "subject": "15",
+      "species": "genuine",
+      "detected": 363,
+      "read": 363
+    },
+    {
+      "file": "G_NT_HS_wg_E_16_17.mp4",
+      "subject": "16",
+      "species": "genuine",
+      "detected": 422,
+      "read": 422
+    },
+    {
+      "file": "G_NT_HW_g_E_17_25.mp4",
+      "subject": "17",
+      "species": "genuine",
+      "detected": 331,
+      "read": 331
+    },
+    {
+      "file": "G_NT_IP_g_E_18_32.mp4",
+      "subject": "18",
+      "species": "genuine",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "G_NT_HS_wg_E_2_19.mp4",
+      "subject": "2",
+      "species": "genuine",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "G_NT_HW_wg_E_20_29.mp4",
+      "subject": "20",
+      "species": "genuine",
+      "detected": 243,
+      "read": 243
+    },
+    {
+      "file": "G_NT_HW_wg_E_21_29.mp4",
+      "subject": "21",
+      "species": "genuine",
+      "detected": 263,
+      "read": 275
+    },
+    {
+      "file": "G_NT_IP_g_E_22_33.mp4",
+      "subject": "22",
+      "species": "genuine",
+      "detected": 397,
+      "read": 397
+    },
+    {
+      "file": "G_NT_IP_wg_E_23_19.mp4",
+      "subject": "23",
+      "species": "genuine",
+      "detected": 369,
+      "read": 369
+    },
+    {
+      "file": "G_NT_5s_g_E_3_3.mp4",
+      "subject": "3",
+      "species": "genuine",
+      "detected": 252,
+      "read": 252
+    },
+    {
+      "file": "G_NT_HW_g_E_4_25.mp4",
+      "subject": "4",
+      "species": "genuine",
+      "detected": 301,
+      "read": 301
+    },
+    {
+      "file": "G_NT_ZTE_g_E_5_41.mp4",
+      "subject": "5",
+      "species": "genuine",
+      "detected": 204,
+      "read": 204
+    },
+    {
+      "file": "G_NT_IP_wg_E_6_40.mp4",
+      "subject": "6",
+      "species": "genuine",
+      "detected": 437,
+      "read": 437
+    },
+    {
+      "file": "G_NT_5s_wg_E_7_5.mp4",
+      "subject": "7",
+      "species": "genuine",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "G_NT_HW_wg_E_9_28.mp4",
+      "subject": "9",
+      "species": "genuine",
+      "detected": 183,
+      "read": 183
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_10_108.mp4",
+      "subject": "10",
+      "species": "print_still",
+      "detected": 312,
+      "read": 312
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_11_136.mp4",
+      "subject": "11",
+      "species": "print_still",
+      "detected": 144,
+      "read": 144
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_12_124.mp4",
+      "subject": "12",
+      "species": "print_still",
+      "detected": 314,
+      "read": 314
+    },
+    {
+      "file": "Ps_NT_HS_g_E_13_127.mp4",
+      "subject": "13",
+      "species": "print_still",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_14_131.mp4",
+      "subject": "14",
+      "species": "print_still",
+      "detected": 222,
+      "read": 222
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_15_107.mp4",
+      "subject": "15",
+      "species": "print_still",
+      "detected": 328,
+      "read": 328
+    },
+    {
+      "file": "Ps_NT_IP_g_E_16_133.mp4",
+      "subject": "16",
+      "species": "print_still",
+      "detected": 327,
+      "read": 327
+    },
+    {
+      "file": "Ps_NT_IP_g_E_17_134.mp4",
+      "subject": "17",
+      "species": "print_still",
+      "detected": 306,
+      "read": 306
+    },
+    {
+      "file": "Ps_NT_HS_g_E_18_125.mp4",
+      "subject": "18",
+      "species": "print_still",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_2_138.mp4",
+      "subject": "2",
+      "species": "print_still",
+      "detected": 119,
+      "read": 119
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_20_136.mp4",
+      "subject": "20",
+      "species": "print_still",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_21_136.mp4",
+      "subject": "21",
+      "species": "print_still",
+      "detected": 310,
+      "read": 310
+    },
+    {
+      "file": "Ps_NT_5s_g_E_22_122.mp4",
+      "subject": "22",
+      "species": "print_still",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_23_96.mp4",
+      "subject": "23",
+      "species": "print_still",
+      "detected": 316,
+      "read": 316
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_3_127.mp4",
+      "subject": "3",
+      "species": "print_still",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Ps_NT_HW_g_E_4_130.mp4",
+      "subject": "4",
+      "species": "print_still",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Ps_NT_5s_g_E_5_122.mp4",
+      "subject": "5",
+      "species": "print_still",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_6_127.mp4",
+      "subject": "6",
+      "species": "print_still",
+      "detected": 307,
+      "read": 307
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_7_109.mp4",
+      "subject": "7",
+      "species": "print_still",
+      "detected": 310,
+      "read": 310
+    },
+    {
+      "file": "Ps_NT_HW_g_E_9_130.mp4",
+      "subject": "9",
+      "species": "print_still",
+      "detected": 221,
+      "read": 221
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_10_103.mp4",
+      "subject": "10",
+      "species": "print_still",
+      "detected": 153,
+      "read": 153
+    },
+    {
+      "file": "Ps_NT_HW_g_E_11_129.mp4",
+      "subject": "11",
+      "species": "print_still",
+      "detected": 133,
+      "read": 133
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_12_139.mp4",
+      "subject": "12",
+      "species": "print_still",
+      "detected": 149,
+      "read": 149
+    },
+    {
+      "file": "Ps_NT_IP_g_E_13_136.mp4",
+      "subject": "13",
+      "species": "print_still",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_14_123.mp4",
+      "subject": "14",
+      "species": "print_still",
+      "detected": 314,
+      "read": 314
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_15_104.mp4",
+      "subject": "15",
+      "species": "print_still",
+      "detected": 152,
+      "read": 152
+    },
+    {
+      "file": "Ps_NT_5s_g_E_16_121.mp4",
+      "subject": "16",
+      "species": "print_still",
+      "detected": 310,
+      "read": 310
+    },
+    {
+      "file": "Ps_NT_5s_g_E_17_122.mp4",
+      "subject": "17",
+      "species": "print_still",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Ps_NT_5s_g_E_18_122.mp4",
+      "subject": "18",
+      "species": "print_still",
+      "detected": 326,
+      "read": 326
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_2_127.mp4",
+      "subject": "2",
+      "species": "print_still",
+      "detected": 352,
+      "read": 352
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_20_123.mp4",
+      "subject": "20",
+      "species": "print_still",
+      "detected": 301,
+      "read": 301
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_21_131.mp4",
+      "subject": "21",
+      "species": "print_still",
+      "detected": 149,
+      "read": 149
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_22_127.mp4",
+      "subject": "22",
+      "species": "print_still",
+      "detected": 359,
+      "read": 359
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_23_111.mp4",
+      "subject": "23",
+      "species": "print_still",
+      "detected": 364,
+      "read": 364
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_3_128.mp4",
+      "subject": "3",
+      "species": "print_still",
+      "detected": 363,
+      "read": 363
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_4_140.mp4",
+      "subject": "4",
+      "species": "print_still",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Ps_NT_HS_g_E_5_125.mp4",
+      "subject": "5",
+      "species": "print_still",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Ps_NT_5s_g_E_6_122.mp4",
+      "subject": "6",
+      "species": "print_still",
+      "detected": 328,
+      "read": 328
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_7_96.mp4",
+      "subject": "7",
+      "species": "print_still",
+      "detected": 319,
+      "read": 319
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_9_131.mp4",
+      "subject": "9",
+      "species": "print_still",
+      "detected": 149,
+      "read": 149
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_10_105.mp4",
+      "subject": "10",
+      "species": "print_still",
+      "detected": 255,
+      "read": 255
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_11_134.mp4",
+      "subject": "11",
+      "species": "print_still",
+      "detected": 310,
+      "read": 310
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_12_123.mp4",
+      "subject": "12",
+      "species": "print_still",
+      "detected": 309,
+      "read": 309
+    },
+    {
+      "file": "Ps_NT_IP_g_E_13_135.mp4",
+      "subject": "13",
+      "species": "print_still",
+      "detected": 355,
+      "read": 355
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_14_128.mp4",
+      "subject": "14",
+      "species": "print_still",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_15_98.mp4",
+      "subject": "15",
+      "species": "print_still",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Ps_NT_HW_g_E_16_130.mp4",
+      "subject": "16",
+      "species": "print_still",
+      "detected": 236,
+      "read": 236
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_17_131.mp4",
+      "subject": "17",
+      "species": "print_still",
+      "detected": 152,
+      "read": 152
+    },
+    {
+      "file": "Ps_NT_IP_g_E_18_134.mp4",
+      "subject": "18",
+      "species": "print_still",
+      "detected": 316,
+      "read": 316
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_2_123.mp4",
+      "subject": "2",
+      "species": "print_still",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Ps_NT_HW_g_E_20_129.mp4",
+      "subject": "20",
+      "species": "print_still",
+      "detected": 246,
+      "read": 246
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_21_123.mp4",
+      "subject": "21",
+      "species": "print_still",
+      "detected": 318,
+      "read": 318
+    },
+    {
+      "file": "Ps_NT_HW_g_E_22_129.mp4",
+      "subject": "22",
+      "species": "print_still",
+      "detected": 228,
+      "read": 228
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_23_106.mp4",
+      "subject": "23",
+      "species": "print_still",
+      "detected": 230,
+      "read": 230
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_3_131.mp4",
+      "subject": "3",
+      "species": "print_still",
+      "detected": 246,
+      "read": 246
+    },
+    {
+      "file": "Ps_NT_5s_g_E_4_122.mp4",
+      "subject": "4",
+      "species": "print_still",
+      "detected": 314,
+      "read": 314
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_5_128.mp4",
+      "subject": "5",
+      "species": "print_still",
+      "detected": 451,
+      "read": 451
+    },
+    {
+      "file": "Ps_NT_HS_g_E_6_125.mp4",
+      "subject": "6",
+      "species": "print_still",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_7_106.mp4",
+      "subject": "7",
+      "species": "print_still",
+      "detected": 216,
+      "read": 216
+    },
+    {
+      "file": "Ps_NT_5s_g_E_9_121.mp4",
+      "subject": "9",
+      "species": "print_still",
+      "detected": 326,
+      "read": 326
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_10_98.mp4",
+      "subject": "10",
+      "species": "print_still",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Ps_NT_HW_g_E_11_128.mp4",
+      "subject": "11",
+      "species": "print_still",
+      "detected": 268,
+      "read": 268
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_12_131.mp4",
+      "subject": "12",
+      "species": "print_still",
+      "detected": 228,
+      "read": 228
+    },
+    {
+      "file": "Ps_NT_5s_g_E_13_123.mp4",
+      "subject": "13",
+      "species": "print_still",
+      "detected": 371,
+      "read": 371
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_14_139.mp4",
+      "subject": "14",
+      "species": "print_still",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_15_113.mp4",
+      "subject": "15",
+      "species": "print_still",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Ps_NT_5s_g_E_16_122.mp4",
+      "subject": "16",
+      "species": "print_still",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_17_124.mp4",
+      "subject": "17",
+      "species": "print_still",
+      "detected": 321,
+      "read": 321
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_18_123.mp4",
+      "subject": "18",
+      "species": "print_still",
+      "detected": 331,
+      "read": 331
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_2_124.mp4",
+      "subject": "2",
+      "species": "print_still",
+      "detected": 319,
+      "read": 319
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_20_139.mp4",
+      "subject": "20",
+      "species": "print_still",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_21_127.mp4",
+      "subject": "21",
+      "species": "print_still",
+      "detected": 335,
+      "read": 335
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_22_138.mp4",
+      "subject": "22",
+      "species": "print_still",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_23_101.mp4",
+      "subject": "23",
+      "species": "print_still",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_3_138.mp4",
+      "subject": "3",
+      "species": "print_still",
+      "detected": 171,
+      "read": 171
+    },
+    {
+      "file": "Ps_NT_IP_g_E_4_134.mp4",
+      "subject": "4",
+      "species": "print_still",
+      "detected": 321,
+      "read": 321
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_5_137.mp4",
+      "subject": "5",
+      "species": "print_still",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_6_123.mp4",
+      "subject": "6",
+      "species": "print_still",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_7_108.mp4",
+      "subject": "7",
+      "species": "print_still",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_9_127.mp4",
+      "subject": "9",
+      "species": "print_still",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_10_110.mp4",
+      "subject": "10",
+      "species": "print_still",
+      "detected": 305,
+      "read": 305
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_11_139.mp4",
+      "subject": "11",
+      "species": "print_still",
+      "detected": 178,
+      "read": 178
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_12_138.mp4",
+      "subject": "12",
+      "species": "print_still",
+      "detected": 165,
+      "read": 165
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_13_141.mp4",
+      "subject": "13",
+      "species": "print_still",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_14_124.mp4",
+      "subject": "14",
+      "species": "print_still",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_15_108.mp4",
+      "subject": "15",
+      "species": "print_still",
+      "detected": 307,
+      "read": 307
+    },
+    {
+      "file": "Ps_NT_HS_g_E_16_126.mp4",
+      "subject": "16",
+      "species": "print_still",
+      "detected": 318,
+      "read": 318
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_17_128.mp4",
+      "subject": "17",
+      "species": "print_still",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "Ps_NT_5s_g_E_18_121.mp4",
+      "subject": "18",
+      "species": "print_still",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Ps_NT_IP_g_E_2_134.mp4",
+      "subject": "2",
+      "species": "print_still",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Ps_NT_5s_g_E_20_121.mp4",
+      "subject": "20",
+      "species": "print_still",
+      "detected": 341,
+      "read": 341
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_21_128.mp4",
+      "subject": "21",
+      "species": "print_still",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_22_132.mp4",
+      "subject": "22",
+      "species": "print_still",
+      "detected": 259,
+      "read": 259
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_23_98.mp4",
+      "subject": "23",
+      "species": "print_still",
+      "detected": 314,
+      "read": 314
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_3_137.mp4",
+      "subject": "3",
+      "species": "print_still",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_4_129.mp4",
+      "subject": "4",
+      "species": "print_still",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_5_140.mp4",
+      "subject": "5",
+      "species": "print_still",
+      "detected": 168,
+      "read": 168
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_6_138.mp4",
+      "subject": "6",
+      "species": "print_still",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_7_115.mp4",
+      "subject": "7",
+      "species": "print_still",
+      "detected": 159,
+      "read": 159
+    },
+    {
+      "file": "Ps_NT_HS_g_E_9_125.mp4",
+      "subject": "9",
+      "species": "print_still",
+      "detected": 312,
+      "read": 312
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_10_111.mp4",
+      "subject": "10",
+      "species": "print_still",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Ps_NT_HS_g_E_11_125.mp4",
+      "subject": "11",
+      "species": "print_still",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Ps_NT_IP_g_E_12_134.mp4",
+      "subject": "12",
+      "species": "print_still",
+      "detected": 29,
+      "read": 29
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_13_140.mp4",
+      "subject": "13",
+      "species": "print_still",
+      "detected": 185,
+      "read": 185
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_14_138.mp4",
+      "subject": "14",
+      "species": "print_still",
+      "detected": 142,
+      "read": 142
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_15_106.mp4",
+      "subject": "15",
+      "species": "print_still",
+      "detected": 131,
+      "read": 131
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_16_136.mp4",
+      "subject": "16",
+      "species": "print_still",
+      "detected": 323,
+      "read": 323
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_17_139.mp4",
+      "subject": "17",
+      "species": "print_still",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Ps_NT_HS_wg_E_18_128.mp4",
+      "subject": "18",
+      "species": "print_still",
+      "detected": 315,
+      "read": 315
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_2_140.mp4",
+      "subject": "2",
+      "species": "print_still",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Ps_NT_HW_wg_E_20_131.mp4",
+      "subject": "20",
+      "species": "print_still",
+      "detected": 245,
+      "read": 245
+    },
+    {
+      "file": "Ps_NT_5s_g_E_21_122.mp4",
+      "subject": "21",
+      "species": "print_still",
+      "detected": 326,
+      "read": 326
+    },
+    {
+      "file": "Ps_NT_5s_g_E_22_121.mp4",
+      "subject": "22",
+      "species": "print_still",
+      "detected": 315,
+      "read": 315
+    },
+    {
+      "file": "Ps_NT_IP_wg_E_23_108.mp4",
+      "subject": "23",
+      "species": "print_still",
+      "detected": 328,
+      "read": 328
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_3_123.mp4",
+      "subject": "3",
+      "species": "print_still",
+      "detected": 328,
+      "read": 328
+    },
+    {
+      "file": "Ps_NT_IP_g_E_4_135.mp4",
+      "subject": "4",
+      "species": "print_still",
+      "detected": 311,
+      "read": 311
+    },
+    {
+      "file": "Ps_NT_IP_g_E_5_134.mp4",
+      "subject": "5",
+      "species": "print_still",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Ps_NT_ZTE_g_E_6_137.mp4",
+      "subject": "6",
+      "species": "print_still",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Ps_NT_ZTE_wg_E_7_112.mp4",
+      "subject": "7",
+      "species": "print_still",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Ps_NT_5s_wg_E_9_123.mp4",
+      "subject": "9",
+      "species": "print_still",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_10_87.mp4",
+      "subject": "10",
+      "species": "print_quiver",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "Pq_NT_HS_g_E_11_105.mp4",
+      "subject": "11",
+      "species": "print_quiver",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_12_107.mp4",
+      "subject": "12",
+      "species": "print_quiver",
+      "detected": 434,
+      "read": 434
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_13_109.mp4",
+      "subject": "13",
+      "species": "print_quiver",
+      "detected": 365,
+      "read": 365
+    },
+    {
+      "file": "Pq_NT_5s_g_E_14_101.mp4",
+      "subject": "14",
+      "species": "print_quiver",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_15_81.mp4",
+      "subject": "15",
+      "species": "print_quiver",
+      "detected": 336,
+      "read": 336
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_16_103.mp4",
+      "subject": "16",
+      "species": "print_quiver",
+      "detected": 326,
+      "read": 326
+    },
+    {
+      "file": "Pq_NT_HS_g_E_17_106.mp4",
+      "subject": "17",
+      "species": "print_quiver",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Pq_NT_5s_g_E_18_102.mp4",
+      "subject": "18",
+      "species": "print_quiver",
+      "detected": 316,
+      "read": 316
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_2_116.mp4",
+      "subject": "2",
+      "species": "print_quiver",
+      "detected": 384,
+      "read": 384
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_20_107.mp4",
+      "subject": "20",
+      "species": "print_quiver",
+      "detected": 347,
+      "read": 347
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_21_103.mp4",
+      "subject": "21",
+      "species": "print_quiver",
+      "detected": 318,
+      "read": 318
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_22_115.mp4",
+      "subject": "22",
+      "species": "print_quiver",
+      "detected": 350,
+      "read": 350
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_23_92.mp4",
+      "subject": "23",
+      "species": "print_quiver",
+      "detected": 183,
+      "read": 183
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_3_117.mp4",
+      "subject": "3",
+      "species": "print_quiver",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_4_105.mp4",
+      "subject": "4",
+      "species": "print_quiver",
+      "detected": 331,
+      "read": 331
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_5_104.mp4",
+      "subject": "5",
+      "species": "print_quiver",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Pq_NT_IP_g_E_6_114.mp4",
+      "subject": "6",
+      "species": "print_quiver",
+      "detected": 364,
+      "read": 364
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_7_81.mp4",
+      "subject": "7",
+      "species": "print_quiver",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_9_116.mp4",
+      "subject": "9",
+      "species": "print_quiver",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_10_83.mp4",
+      "subject": "10",
+      "species": "print_quiver",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_11_103.mp4",
+      "subject": "11",
+      "species": "print_quiver",
+      "detected": 353,
+      "read": 353
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_12_115.mp4",
+      "subject": "12",
+      "species": "print_quiver",
+      "detected": 336,
+      "read": 337
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_13_105.mp4",
+      "subject": "13",
+      "species": "print_quiver",
+      "detected": 327,
+      "read": 327
+    },
+    {
+      "file": "Pq_NT_HS_g_E_14_105.mp4",
+      "subject": "14",
+      "species": "print_quiver",
+      "detected": 345,
+      "read": 345
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_15_89.mp4",
+      "subject": "15",
+      "species": "print_quiver",
+      "detected": 329,
+      "read": 329
+    },
+    {
+      "file": "Pq_NT_IP_g_E_16_113.mp4",
+      "subject": "16",
+      "species": "print_quiver",
+      "detected": 390,
+      "read": 390
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_17_120.mp4",
+      "subject": "17",
+      "species": "print_quiver",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_18_111.mp4",
+      "subject": "18",
+      "species": "print_quiver",
+      "detected": 169,
+      "read": 169
+    },
+    {
+      "file": "Pq_NT_HS_g_E_2_106.mp4",
+      "subject": "2",
+      "species": "print_quiver",
+      "detected": 341,
+      "read": 341
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_20_110.mp4",
+      "subject": "20",
+      "species": "print_quiver",
+      "detected": 166,
+      "read": 166
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_21_111.mp4",
+      "subject": "21",
+      "species": "print_quiver",
+      "detected": 140,
+      "read": 140
+    },
+    {
+      "file": "Pq_NT_HW_g_E_22_110.mp4",
+      "subject": "22",
+      "species": "print_quiver",
+      "detected": 217,
+      "read": 217
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_23_80.mp4",
+      "subject": "23",
+      "species": "print_quiver",
+      "detected": 379,
+      "read": 395
+    },
+    {
+      "file": "Pq_NT_5s_g_E_3_101.mp4",
+      "subject": "3",
+      "species": "print_quiver",
+      "detected": 347,
+      "read": 347
+    },
+    {
+      "file": "Pq_NT_IP_g_E_4_115.mp4",
+      "subject": "4",
+      "species": "print_quiver",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_5_117.mp4",
+      "subject": "5",
+      "species": "print_quiver",
+      "detected": 153,
+      "read": 153
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_6_108.mp4",
+      "subject": "6",
+      "species": "print_quiver",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_7_76.mp4",
+      "subject": "7",
+      "species": "print_quiver",
+      "detected": 297,
+      "read": 299
+    },
+    {
+      "file": "Pq_NT_5s_g_E_9_102.mp4",
+      "subject": "9",
+      "species": "print_quiver",
+      "detected": 353,
+      "read": 353
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_10_82.mp4",
+      "subject": "10",
+      "species": "print_quiver",
+      "detected": 335,
+      "read": 335
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_11_118.mp4",
+      "subject": "11",
+      "species": "print_quiver",
+      "detected": 164,
+      "read": 167
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_12_103.mp4",
+      "subject": "12",
+      "species": "print_quiver",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_13_106.mp4",
+      "subject": "13",
+      "species": "print_quiver",
+      "detected": 355,
+      "read": 355
+    },
+    {
+      "file": "Pq_NT_HS_g_E_14_106.mp4",
+      "subject": "14",
+      "species": "print_quiver",
+      "detected": 351,
+      "read": 351
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_15_79.mp4",
+      "subject": "15",
+      "species": "print_quiver",
+      "detected": 371,
+      "read": 371
+    },
+    {
+      "file": "Pq_NT_5s_g_E_16_101.mp4",
+      "subject": "16",
+      "species": "print_quiver",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_17_118.mp4",
+      "subject": "17",
+      "species": "print_quiver",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_18_104.mp4",
+      "subject": "18",
+      "species": "print_quiver",
+      "detected": 314,
+      "read": 314
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_2_119.mp4",
+      "subject": "2",
+      "species": "print_quiver",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Pq_NT_HS_g_E_20_105.mp4",
+      "subject": "20",
+      "species": "print_quiver",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_21_117.mp4",
+      "subject": "21",
+      "species": "print_quiver",
+      "detected": 157,
+      "read": 158
+    },
+    {
+      "file": "Pq_NT_HW_g_E_22_109.mp4",
+      "subject": "22",
+      "species": "print_quiver",
+      "detected": 156,
+      "read": 156
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_23_76.mp4",
+      "subject": "23",
+      "species": "print_quiver",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_3_104.mp4",
+      "subject": "3",
+      "species": "print_quiver",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_4_112.mp4",
+      "subject": "4",
+      "species": "print_quiver",
+      "detected": 147,
+      "read": 152
+    },
+    {
+      "file": "Pq_NT_HS_g_E_5_105.mp4",
+      "subject": "5",
+      "species": "print_quiver",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Pq_NT_5s_g_E_6_102.mp4",
+      "subject": "6",
+      "species": "print_quiver",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_7_89.mp4",
+      "subject": "7",
+      "species": "print_quiver",
+      "detected": 325,
+      "read": 331
+    },
+    {
+      "file": "Pq_NT_IP_g_E_9_113.mp4",
+      "subject": "9",
+      "species": "print_quiver",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_10_88.mp4",
+      "subject": "10",
+      "species": "print_quiver",
+      "detected": 341,
+      "read": 341
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_11_106.mp4",
+      "subject": "11",
+      "species": "print_quiver",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "Pq_NT_5s_g_E_12_101.mp4",
+      "subject": "12",
+      "species": "print_quiver",
+      "detected": 345,
+      "read": 345
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_13_117.mp4",
+      "subject": "13",
+      "species": "print_quiver",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_14_103.mp4",
+      "subject": "14",
+      "species": "print_quiver",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_15_86.mp4",
+      "subject": "15",
+      "species": "print_quiver",
+      "detected": 162,
+      "read": 162
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_16_107.mp4",
+      "subject": "16",
+      "species": "print_quiver",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Pq_NT_5s_g_E_17_102.mp4",
+      "subject": "17",
+      "species": "print_quiver",
+      "detected": 355,
+      "read": 355
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_18_119.mp4",
+      "subject": "18",
+      "species": "print_quiver",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_2_118.mp4",
+      "subject": "2",
+      "species": "print_quiver",
+      "detected": 163,
+      "read": 164
+    },
+    {
+      "file": "Pq_NT_HW_g_E_20_108.mp4",
+      "subject": "20",
+      "species": "print_quiver",
+      "detected": 174,
+      "read": 174
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_21_120.mp4",
+      "subject": "21",
+      "species": "print_quiver",
+      "detected": 153,
+      "read": 157
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_22_116.mp4",
+      "subject": "22",
+      "species": "print_quiver",
+      "detected": 356,
+      "read": 356
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_23_94.mp4",
+      "subject": "23",
+      "species": "print_quiver",
+      "detected": 152,
+      "read": 154
+    },
+    {
+      "file": "Pq_NT_5s_g_E_3_102.mp4",
+      "subject": "3",
+      "species": "print_quiver",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Pq_NT_IP_g_E_4_114.mp4",
+      "subject": "4",
+      "species": "print_quiver",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_5_112.mp4",
+      "subject": "5",
+      "species": "print_quiver",
+      "detected": 134,
+      "read": 134
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_6_104.mp4",
+      "subject": "6",
+      "species": "print_quiver",
+      "detected": 318,
+      "read": 321
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_7_84.mp4",
+      "subject": "7",
+      "species": "print_quiver",
+      "detected": 160,
+      "read": 166
+    },
+    {
+      "file": "Pq_NT_HS_g_E_9_105.mp4",
+      "subject": "9",
+      "species": "print_quiver",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_10_76.mp4",
+      "subject": "10",
+      "species": "print_quiver",
+      "detected": 318,
+      "read": 318
+    },
+    {
+      "file": "Pq_NT_HW_g_E_11_109.mp4",
+      "subject": "11",
+      "species": "print_quiver",
+      "detected": 120,
+      "read": 121
+    },
+    {
+      "file": "Pq_NT_HW_g_E_12_110.mp4",
+      "subject": "12",
+      "species": "print_quiver",
+      "detected": 179,
+      "read": 179
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_13_122.mp4",
+      "subject": "13",
+      "species": "print_quiver",
+      "detected": 154,
+      "read": 155
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_14_108.mp4",
+      "subject": "14",
+      "species": "print_quiver",
+      "detected": 328,
+      "read": 335
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_15_92.mp4",
+      "subject": "15",
+      "species": "print_quiver",
+      "detected": 151,
+      "read": 151
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_16_108.mp4",
+      "subject": "16",
+      "species": "print_quiver",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_17_117.mp4",
+      "subject": "17",
+      "species": "print_quiver",
+      "detected": 156,
+      "read": 156
+    },
+    {
+      "file": "Pq_NT_IP_g_E_18_113.mp4",
+      "subject": "18",
+      "species": "print_quiver",
+      "detected": 345,
+      "read": 345
+    },
+    {
+      "file": "Pq_NT_5s_g_E_2_101.mp4",
+      "subject": "2",
+      "species": "print_quiver",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_20_102.mp4",
+      "subject": "20",
+      "species": "print_quiver",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Pq_NT_5s_g_E_21_101.mp4",
+      "subject": "21",
+      "species": "print_quiver",
+      "detected": 385,
+      "read": 385
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_22_117.mp4",
+      "subject": "22",
+      "species": "print_quiver",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_23_81.mp4",
+      "subject": "23",
+      "species": "print_quiver",
+      "detected": 381,
+      "read": 381
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_3_115.mp4",
+      "subject": "3",
+      "species": "print_quiver",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_4_121.mp4",
+      "subject": "4",
+      "species": "print_quiver",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "Pq_NT_IP_g_E_5_114.mp4",
+      "subject": "5",
+      "species": "print_quiver",
+      "detected": 354,
+      "read": 354
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_6_116.mp4",
+      "subject": "6",
+      "species": "print_quiver",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_7_88.mp4",
+      "subject": "7",
+      "species": "print_quiver",
+      "detected": 372,
+      "read": 377
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_9_107.mp4",
+      "subject": "9",
+      "species": "print_quiver",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_10_79.mp4",
+      "subject": "10",
+      "species": "print_quiver",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_11_119.mp4",
+      "subject": "11",
+      "species": "print_quiver",
+      "detected": 156,
+      "read": 156
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_12_117.mp4",
+      "subject": "12",
+      "species": "print_quiver",
+      "detected": 153,
+      "read": 154
+    },
+    {
+      "file": "Pq_NT_HW_g_E_13_111.mp4",
+      "subject": "13",
+      "species": "print_quiver",
+      "detected": 165,
+      "read": 165
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_14_116.mp4",
+      "subject": "14",
+      "species": "print_quiver",
+      "detected": 291,
+      "read": 351
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_15_75.mp4",
+      "subject": "15",
+      "species": "print_quiver",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_16_118.mp4",
+      "subject": "16",
+      "species": "print_quiver",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "Pq_NT_HS_wg_E_17_107.mp4",
+      "subject": "17",
+      "species": "print_quiver",
+      "detected": 350,
+      "read": 350
+    },
+    {
+      "file": "Pq_NT_HW_g_E_18_109.mp4",
+      "subject": "18",
+      "species": "print_quiver",
+      "detected": 164,
+      "read": 164
+    },
+    {
+      "file": "Pq_NT_ZTE_g_E_2_117.mp4",
+      "subject": "2",
+      "species": "print_quiver",
+      "detected": 155,
+      "read": 156
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_20_119.mp4",
+      "subject": "20",
+      "species": "print_quiver",
+      "detected": 160,
+      "read": 162
+    },
+    {
+      "file": "Pq_NT_HW_g_E_21_110.mp4",
+      "subject": "21",
+      "species": "print_quiver",
+      "detected": 140,
+      "read": 140
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_22_104.mp4",
+      "subject": "22",
+      "species": "print_quiver",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Pq_NT_IP_wg_E_23_89.mp4",
+      "subject": "23",
+      "species": "print_quiver",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_3_120.mp4",
+      "subject": "3",
+      "species": "print_quiver",
+      "detected": 182,
+      "read": 182
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_4_104.mp4",
+      "subject": "4",
+      "species": "print_quiver",
+      "detected": 341,
+      "read": 347
+    },
+    {
+      "file": "Pq_NT_HW_wg_E_5_111.mp4",
+      "subject": "5",
+      "species": "print_quiver",
+      "detected": 172,
+      "read": 172
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_6_103.mp4",
+      "subject": "6",
+      "species": "print_quiver",
+      "detected": 375,
+      "read": 375
+    },
+    {
+      "file": "Pq_NT_5s_wg_E_7_79.mp4",
+      "subject": "7",
+      "species": "print_quiver",
+      "detected": 313,
+      "read": 318
+    },
+    {
+      "file": "Pq_NT_ZTE_wg_E_9_120.mp4",
+      "subject": "9",
+      "species": "print_quiver",
+      "detected": 166,
+      "read": 166
+    },
+    {
+      "file": "Vl_NT_5s_g_E_11_141.mp4",
+      "subject": "11",
+      "species": "replay_lenovo",
+      "detected": 293,
+      "read": 294
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_13_157.mp4",
+      "subject": "13",
+      "species": "replay_lenovo",
+      "detected": 274,
+      "read": 274
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_14_152.mp4",
+      "subject": "14",
+      "species": "replay_lenovo",
+      "detected": 1,
+      "read": 152
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_15_120.mp4",
+      "subject": "15",
+      "species": "replay_lenovo",
+      "detected": 136,
+      "read": 310
+    },
+    {
+      "file": "Vl_NT_IP_g_E_16_153.mp4",
+      "subject": "16",
+      "species": "replay_lenovo",
+      "detected": 375,
+      "read": 375
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_17_155.mp4",
+      "subject": "17",
+      "species": "replay_lenovo",
+      "detected": 312,
+      "read": 312
+    },
+    {
+      "file": "Vl_NT_IP_g_E_18_153.mp4",
+      "subject": "18",
+      "species": "replay_lenovo",
+      "detected": 303,
+      "read": 303
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_2_158.mp4",
+      "subject": "2",
+      "species": "replay_lenovo",
+      "detected": 33,
+      "read": 295
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_20_152.mp4",
+      "subject": "20",
+      "species": "replay_lenovo",
+      "detected": 111,
+      "read": 125
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_21_144.mp4",
+      "subject": "21",
+      "species": "replay_lenovo",
+      "detected": 287,
+      "read": 288
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_22_157.mp4",
+      "subject": "22",
+      "species": "replay_lenovo",
+      "detected": 34,
+      "read": 160
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_23_120.mp4",
+      "subject": "23",
+      "species": "replay_lenovo",
+      "detected": 184,
+      "read": 383
+    },
+    {
+      "file": "Vl_NT_IP_g_E_3_153.mp4",
+      "subject": "3",
+      "species": "replay_lenovo",
+      "detected": 315,
+      "read": 315
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_4_144.mp4",
+      "subject": "4",
+      "species": "replay_lenovo",
+      "detected": 301,
+      "read": 301
+    },
+    {
+      "file": "Vl_NT_5s_g_E_5_142.mp4",
+      "subject": "5",
+      "species": "replay_lenovo",
+      "detected": 360,
+      "read": 360
+    },
+    {
+      "file": "Vl_NT_IP_g_E_6_153.mp4",
+      "subject": "6",
+      "species": "replay_lenovo",
+      "detected": 462,
+      "read": 462
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_7_123.mp4",
+      "subject": "7",
+      "species": "replay_lenovo",
+      "detected": 42,
+      "read": 301
+    },
+    {
+      "file": "Vl_NT_IP_g_E_9_154.mp4",
+      "subject": "9",
+      "species": "replay_lenovo",
+      "detected": 29,
+      "read": 317
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_10_132.mp4",
+      "subject": "10",
+      "species": "replay_lenovo",
+      "detected": 1,
+      "read": 322
+    },
+    {
+      "file": "Vl_NT_IP_g_E_12_153.mp4",
+      "subject": "12",
+      "species": "replay_lenovo",
+      "detected": 311,
+      "read": 311
+    },
+    {
+      "file": "Vl_NT_HS_g_E_13_147.mp4",
+      "subject": "13",
+      "species": "replay_lenovo",
+      "detected": 13,
+      "read": 305
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_14_151.mp4",
+      "subject": "14",
+      "species": "replay_lenovo",
+      "detected": 103,
+      "read": 144
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_15_116.mp4",
+      "subject": "15",
+      "species": "replay_lenovo",
+      "detected": 308,
+      "read": 308
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_16_144.mp4",
+      "subject": "16",
+      "species": "replay_lenovo",
+      "detected": 319,
+      "read": 319
+    },
+    {
+      "file": "Vl_NT_IP_g_E_17_154.mp4",
+      "subject": "17",
+      "species": "replay_lenovo",
+      "detected": 4,
+      "read": 402
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_18_158.mp4",
+      "subject": "18",
+      "species": "replay_lenovo",
+      "detected": 142,
+      "read": 142
+    },
+    {
+      "file": "Vl_NT_IP_g_E_2_154.mp4",
+      "subject": "2",
+      "species": "replay_lenovo",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_21_160.mp4",
+      "subject": "21",
+      "species": "replay_lenovo",
+      "detected": 95,
+      "read": 130
+    },
+    {
+      "file": "Vl_NT_IP_g_E_22_153.mp4",
+      "subject": "22",
+      "species": "replay_lenovo",
+      "detected": 347,
+      "read": 347
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_23_131.mp4",
+      "subject": "23",
+      "species": "replay_lenovo",
+      "detected": 240,
+      "read": 269
+    },
+    {
+      "file": "Vl_NT_IP_g_E_4_154.mp4",
+      "subject": "4",
+      "species": "replay_lenovo",
+      "detected": 580,
+      "read": 580
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_6_158.mp4",
+      "subject": "6",
+      "species": "replay_lenovo",
+      "detected": 17,
+      "read": 271
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_7_133.mp4",
+      "subject": "7",
+      "species": "replay_lenovo",
+      "detected": 42,
+      "read": 290
+    },
+    {
+      "file": "Vl_NT_HS_g_E_9_146.mp4",
+      "subject": "9",
+      "species": "replay_lenovo",
+      "detected": 14,
+      "read": 305
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_10_129.mp4",
+      "subject": "10",
+      "species": "replay_lenovo",
+      "detected": 310,
+      "read": 310
+    },
+    {
+      "file": "Vl_NT_5s_g_E_11_140.mp4",
+      "subject": "11",
+      "species": "replay_lenovo",
+      "detected": 286,
+      "read": 286
+    },
+    {
+      "file": "Vl_NT_5s_g_E_12_141.mp4",
+      "subject": "12",
+      "species": "replay_lenovo",
+      "detected": 296,
+      "read": 307
+    },
+    {
+      "file": "Vl_NT_HW_g_E_13_152.mp4",
+      "subject": "13",
+      "species": "replay_lenovo",
+      "detected": 4,
+      "read": 141
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_14_148.mp4",
+      "subject": "14",
+      "species": "replay_lenovo",
+      "detected": 3,
+      "read": 312
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_15_119.mp4",
+      "subject": "15",
+      "species": "replay_lenovo",
+      "detected": 6,
+      "read": 300
+    },
+    {
+      "file": "Vl_NT_5s_g_E_16_142.mp4",
+      "subject": "16",
+      "species": "replay_lenovo",
+      "detected": 296,
+      "read": 296
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_17_158.mp4",
+      "subject": "17",
+      "species": "replay_lenovo",
+      "detected": 6,
+      "read": 182
+    },
+    {
+      "file": "Vl_NT_HS_g_E_18_146.mp4",
+      "subject": "18",
+      "species": "replay_lenovo",
+      "detected": 50,
+      "read": 334
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_2_143.mp4",
+      "subject": "2",
+      "species": "replay_lenovo",
+      "detected": 293,
+      "read": 293
+    },
+    {
+      "file": "Vl_NT_5s_g_E_20_141.mp4",
+      "subject": "20",
+      "species": "replay_lenovo",
+      "detected": 286,
+      "read": 286
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_21_147.mp4",
+      "subject": "21",
+      "species": "replay_lenovo",
+      "detected": 292,
+      "read": 302
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_23_132.mp4",
+      "subject": "23",
+      "species": "replay_lenovo",
+      "detected": 37,
+      "read": 405
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_3_148.mp4",
+      "subject": "3",
+      "species": "replay_lenovo",
+      "detected": 72,
+      "read": 308
+    },
+    {
+      "file": "Vl_NT_HS_g_E_4_147.mp4",
+      "subject": "4",
+      "species": "replay_lenovo",
+      "detected": 11,
+      "read": 388
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_5_148.mp4",
+      "subject": "5",
+      "species": "replay_lenovo",
+      "detected": 45,
+      "read": 312
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_6_147.mp4",
+      "subject": "6",
+      "species": "replay_lenovo",
+      "detected": 179,
+      "read": 296
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_7_124.mp4",
+      "subject": "7",
+      "species": "replay_lenovo",
+      "detected": 29,
+      "read": 155
+    },
+    {
+      "file": "Vl_NT_HW_g_E_9_149.mp4",
+      "subject": "9",
+      "species": "replay_lenovo",
+      "detected": 108,
+      "read": 141
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_10_118.mp4",
+      "subject": "10",
+      "species": "replay_lenovo",
+      "detected": 296,
+      "read": 296
+    },
+    {
+      "file": "Vl_NT_HS_g_E_11_144.mp4",
+      "subject": "11",
+      "species": "replay_lenovo",
+      "detected": 302,
+      "read": 312
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_12_147.mp4",
+      "subject": "12",
+      "species": "replay_lenovo",
+      "detected": 227,
+      "read": 331
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_13_153.mp4",
+      "subject": "13",
+      "species": "replay_lenovo",
+      "detected": 10,
+      "read": 119
+    },
+    {
+      "file": "Vl_NT_HS_g_E_14_146.mp4",
+      "subject": "14",
+      "species": "replay_lenovo",
+      "detected": 48,
+      "read": 302
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_15_121.mp4",
+      "subject": "15",
+      "species": "replay_lenovo",
+      "detected": 95,
+      "read": 276
+    },
+    {
+      "file": "Vl_NT_HW_g_E_16_150.mp4",
+      "subject": "16",
+      "species": "replay_lenovo",
+      "detected": 135,
+      "read": 197
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_18_152.mp4",
+      "subject": "18",
+      "species": "replay_lenovo",
+      "detected": 64,
+      "read": 134
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_2_157.mp4",
+      "subject": "2",
+      "species": "replay_lenovo",
+      "detected": 36,
+      "read": 256
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_20_160.mp4",
+      "subject": "20",
+      "species": "replay_lenovo",
+      "detected": 116,
+      "read": 116
+    },
+    {
+      "file": "Vl_NT_HS_g_E_21_145.mp4",
+      "subject": "21",
+      "species": "replay_lenovo",
+      "detected": 28,
+      "read": 276
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_22_148.mp4",
+      "subject": "22",
+      "species": "replay_lenovo",
+      "detected": 1,
+      "read": 280
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_23_134.mp4",
+      "subject": "23",
+      "species": "replay_lenovo",
+      "detected": 12,
+      "read": 173
+    },
+    {
+      "file": "Vl_NT_HS_g_E_3_145.mp4",
+      "subject": "3",
+      "species": "replay_lenovo",
+      "detected": 60,
+      "read": 271
+    },
+    {
+      "file": "Vl_NT_5s_g_E_4_142.mp4",
+      "subject": "4",
+      "species": "replay_lenovo",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Vl_NT_HS_g_E_5_146.mp4",
+      "subject": "5",
+      "species": "replay_lenovo",
+      "detected": 173,
+      "read": 319
+    },
+    {
+      "file": "Vl_NT_5s_g_E_6_141.mp4",
+      "subject": "6",
+      "species": "replay_lenovo",
+      "detected": 441,
+      "read": 441
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_7_131.mp4",
+      "subject": "7",
+      "species": "replay_lenovo",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_9_151.mp4",
+      "subject": "9",
+      "species": "replay_lenovo",
+      "detected": 4,
+      "read": 143
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_10_116.mp4",
+      "subject": "10",
+      "species": "replay_lenovo",
+      "detected": 316,
+      "read": 316
+    },
+    {
+      "file": "Vl_NT_IP_g_E_11_152.mp4",
+      "subject": "11",
+      "species": "replay_lenovo",
+      "detected": 369,
+      "read": 369
+    },
+    {
+      "file": "Vl_NT_HW_g_E_12_150.mp4",
+      "subject": "12",
+      "species": "replay_lenovo",
+      "detected": 1,
+      "read": 144
+    },
+    {
+      "file": "Vl_NT_IP_g_E_14_154.mp4",
+      "subject": "14",
+      "species": "replay_lenovo",
+      "detected": 323,
+      "read": 323
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_15_127.mp4",
+      "subject": "15",
+      "species": "replay_lenovo",
+      "detected": 338,
+      "read": 339
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_16_159.mp4",
+      "subject": "16",
+      "species": "replay_lenovo",
+      "detected": 281,
+      "read": 281
+    },
+    {
+      "file": "Vl_NT_5s_g_E_17_141.mp4",
+      "subject": "17",
+      "species": "replay_lenovo",
+      "detected": 319,
+      "read": 319
+    },
+    {
+      "file": "Vl_NT_IP_g_E_18_154.mp4",
+      "subject": "18",
+      "species": "replay_lenovo",
+      "detected": 335,
+      "read": 336
+    },
+    {
+      "file": "Vl_NT_HS_g_E_20_144.mp4",
+      "subject": "20",
+      "species": "replay_lenovo",
+      "detected": 1,
+      "read": 320
+    },
+    {
+      "file": "Vl_NT_HW_g_E_21_149.mp4",
+      "subject": "21",
+      "species": "replay_lenovo",
+      "detected": 9,
+      "read": 128
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_23_116.mp4",
+      "subject": "23",
+      "species": "replay_lenovo",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_4_161.mp4",
+      "subject": "4",
+      "species": "replay_lenovo",
+      "detected": 193,
+      "read": 207
+    },
+    {
+      "file": "Vl_NT_5s_g_E_5_141.mp4",
+      "subject": "5",
+      "species": "replay_lenovo",
+      "detected": 383,
+      "read": 383
+    },
+    {
+      "file": "Vl_NT_HW_g_E_6_150.mp4",
+      "subject": "6",
+      "species": "replay_lenovo",
+      "detected": 15,
+      "read": 269
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_7_129.mp4",
+      "subject": "7",
+      "species": "replay_lenovo",
+      "detected": 305,
+      "read": 305
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_10_130.mp4",
+      "subject": "10",
+      "species": "replay_lenovo",
+      "detected": 303,
+      "read": 313
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_11_142.mp4",
+      "subject": "11",
+      "species": "replay_lenovo",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Vl_NT_HS_wg_E_12_148.mp4",
+      "subject": "12",
+      "species": "replay_lenovo",
+      "detected": 203,
+      "read": 323
+    },
+    {
+      "file": "Vl_NT_HW_g_E_14_150.mp4",
+      "subject": "14",
+      "species": "replay_lenovo",
+      "detected": 29,
+      "read": 104
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_15_126.mp4",
+      "subject": "15",
+      "species": "replay_lenovo",
+      "detected": 123,
+      "read": 127
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_16_158.mp4",
+      "subject": "16",
+      "species": "replay_lenovo",
+      "detected": 139,
+      "read": 144
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_17_157.mp4",
+      "subject": "17",
+      "species": "replay_lenovo",
+      "detected": 19,
+      "read": 171
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_18_156.mp4",
+      "subject": "18",
+      "species": "replay_lenovo",
+      "detected": 287,
+      "read": 287
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_2_144.mp4",
+      "subject": "2",
+      "species": "replay_lenovo",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Vl_NT_IP_g_E_20_153.mp4",
+      "subject": "20",
+      "species": "replay_lenovo",
+      "detected": 279,
+      "read": 279
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_21_158.mp4",
+      "subject": "21",
+      "species": "replay_lenovo",
+      "detected": 106,
+      "read": 174
+    },
+    {
+      "file": "Vl_NT_HW_wg_E_22_151.mp4",
+      "subject": "22",
+      "species": "replay_lenovo",
+      "detected": 90,
+      "read": 132
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_23_128.mp4",
+      "subject": "23",
+      "species": "replay_lenovo",
+      "detected": 457,
+      "read": 457
+    },
+    {
+      "file": "Vl_NT_5s_g_E_3_142.mp4",
+      "subject": "3",
+      "species": "replay_lenovo",
+      "detected": 259,
+      "read": 259
+    },
+    {
+      "file": "Vl_NT_5s_wg_E_4_145.mp4",
+      "subject": "4",
+      "species": "replay_lenovo",
+      "detected": 389,
+      "read": 389
+    },
+    {
+      "file": "Vl_NT_IP_wg_E_5_156.mp4",
+      "subject": "5",
+      "species": "replay_lenovo",
+      "detected": 306,
+      "read": 306
+    },
+    {
+      "file": "Vl_NT_ZTE_g_E_6_157.mp4",
+      "subject": "6",
+      "species": "replay_lenovo",
+      "detected": 238,
+      "read": 437
+    },
+    {
+      "file": "Vl_NT_ZTE_wg_E_7_135.mp4",
+      "subject": "7",
+      "species": "replay_lenovo",
+      "detected": 50,
+      "read": 293
+    },
+    {
+      "file": "Vl_NT_HS_g_E_9_145.mp4",
+      "subject": "9",
+      "species": "replay_lenovo",
+      "detected": 21,
+      "read": 299
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_10_150.mp4",
+      "subject": "10",
+      "species": "replay_mac",
+      "detected": 335,
+      "read": 335
+    },
+    {
+      "file": "Vm_NT_HW_g_E_11_169.mp4",
+      "subject": "11",
+      "species": "replay_mac",
+      "detected": 1,
+      "read": 173
+    },
+    {
+      "file": "Vm_NT_IP_g_E_12_173.mp4",
+      "subject": "12",
+      "species": "replay_mac",
+      "detected": 271,
+      "read": 271
+    },
+    {
+      "file": "Vm_NT_IP_g_E_14_174.mp4",
+      "subject": "14",
+      "species": "replay_mac",
+      "detected": 372,
+      "read": 372
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_15_141.mp4",
+      "subject": "15",
+      "species": "replay_mac",
+      "detected": 270,
+      "read": 334
+    },
+    {
+      "file": "Vm_NT_IP_g_E_16_174.mp4",
+      "subject": "16",
+      "species": "replay_mac",
+      "detected": 373,
+      "read": 373
+    },
+    {
+      "file": "Vm_NT_5s_g_E_18_161.mp4",
+      "subject": "18",
+      "species": "replay_mac",
+      "detected": 205,
+      "read": 205
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_2_168.mp4",
+      "subject": "2",
+      "species": "replay_mac",
+      "detected": 331,
+      "read": 332
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_20_176.mp4",
+      "subject": "20",
+      "species": "replay_mac",
+      "detected": 314,
+      "read": 314
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_21_163.mp4",
+      "subject": "21",
+      "species": "replay_mac",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_22_167.mp4",
+      "subject": "22",
+      "species": "replay_mac",
+      "detected": 156,
+      "read": 373
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_23_151.mp4",
+      "subject": "23",
+      "species": "replay_mac",
+      "detected": 353,
+      "read": 354
+    },
+    {
+      "file": "Vm_NT_HW_g_E_3_170.mp4",
+      "subject": "3",
+      "species": "replay_mac",
+      "detected": 3,
+      "read": 139
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_4_164.mp4",
+      "subject": "4",
+      "species": "replay_mac",
+      "detected": 318,
+      "read": 318
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_5_175.mp4",
+      "subject": "5",
+      "species": "replay_mac",
+      "detected": 420,
+      "read": 420
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_6_180.mp4",
+      "subject": "6",
+      "species": "replay_mac",
+      "detected": 61,
+      "read": 303
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_9_177.mp4",
+      "subject": "9",
+      "species": "replay_mac",
+      "detected": 184,
+      "read": 278
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_10_140.mp4",
+      "subject": "10",
+      "species": "replay_mac",
+      "detected": 147,
+      "read": 268
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_11_176.mp4",
+      "subject": "11",
+      "species": "replay_mac",
+      "detected": 7,
+      "read": 289
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_12_177.mp4",
+      "subject": "12",
+      "species": "replay_mac",
+      "detected": 83,
+      "read": 281
+    },
+    {
+      "file": "Vm_NT_IP_g_E_13_176.mp4",
+      "subject": "13",
+      "species": "replay_mac",
+      "detected": 342,
+      "read": 342
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_14_178.mp4",
+      "subject": "14",
+      "species": "replay_mac",
+      "detected": 80,
+      "read": 280
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_15_149.mp4",
+      "subject": "15",
+      "species": "replay_mac",
+      "detected": 323,
+      "read": 323
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_16_178.mp4",
+      "subject": "16",
+      "species": "replay_mac",
+      "detected": 276,
+      "read": 298
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_17_171.mp4",
+      "subject": "17",
+      "species": "replay_mac",
+      "detected": 15,
+      "read": 190
+    },
+    {
+      "file": "Vm_NT_HS_g_E_18_166.mp4",
+      "subject": "18",
+      "species": "replay_mac",
+      "detected": 44,
+      "read": 385
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_2_179.mp4",
+      "subject": "2",
+      "species": "replay_mac",
+      "detected": 187,
+      "read": 306
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_20_180.mp4",
+      "subject": "20",
+      "species": "replay_mac",
+      "detected": 219,
+      "read": 222
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_21_167.mp4",
+      "subject": "21",
+      "species": "replay_mac",
+      "detected": 293,
+      "read": 409
+    },
+    {
+      "file": "Vm_NT_HW_g_E_22_169.mp4",
+      "subject": "22",
+      "species": "replay_mac",
+      "detected": 9,
+      "read": 159
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_3_175.mp4",
+      "subject": "3",
+      "species": "replay_mac",
+      "detected": 307,
+      "read": 307
+    },
+    {
+      "file": "Vm_NT_5s_g_E_4_162.mp4",
+      "subject": "4",
+      "species": "replay_mac",
+      "detected": 472,
+      "read": 472
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_5_178.mp4",
+      "subject": "5",
+      "species": "replay_mac",
+      "detected": 10,
+      "read": 381
+    },
+    {
+      "file": "Vm_NT_HS_g_E_6_165.mp4",
+      "subject": "6",
+      "species": "replay_mac",
+      "detected": 239,
+      "read": 480
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_9_164.mp4",
+      "subject": "9",
+      "species": "replay_mac",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_10_141.mp4",
+      "subject": "10",
+      "species": "replay_mac",
+      "detected": 355,
+      "read": 426
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_11_162.mp4",
+      "subject": "11",
+      "species": "replay_mac",
+      "detected": 367,
+      "read": 367
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_12_168.mp4",
+      "subject": "12",
+      "species": "replay_mac",
+      "detected": 81,
+      "read": 295
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_14_164.mp4",
+      "subject": "14",
+      "species": "replay_mac",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_15_143.mp4",
+      "subject": "15",
+      "species": "replay_mac",
+      "detected": 126,
+      "read": 156
+    },
+    {
+      "file": "Vm_NT_HS_g_E_16_166.mp4",
+      "subject": "16",
+      "species": "replay_mac",
+      "detected": 316,
+      "read": 358
+    },
+    {
+      "file": "Vm_NT_5s_g_E_17_162.mp4",
+      "subject": "17",
+      "species": "replay_mac",
+      "detected": 390,
+      "read": 390
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_18_175.mp4",
+      "subject": "18",
+      "species": "replay_mac",
+      "detected": 426,
+      "read": 426
+    },
+    {
+      "file": "Vm_NT_HS_g_E_20_166.mp4",
+      "subject": "20",
+      "species": "replay_mac",
+      "detected": 233,
+      "read": 323
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_21_180.mp4",
+      "subject": "21",
+      "species": "replay_mac",
+      "detected": 215,
+      "read": 286
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_22_179.mp4",
+      "subject": "22",
+      "species": "replay_mac",
+      "detected": 148,
+      "read": 273
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_23_148.mp4",
+      "subject": "23",
+      "species": "replay_mac",
+      "detected": 463,
+      "read": 463
+    },
+    {
+      "file": "Vm_NT_5s_g_E_3_162.mp4",
+      "subject": "3",
+      "species": "replay_mac",
+      "detected": 282,
+      "read": 282
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_4_180.mp4",
+      "subject": "4",
+      "species": "replay_mac",
+      "detected": 105,
+      "read": 289
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_5_163.mp4",
+      "subject": "5",
+      "species": "replay_mac",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_6_163.mp4",
+      "subject": "6",
+      "species": "replay_mac",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_7_148.mp4",
+      "subject": "7",
+      "species": "replay_mac",
+      "detected": 298,
+      "read": 301
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_9_171.mp4",
+      "subject": "9",
+      "species": "replay_mac",
+      "detected": 1,
+      "read": 150
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_11_179.mp4",
+      "subject": "11",
+      "species": "replay_mac",
+      "detected": 3,
+      "read": 408
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_12_175.mp4",
+      "subject": "12",
+      "species": "replay_mac",
+      "detected": 387,
+      "read": 387
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_13_178.mp4",
+      "subject": "13",
+      "species": "replay_mac",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_14_180.mp4",
+      "subject": "14",
+      "species": "replay_mac",
+      "detected": 25,
+      "read": 286
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_15_151.mp4",
+      "subject": "15",
+      "species": "replay_mac",
+      "detected": 154,
+      "read": 309
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_16_177.mp4",
+      "subject": "16",
+      "species": "replay_mac",
+      "detected": 374,
+      "read": 375
+    },
+    {
+      "file": "Vm_NT_IP_g_E_18_174.mp4",
+      "subject": "18",
+      "species": "replay_mac",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_2_176.mp4",
+      "subject": "2",
+      "species": "replay_mac",
+      "detected": 370,
+      "read": 370
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_20_172.mp4",
+      "subject": "20",
+      "species": "replay_mac",
+      "detected": 143,
+      "read": 144
+    },
+    {
+      "file": "Vm_NT_HW_g_E_21_169.mp4",
+      "subject": "21",
+      "species": "replay_mac",
+      "detected": 36,
+      "read": 190
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_22_168.mp4",
+      "subject": "22",
+      "species": "replay_mac",
+      "detected": 32,
+      "read": 331
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_23_145.mp4",
+      "subject": "23",
+      "species": "replay_mac",
+      "detected": 60,
+      "read": 161
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_3_180.mp4",
+      "subject": "3",
+      "species": "replay_mac",
+      "detected": 26,
+      "read": 309
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_4_179.mp4",
+      "subject": "4",
+      "species": "replay_mac",
+      "detected": 397,
+      "read": 417
+    },
+    {
+      "file": "Vm_NT_IP_g_E_6_173.mp4",
+      "subject": "6",
+      "species": "replay_mac",
+      "detected": 474,
+      "read": 474
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_7_152.mp4",
+      "subject": "7",
+      "species": "replay_mac",
+      "detected": 13,
+      "read": 293
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_9_180.mp4",
+      "subject": "9",
+      "species": "replay_mac",
+      "detected": 24,
+      "read": 300
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_10_144.mp4",
+      "subject": "10",
+      "species": "replay_mac",
+      "detected": 8,
+      "read": 138
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_11_174.mp4",
+      "subject": "11",
+      "species": "replay_mac",
+      "detected": 382,
+      "read": 382
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_12_164.mp4",
+      "subject": "12",
+      "species": "replay_mac",
+      "detected": 258,
+      "read": 258
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_13_170.mp4",
+      "subject": "13",
+      "species": "replay_mac",
+      "detected": 20,
+      "read": 300
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_14_171.mp4",
+      "subject": "14",
+      "species": "replay_mac",
+      "detected": 92,
+      "read": 192
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_15_137.mp4",
+      "subject": "15",
+      "species": "replay_mac",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Vm_NT_IP_g_E_16_173.mp4",
+      "subject": "16",
+      "species": "replay_mac",
+      "detected": 462,
+      "read": 462
+    },
+    {
+      "file": "Vm_NT_HW_wg_E_17_172.mp4",
+      "subject": "17",
+      "species": "replay_mac",
+      "detected": 63,
+      "read": 201
+    },
+    {
+      "file": "Vm_NT_5s_g_E_18_162.mp4",
+      "subject": "18",
+      "species": "replay_mac",
+      "detected": 306,
+      "read": 306
+    },
+    {
+      "file": "Vm_NT_IP_g_E_2_174.mp4",
+      "subject": "2",
+      "species": "replay_mac",
+      "detected": 370,
+      "read": 370
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_20_167.mp4",
+      "subject": "20",
+      "species": "replay_mac",
+      "detected": 23,
+      "read": 383
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_21_168.mp4",
+      "subject": "21",
+      "species": "replay_mac",
+      "detected": 252,
+      "read": 324
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_23_143.mp4",
+      "subject": "23",
+      "species": "replay_mac",
+      "detected": 4,
+      "read": 327
+    },
+    {
+      "file": "Vm_NT_HW_g_E_3_169.mp4",
+      "subject": "3",
+      "species": "replay_mac",
+      "detected": 46,
+      "read": 136
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_4_169.mp4",
+      "subject": "4",
+      "species": "replay_mac",
+      "detected": 422,
+      "read": 424
+    },
+    {
+      "file": "Vm_NT_IP_g_E_6_174.mp4",
+      "subject": "6",
+      "species": "replay_mac",
+      "detected": 555,
+      "read": 555
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_7_143.mp4",
+      "subject": "7",
+      "species": "replay_mac",
+      "detected": 2,
+      "read": 353
+    },
+    {
+      "file": "Vm_NT_5s_g_E_9_161.mp4",
+      "subject": "9",
+      "species": "replay_mac",
+      "detected": 285,
+      "read": 286
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_10_143.mp4",
+      "subject": "10",
+      "species": "replay_mac",
+      "detected": 300,
+      "read": 339
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_11_163.mp4",
+      "subject": "11",
+      "species": "replay_mac",
+      "detected": 437,
+      "read": 437
+    },
+    {
+      "file": "Vm_NT_IP_g_E_12_174.mp4",
+      "subject": "12",
+      "species": "replay_mac",
+      "detected": 296,
+      "read": 296
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_13_166.mp4",
+      "subject": "13",
+      "species": "replay_mac",
+      "detected": 290,
+      "read": 290
+    },
+    {
+      "file": "Vm_NT_HS_g_E_14_165.mp4",
+      "subject": "14",
+      "species": "replay_mac",
+      "detected": 15,
+      "read": 341
+    },
+    {
+      "file": "Vm_NT_ZTE_wg_E_15_153.mp4",
+      "subject": "15",
+      "species": "replay_mac",
+      "detected": 161,
+      "read": 274
+    },
+    {
+      "file": "Vm_NT_HS_g_E_16_165.mp4",
+      "subject": "16",
+      "species": "replay_mac",
+      "detected": 402,
+      "read": 405
+    },
+    {
+      "file": "Vm_NT_IP_wg_E_17_176.mp4",
+      "subject": "17",
+      "species": "replay_mac",
+      "detected": 451,
+      "read": 451
+    },
+    {
+      "file": "Vm_NT_HS_wg_E_18_167.mp4",
+      "subject": "18",
+      "species": "replay_mac",
+      "detected": 1,
+      "read": 338
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_2_177.mp4",
+      "subject": "2",
+      "species": "replay_mac",
+      "detected": 55,
+      "read": 246
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_20_163.mp4",
+      "subject": "20",
+      "species": "replay_mac",
+      "detected": 343,
+      "read": 343
+    },
+    {
+      "file": "Vm_NT_HW_g_E_21_170.mp4",
+      "subject": "21",
+      "species": "replay_mac",
+      "detected": 11,
+      "read": 191
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_22_164.mp4",
+      "subject": "22",
+      "species": "replay_mac",
+      "detected": 300,
+      "read": 300
+    },
+    {
+      "file": "Vm_NT_ZTE_g_E_4_178.mp4",
+      "subject": "4",
+      "species": "replay_mac",
+      "detected": 37,
+      "read": 406
+    },
+    {
+      "file": "Vm_NT_5s_g_E_6_161.mp4",
+      "subject": "6",
+      "species": "replay_mac",
+      "detected": 446,
+      "read": 446
+    },
+    {
+      "file": "Vm_NT_5s_wg_E_7_138.mp4",
+      "subject": "7",
+      "species": "replay_mac",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Vm_NT_IP_g_E_9_173.mp4",
+      "subject": "9",
+      "species": "replay_mac",
+      "detected": 292,
+      "read": 292
+    },
+    {
+      "file": "Mc_NT_HW_g_E_10_30.mp4",
+      "subject": "10",
+      "species": "mask_cropped",
+      "detected": 153,
+      "read": 153
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_11_69.mp4",
+      "subject": "11",
+      "species": "mask_cropped",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Mc_NT_5s_g_E_12_51.mp4",
+      "subject": "12",
+      "species": "mask_cropped",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Mc_NT_5s_g_E_13_51.mp4",
+      "subject": "13",
+      "species": "mask_cropped",
+      "detected": 299,
+      "read": 299
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_14_70.mp4",
+      "subject": "14",
+      "species": "mask_cropped",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mc_NT_HW_g_E_15_31.mp4",
+      "subject": "15",
+      "species": "mask_cropped",
+      "detected": 240,
+      "read": 240
+    },
+    {
+      "file": "Mc_T_5s_g_E_16_61.mp4",
+      "subject": "16",
+      "species": "mask_cropped",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "Mc_T_HS_g_E_17_63.mp4",
+      "subject": "17",
+      "species": "mask_cropped",
+      "detected": 349,
+      "read": 349
+    },
+    {
+      "file": "Mc_NT_IP_g_E_18_57.mp4",
+      "subject": "18",
+      "species": "mask_cropped",
+      "detected": 63,
+      "read": 320
+    },
+    {
+      "file": "Mc_NT_HW_g_E_2_56.mp4",
+      "subject": "2",
+      "species": "mask_cropped",
+      "detected": 191,
+      "read": 191
+    },
+    {
+      "file": "Mc_NT_HW_g_E_20_56.mp4",
+      "subject": "20",
+      "species": "mask_cropped",
+      "detected": 175,
+      "read": 175
+    },
+    {
+      "file": "Mc_T_5s_g_E_21_61.mp4",
+      "subject": "21",
+      "species": "mask_cropped",
+      "detected": 381,
+      "read": 381
+    },
+    {
+      "file": "Mc_T_HS_g_E_22_64.mp4",
+      "subject": "22",
+      "species": "mask_cropped",
+      "detected": 323,
+      "read": 325
+    },
+    {
+      "file": "Mc_T_HW_g_E_23_40.mp4",
+      "subject": "23",
+      "species": "mask_cropped",
+      "detected": 191,
+      "read": 191
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_3_70.mp4",
+      "subject": "3",
+      "species": "mask_cropped",
+      "detected": 173,
+      "read": 173
+    },
+    {
+      "file": "Mc_NT_5s_g_E_4_51.mp4",
+      "subject": "4",
+      "species": "mask_cropped",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mc_T_5s_g_E_5_61.mp4",
+      "subject": "5",
+      "species": "mask_cropped",
+      "detected": 475,
+      "read": 475
+    },
+    {
+      "file": "Mc_NT_HW_g_E_6_56.mp4",
+      "subject": "6",
+      "species": "mask_cropped",
+      "detected": 199,
+      "read": 199
+    },
+    {
+      "file": "Mc_T_5s_g_E_7_37.mp4",
+      "subject": "7",
+      "species": "mask_cropped",
+      "detected": 335,
+      "read": 335
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_9_70.mp4",
+      "subject": "9",
+      "species": "mask_cropped",
+      "detected": 175,
+      "read": 175
+    },
+    {
+      "file": "Mc_T_IP_g_E_10_42.mp4",
+      "subject": "10",
+      "species": "mask_cropped",
+      "detected": 381,
+      "read": 381
+    },
+    {
+      "file": "Mc_NT_HS_g_E_11_53.mp4",
+      "subject": "11",
+      "species": "mask_cropped",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Mc_NT_IP_g_E_12_57.mp4",
+      "subject": "12",
+      "species": "mask_cropped",
+      "detected": 383,
+      "read": 383
+    },
+    {
+      "file": "Mc_NT_HW_g_E_13_55.mp4",
+      "subject": "13",
+      "species": "mask_cropped",
+      "detected": 250,
+      "read": 250
+    },
+    {
+      "file": "Mc_T_IP_g_E_14_68.mp4",
+      "subject": "14",
+      "species": "mask_cropped",
+      "detected": 367,
+      "read": 367
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_15_44.mp4",
+      "subject": "15",
+      "species": "mask_cropped",
+      "detected": 173,
+      "read": 173
+    },
+    {
+      "file": "Mc_NT_5s_g_E_16_51.mp4",
+      "subject": "16",
+      "species": "mask_cropped",
+      "detected": 297,
+      "read": 297
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_17_59.mp4",
+      "subject": "17",
+      "species": "mask_cropped",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Mc_T_HS_g_E_18_64.mp4",
+      "subject": "18",
+      "species": "mask_cropped",
+      "detected": 343,
+      "read": 343
+    },
+    {
+      "file": "Mc_T_5s_g_E_2_62.mp4",
+      "subject": "2",
+      "species": "mask_cropped",
+      "detected": 504,
+      "read": 504
+    },
+    {
+      "file": "Mc_NT_HS_g_E_20_54.mp4",
+      "subject": "20",
+      "species": "mask_cropped",
+      "detected": 352,
+      "read": 352
+    },
+    {
+      "file": "Mc_T_HW_g_E_21_65.mp4",
+      "subject": "21",
+      "species": "mask_cropped",
+      "detected": 222,
+      "read": 222
+    },
+    {
+      "file": "Mc_T_HW_g_E_22_65.mp4",
+      "subject": "22",
+      "species": "mask_cropped",
+      "detected": 125,
+      "read": 125
+    },
+    {
+      "file": "Mc_T_IP_g_E_23_42.mp4",
+      "subject": "23",
+      "species": "mask_cropped",
+      "detected": 575,
+      "read": 575
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_3_59.mp4",
+      "subject": "3",
+      "species": "mask_cropped",
+      "detected": 203,
+      "read": 203
+    },
+    {
+      "file": "Mc_NT_HS_g_E_4_53.mp4",
+      "subject": "4",
+      "species": "mask_cropped",
+      "detected": 399,
+      "read": 399
+    },
+    {
+      "file": "Mc_T_IP_g_E_5_68.mp4",
+      "subject": "5",
+      "species": "mask_cropped",
+      "detected": 475,
+      "read": 475
+    },
+    {
+      "file": "Mc_T_IP_g_E_6_67.mp4",
+      "subject": "6",
+      "species": "mask_cropped",
+      "detected": 541,
+      "read": 541
+    },
+    {
+      "file": "Mc_NT_5s_g_E_7_26.mp4",
+      "subject": "7",
+      "species": "mask_cropped",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_9_69.mp4",
+      "subject": "9",
+      "species": "mask_cropped",
+      "detected": 190,
+      "read": 190
+    },
+    {
+      "file": "Mc_NT_HW_g_E_10_31.mp4",
+      "subject": "10",
+      "species": "mask_cropped",
+      "detected": 185,
+      "read": 185
+    },
+    {
+      "file": "Mc_T_HW_g_E_11_66.mp4",
+      "subject": "11",
+      "species": "mask_cropped",
+      "detected": 241,
+      "read": 241
+    },
+    {
+      "file": "Mc_T_IP_g_E_12_66.mp4",
+      "subject": "12",
+      "species": "mask_cropped",
+      "detected": 336,
+      "read": 336
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_13_60.mp4",
+      "subject": "13",
+      "species": "mask_cropped",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Mc_NT_HW_g_E_14_56.mp4",
+      "subject": "14",
+      "species": "mask_cropped",
+      "detected": 246,
+      "read": 246
+    },
+    {
+      "file": "Mc_T_5s_g_E_15_37.mp4",
+      "subject": "15",
+      "species": "mask_cropped",
+      "detected": 433,
+      "read": 433
+    },
+    {
+      "file": "Mc_NT_5s_g_E_16_52.mp4",
+      "subject": "16",
+      "species": "mask_cropped",
+      "detected": 309,
+      "read": 309
+    },
+    {
+      "file": "Mc_T_HW_g_E_17_66.mp4",
+      "subject": "17",
+      "species": "mask_cropped",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Mc_NT_5s_g_E_18_51.mp4",
+      "subject": "18",
+      "species": "mask_cropped",
+      "detected": 319,
+      "read": 319
+    },
+    {
+      "file": "Mc_NT_IP_g_E_2_57.mp4",
+      "subject": "2",
+      "species": "mask_cropped",
+      "detected": 398,
+      "read": 398
+    },
+    {
+      "file": "Mc_NT_HS_g_E_20_53.mp4",
+      "subject": "20",
+      "species": "mask_cropped",
+      "detected": 371,
+      "read": 371
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_21_60.mp4",
+      "subject": "21",
+      "species": "mask_cropped",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_22_60.mp4",
+      "subject": "22",
+      "species": "mask_cropped",
+      "detected": 140,
+      "read": 140
+    },
+    {
+      "file": "Mc_NT_IP_g_E_23_33.mp4",
+      "subject": "23",
+      "species": "mask_cropped",
+      "detected": 361,
+      "read": 361
+    },
+    {
+      "file": "Mc_T_IP_g_E_3_68.mp4",
+      "subject": "3",
+      "species": "mask_cropped",
+      "detected": 432,
+      "read": 432
+    },
+    {
+      "file": "Mc_NT_IP_g_E_4_58.mp4",
+      "subject": "4",
+      "species": "mask_cropped",
+      "detected": 372,
+      "read": 372
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_5_69.mp4",
+      "subject": "5",
+      "species": "mask_cropped",
+      "detected": 192,
+      "read": 192
+    },
+    {
+      "file": "Mc_T_HS_g_E_6_63.mp4",
+      "subject": "6",
+      "species": "mask_cropped",
+      "detected": 372,
+      "read": 372
+    },
+    {
+      "file": "Mc_T_5s_g_E_7_36.mp4",
+      "subject": "7",
+      "species": "mask_cropped",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mc_T_IP_g_E_9_67.mp4",
+      "subject": "9",
+      "species": "mask_cropped",
+      "detected": 442,
+      "read": 442
+    },
+    {
+      "file": "Mc_T_HW_g_E_10_41.mp4",
+      "subject": "10",
+      "species": "mask_cropped",
+      "detected": 150,
+      "read": 150
+    },
+    {
+      "file": "Mc_NT_HW_g_E_11_55.mp4",
+      "subject": "11",
+      "species": "mask_cropped",
+      "detected": 263,
+      "read": 263
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_12_59.mp4",
+      "subject": "12",
+      "species": "mask_cropped",
+      "detected": 144,
+      "read": 144
+    },
+    {
+      "file": "Mc_NT_IP_g_E_13_58.mp4",
+      "subject": "13",
+      "species": "mask_cropped",
+      "detected": 314,
+      "read": 318
+    },
+    {
+      "file": "Mc_NT_5s_g_E_14_51.mp4",
+      "subject": "14",
+      "species": "mask_cropped",
+      "detected": 292,
+      "read": 292
+    },
+    {
+      "file": "Mc_NT_HW_g_E_15_30.mp4",
+      "subject": "15",
+      "species": "mask_cropped",
+      "detected": 189,
+      "read": 189
+    },
+    {
+      "file": "Mc_T_HS_g_E_16_64.mp4",
+      "subject": "16",
+      "species": "mask_cropped",
+      "detected": 378,
+      "read": 383
+    },
+    {
+      "file": "Mc_NT_IP_g_E_17_58.mp4",
+      "subject": "17",
+      "species": "mask_cropped",
+      "detected": 316,
+      "read": 316
+    },
+    {
+      "file": "Mc_NT_HS_g_E_18_54.mp4",
+      "subject": "18",
+      "species": "mask_cropped",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_2_59.mp4",
+      "subject": "2",
+      "species": "mask_cropped",
+      "detected": 173,
+      "read": 173
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_20_60.mp4",
+      "subject": "20",
+      "species": "mask_cropped",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mc_NT_HW_g_E_21_55.mp4",
+      "subject": "21",
+      "species": "mask_cropped",
+      "detected": 184,
+      "read": 184
+    },
+    {
+      "file": "Mc_NT_HS_g_E_22_54.mp4",
+      "subject": "22",
+      "species": "mask_cropped",
+      "detected": 359,
+      "read": 359
+    },
+    {
+      "file": "Mc_T_HS_g_E_23_39.mp4",
+      "subject": "23",
+      "species": "mask_cropped",
+      "detected": 418,
+      "read": 418
+    },
+    {
+      "file": "Mc_T_HS_g_E_3_63.mp4",
+      "subject": "3",
+      "species": "mask_cropped",
+      "detected": 368,
+      "read": 368
+    },
+    {
+      "file": "Mc_T_IP_g_E_4_67.mp4",
+      "subject": "4",
+      "species": "mask_cropped",
+      "detected": 383,
+      "read": 383
+    },
+    {
+      "file": "Mc_NT_HS_g_E_5_54.mp4",
+      "subject": "5",
+      "species": "mask_cropped",
+      "detected": 390,
+      "read": 390
+    },
+    {
+      "file": "Mc_NT_IP_g_E_6_58.mp4",
+      "subject": "6",
+      "species": "mask_cropped",
+      "detected": 369,
+      "read": 369
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_7_45.mp4",
+      "subject": "7",
+      "species": "mask_cropped",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Mc_NT_HS_g_E_9_54.mp4",
+      "subject": "9",
+      "species": "mask_cropped",
+      "detected": 420,
+      "read": 420
+    },
+    {
+      "file": "Mc_NT_HS_g_E_10_28.mp4",
+      "subject": "10",
+      "species": "mask_cropped",
+      "detected": 352,
+      "read": 352
+    },
+    {
+      "file": "Mc_T_5s_g_E_11_61.mp4",
+      "subject": "11",
+      "species": "mask_cropped",
+      "detected": 323,
+      "read": 323
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_12_69.mp4",
+      "subject": "12",
+      "species": "mask_cropped",
+      "detected": 166,
+      "read": 166
+    },
+    {
+      "file": "Mc_NT_HS_g_E_13_54.mp4",
+      "subject": "13",
+      "species": "mask_cropped",
+      "detected": 359,
+      "read": 359
+    },
+    {
+      "file": "Mc_T_5s_g_E_14_61.mp4",
+      "subject": "14",
+      "species": "mask_cropped",
+      "detected": 301,
+      "read": 301
+    },
+    {
+      "file": "Mc_NT_HS_g_E_15_28.mp4",
+      "subject": "15",
+      "species": "mask_cropped",
+      "detected": 353,
+      "read": 353
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_16_69.mp4",
+      "subject": "16",
+      "species": "mask_cropped",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Mc_NT_HW_g_E_17_56.mp4",
+      "subject": "17",
+      "species": "mask_cropped",
+      "detected": 131,
+      "read": 131
+    },
+    {
+      "file": "Mc_NT_HW_g_E_18_55.mp4",
+      "subject": "18",
+      "species": "mask_cropped",
+      "detected": 138,
+      "read": 138
+    },
+    {
+      "file": "Mc_T_HW_g_E_2_66.mp4",
+      "subject": "2",
+      "species": "mask_cropped",
+      "detected": 209,
+      "read": 209
+    },
+    {
+      "file": "Mc_T_5s_g_E_20_61.mp4",
+      "subject": "20",
+      "species": "mask_cropped",
+      "detected": 351,
+      "read": 351
+    },
+    {
+      "file": "Mc_NT_5s_g_E_21_51.mp4",
+      "subject": "21",
+      "species": "mask_cropped",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Mc_NT_HW_g_E_22_55.mp4",
+      "subject": "22",
+      "species": "mask_cropped",
+      "detected": 238,
+      "read": 238
+    },
+    {
+      "file": "Mc_T_HW_g_E_23_41.mp4",
+      "subject": "23",
+      "species": "mask_cropped",
+      "detected": 352,
+      "read": 352
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_3_69.mp4",
+      "subject": "3",
+      "species": "mask_cropped",
+      "detected": 231,
+      "read": 231
+    },
+    {
+      "file": "Mc_NT_IP_g_E_4_57.mp4",
+      "subject": "4",
+      "species": "mask_cropped",
+      "detected": 379,
+      "read": 379
+    },
+    {
+      "file": "Mc_NT_HW_g_E_5_56.mp4",
+      "subject": "5",
+      "species": "mask_cropped",
+      "detected": 215,
+      "read": 215
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_6_59.mp4",
+      "subject": "6",
+      "species": "mask_cropped",
+      "detected": 180,
+      "read": 180
+    },
+    {
+      "file": "Mc_NT_HS_g_E_7_29.mp4",
+      "subject": "7",
+      "species": "mask_cropped",
+      "detected": 382,
+      "read": 382
+    },
+    {
+      "file": "Mc_NT_5s_g_E_9_52.mp4",
+      "subject": "9",
+      "species": "mask_cropped",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "Mc_T_HW_g_E_10_40.mp4",
+      "subject": "10",
+      "species": "mask_cropped",
+      "detected": 139,
+      "read": 139
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_11_59.mp4",
+      "subject": "11",
+      "species": "mask_cropped",
+      "detected": 139,
+      "read": 139
+    },
+    {
+      "file": "Mc_NT_5s_g_E_12_52.mp4",
+      "subject": "12",
+      "species": "mask_cropped",
+      "detected": 293,
+      "read": 293
+    },
+    {
+      "file": "Mc_NT_HS_g_E_13_53.mp4",
+      "subject": "13",
+      "species": "mask_cropped",
+      "detected": 359,
+      "read": 359
+    },
+    {
+      "file": "Mc_T_HW_g_E_14_66.mp4",
+      "subject": "14",
+      "species": "mask_cropped",
+      "detected": 146,
+      "read": 146
+    },
+    {
+      "file": "Mc_T_HW_g_E_15_40.mp4",
+      "subject": "15",
+      "species": "mask_cropped",
+      "detected": 250,
+      "read": 250
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_16_60.mp4",
+      "subject": "16",
+      "species": "mask_cropped",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Mc_NT_5s_g_E_17_52.mp4",
+      "subject": "17",
+      "species": "mask_cropped",
+      "detected": 333,
+      "read": 333
+    },
+    {
+      "file": "Mc_T_IP_g_E_18_67.mp4",
+      "subject": "18",
+      "species": "mask_cropped",
+      "detected": 358,
+      "read": 358
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_2_60.mp4",
+      "subject": "2",
+      "species": "mask_cropped",
+      "detected": 211,
+      "read": 211
+    },
+    {
+      "file": "Mc_NT_5s_g_E_20_52.mp4",
+      "subject": "20",
+      "species": "mask_cropped",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_21_69.mp4",
+      "subject": "21",
+      "species": "mask_cropped",
+      "detected": 395,
+      "read": 395
+    },
+    {
+      "file": "Mc_T_5s_g_E_22_61.mp4",
+      "subject": "22",
+      "species": "mask_cropped",
+      "detected": 329,
+      "read": 329
+    },
+    {
+      "file": "Mc_T_HS_g_E_23_38.mp4",
+      "subject": "23",
+      "species": "mask_cropped",
+      "detected": 428,
+      "read": 428
+    },
+    {
+      "file": "Mc_NT_IP_g_E_3_58.mp4",
+      "subject": "3",
+      "species": "mask_cropped",
+      "detected": 358,
+      "read": 358
+    },
+    {
+      "file": "Mc_T_5s_g_E_4_61.mp4",
+      "subject": "4",
+      "species": "mask_cropped",
+      "detected": 549,
+      "read": 549
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_5_59.mp4",
+      "subject": "5",
+      "species": "mask_cropped",
+      "detected": 235,
+      "read": 235
+    },
+    {
+      "file": "Mc_NT_ZTE_g_E_6_60.mp4",
+      "subject": "6",
+      "species": "mask_cropped",
+      "detected": 184,
+      "read": 184
+    },
+    {
+      "file": "Mc_T_ZTE_g_E_7_44.mp4",
+      "subject": "7",
+      "species": "mask_cropped",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Mc_T_5s_g_E_9_62.mp4",
+      "subject": "9",
+      "species": "mask_cropped",
+      "detected": 418,
+      "read": 418
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_10_45.mp4",
+      "subject": "10",
+      "species": "mask_full",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_11_80.mp4",
+      "subject": "11",
+      "species": "mask_full",
+      "detected": 164,
+      "read": 164
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_12_77.mp4",
+      "subject": "12",
+      "species": "mask_full",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mf_NT_5s_g_E_13_73.mp4",
+      "subject": "13",
+      "species": "mask_full",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_14_74.mp4",
+      "subject": "14",
+      "species": "mask_full",
+      "detected": 374,
+      "read": 374
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_15_49.mp4",
+      "subject": "15",
+      "species": "mask_full",
+      "detected": 420,
+      "read": 420
+    },
+    {
+      "file": "Mf_NT_HS_g_E_16_73.mp4",
+      "subject": "16",
+      "species": "mask_full",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_17_76.mp4",
+      "subject": "17",
+      "species": "mask_full",
+      "detected": 259,
+      "read": 259
+    },
+    {
+      "file": "Mf_NT_HW_g_E_18_75.mp4",
+      "subject": "18",
+      "species": "mask_full",
+      "detected": 300,
+      "read": 300
+    },
+    {
+      "file": "Mf_NT_HS_g_E_2_73.mp4",
+      "subject": "2",
+      "species": "mask_full",
+      "detected": 394,
+      "read": 394
+    },
+    {
+      "file": "Mf_NT_IP_g_E_20_77.mp4",
+      "subject": "20",
+      "species": "mask_full",
+      "detected": 365,
+      "read": 365
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_21_76.mp4",
+      "subject": "21",
+      "species": "mask_full",
+      "detected": 205,
+      "read": 205
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_22_72.mp4",
+      "subject": "22",
+      "species": "mask_full",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_23_52.mp4",
+      "subject": "23",
+      "species": "mask_full",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Mf_NT_5s_g_E_3_71.mp4",
+      "subject": "3",
+      "species": "mask_full",
+      "detected": 329,
+      "read": 329
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_4_79.mp4",
+      "subject": "4",
+      "species": "mask_full",
+      "detected": 178,
+      "read": 178
+    },
+    {
+      "file": "Mf_NT_HW_g_E_5_75.mp4",
+      "subject": "5",
+      "species": "mask_full",
+      "detected": 185,
+      "read": 185
+    },
+    {
+      "file": "Mf_NT_IP_g_E_6_76.mp4",
+      "subject": "6",
+      "species": "mask_full",
+      "detected": 428,
+      "read": 428
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_7_46.mp4",
+      "subject": "7",
+      "species": "mask_full",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_9_79.mp4",
+      "subject": "9",
+      "species": "mask_full",
+      "detected": 183,
+      "read": 183
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_10_51.mp4",
+      "subject": "10",
+      "species": "mask_full",
+      "detected": 358,
+      "read": 358
+    },
+    {
+      "file": "Mf_NT_IP_g_E_11_77.mp4",
+      "subject": "11",
+      "species": "mask_full",
+      "detected": 560,
+      "read": 560
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_12_79.mp4",
+      "subject": "12",
+      "species": "mask_full",
+      "detected": 159,
+      "read": 159
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_13_80.mp4",
+      "subject": "13",
+      "species": "mask_full",
+      "detected": 374,
+      "read": 374
+    },
+    {
+      "file": "Mf_NT_IP_g_E_14_77.mp4",
+      "subject": "14",
+      "species": "mask_full",
+      "detected": 356,
+      "read": 356
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_15_55.mp4",
+      "subject": "15",
+      "species": "mask_full",
+      "detected": 200,
+      "read": 200
+    },
+    {
+      "file": "Mf_NT_5s_g_E_16_71.mp4",
+      "subject": "16",
+      "species": "mask_full",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_17_74.mp4",
+      "subject": "17",
+      "species": "mask_full",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_18_72.mp4",
+      "subject": "18",
+      "species": "mask_full",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_2_74.mp4",
+      "subject": "2",
+      "species": "mask_full",
+      "detected": 405,
+      "read": 405
+    },
+    {
+      "file": "Mf_NT_5s_g_E_20_71.mp4",
+      "subject": "20",
+      "species": "mask_full",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_21_79.mp4",
+      "subject": "21",
+      "species": "mask_full",
+      "detected": 193,
+      "read": 193
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_22_78.mp4",
+      "subject": "22",
+      "species": "mask_full",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_23_47.mp4",
+      "subject": "23",
+      "species": "mask_full",
+      "detected": 375,
+      "read": 375
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_3_78.mp4",
+      "subject": "3",
+      "species": "mask_full",
+      "detected": 455,
+      "read": 455
+    },
+    {
+      "file": "Mf_NT_HW_g_E_4_75.mp4",
+      "subject": "4",
+      "species": "mask_full",
+      "detected": 176,
+      "read": 176
+    },
+    {
+      "file": "Mf_NT_5s_g_E_5_71.mp4",
+      "subject": "5",
+      "species": "mask_full",
+      "detected": 366,
+      "read": 366
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_6_75.mp4",
+      "subject": "6",
+      "species": "mask_full",
+      "detected": 195,
+      "read": 195
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_7_47.mp4",
+      "subject": "7",
+      "species": "mask_full",
+      "detected": 353,
+      "read": 353
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_9_76.mp4",
+      "subject": "9",
+      "species": "mask_full",
+      "detected": 210,
+      "read": 211
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_10_54.mp4",
+      "subject": "10",
+      "species": "mask_full",
+      "detected": 203,
+      "read": 203
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_11_78.mp4",
+      "subject": "11",
+      "species": "mask_full",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "Mf_NT_5s_g_E_12_70.mp4",
+      "subject": "12",
+      "species": "mask_full",
+      "detected": 324,
+      "read": 324
+    },
+    {
+      "file": "Mf_NT_HS_g_E_13_75.mp4",
+      "subject": "13",
+      "species": "mask_full",
+      "detected": 355,
+      "read": 355
+    },
+    {
+      "file": "Mf_NT_HW_g_E_14_75.mp4",
+      "subject": "14",
+      "species": "mask_full",
+      "detected": 245,
+      "read": 245
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_15_50.mp4",
+      "subject": "15",
+      "species": "mask_full",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_16_74.mp4",
+      "subject": "16",
+      "species": "mask_full",
+      "detected": 338,
+      "read": 338
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_17_79.mp4",
+      "subject": "17",
+      "species": "mask_full",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Mf_NT_IP_g_E_18_77.mp4",
+      "subject": "18",
+      "species": "mask_full",
+      "detected": 441,
+      "read": 441
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_2_80.mp4",
+      "subject": "2",
+      "species": "mask_full",
+      "detected": 195,
+      "read": 195
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_20_76.mp4",
+      "subject": "20",
+      "species": "mask_full",
+      "detected": 210,
+      "read": 210
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_21_78.mp4",
+      "subject": "21",
+      "species": "mask_full",
+      "detected": 380,
+      "read": 380
+    },
+    {
+      "file": "Mf_NT_IP_g_E_22_77.mp4",
+      "subject": "22",
+      "species": "mask_full",
+      "detected": 356,
+      "read": 356
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_23_50.mp4",
+      "subject": "23",
+      "species": "mask_full",
+      "detected": 220,
+      "read": 220
+    },
+    {
+      "file": "Mf_NT_IP_g_E_3_77.mp4",
+      "subject": "3",
+      "species": "mask_full",
+      "detected": 425,
+      "read": 425
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_4_74.mp4",
+      "subject": "4",
+      "species": "mask_full",
+      "detected": 447,
+      "read": 447
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_5_79.mp4",
+      "subject": "5",
+      "species": "mask_full",
+      "detected": 202,
+      "read": 202
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_6_71.mp4",
+      "subject": "6",
+      "species": "mask_full",
+      "detected": 374,
+      "read": 374
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_7_55.mp4",
+      "subject": "7",
+      "species": "mask_full",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_9_74.mp4",
+      "subject": "9",
+      "species": "mask_full",
+      "detected": 420,
+      "read": 420
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_10_48.mp4",
+      "subject": "10",
+      "species": "mask_full",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_11_79.mp4",
+      "subject": "11",
+      "species": "mask_full",
+      "detected": 174,
+      "read": 174
+    },
+    {
+      "file": "Mf_NT_HS_g_E_12_72.mp4",
+      "subject": "12",
+      "species": "mask_full",
+      "detected": 343,
+      "read": 343
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_13_78.mp4",
+      "subject": "13",
+      "species": "mask_full",
+      "detected": 272,
+      "read": 272
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_14_80.mp4",
+      "subject": "14",
+      "species": "mask_full",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_15_53.mp4",
+      "subject": "15",
+      "species": "mask_full",
+      "detected": 496,
+      "read": 496
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_16_72.mp4",
+      "subject": "16",
+      "species": "mask_full",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Mf_NT_HS_g_E_17_73.mp4",
+      "subject": "17",
+      "species": "mask_full",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_18_76.mp4",
+      "subject": "18",
+      "species": "mask_full",
+      "detected": 142,
+      "read": 142
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_2_79.mp4",
+      "subject": "2",
+      "species": "mask_full",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_20_80.mp4",
+      "subject": "20",
+      "species": "mask_full",
+      "detected": 185,
+      "read": 185
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_21_72.mp4",
+      "subject": "21",
+      "species": "mask_full",
+      "detected": 389,
+      "read": 389
+    },
+    {
+      "file": "Mf_NT_HW_g_E_22_75.mp4",
+      "subject": "22",
+      "species": "mask_full",
+      "detected": 253,
+      "read": 253
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_23_55.mp4",
+      "subject": "23",
+      "species": "mask_full",
+      "detected": 380,
+      "read": 382
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_3_79.mp4",
+      "subject": "3",
+      "species": "mask_full",
+      "detected": 380,
+      "read": 380
+    },
+    {
+      "file": "Mf_NT_IP_g_E_4_77.mp4",
+      "subject": "4",
+      "species": "mask_full",
+      "detected": 351,
+      "read": 359
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_5_76.mp4",
+      "subject": "5",
+      "species": "mask_full",
+      "detected": 188,
+      "read": 188
+    },
+    {
+      "file": "Mf_NT_5s_g_E_6_70.mp4",
+      "subject": "6",
+      "species": "mask_full",
+      "detected": 508,
+      "read": 508
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_7_51.mp4",
+      "subject": "7",
+      "species": "mask_full",
+      "detected": 250,
+      "read": 250
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_9_72.mp4",
+      "subject": "9",
+      "species": "mask_full",
+      "detected": 399,
+      "read": 399
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_10_47.mp4",
+      "subject": "10",
+      "species": "mask_full",
+      "detected": 342,
+      "read": 342
+    },
+    {
+      "file": "Mf_NT_5s_g_E_11_71.mp4",
+      "subject": "11",
+      "species": "mask_full",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_12_78.mp4",
+      "subject": "12",
+      "species": "mask_full",
+      "detected": 155,
+      "read": 155
+    },
+    {
+      "file": "Mf_NT_ZTE_g_E_13_81.mp4",
+      "subject": "13",
+      "species": "mask_full",
+      "detected": 135,
+      "read": 135
+    },
+    {
+      "file": "Mf_NT_HS_g_E_14_73.mp4",
+      "subject": "14",
+      "species": "mask_full",
+      "detected": 341,
+      "read": 341
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_15_48.mp4",
+      "subject": "15",
+      "species": "mask_full",
+      "detected": 435,
+      "read": 435
+    },
+    {
+      "file": "Mf_NT_HW_g_E_16_75.mp4",
+      "subject": "16",
+      "species": "mask_full",
+      "detected": 245,
+      "read": 245
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_17_80.mp4",
+      "subject": "17",
+      "species": "mask_full",
+      "detected": 175,
+      "read": 175
+    },
+    {
+      "file": "Mf_NT_5s_g_E_18_71.mp4",
+      "subject": "18",
+      "species": "mask_full",
+      "detected": 323,
+      "read": 323
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_2_78.mp4",
+      "subject": "2",
+      "species": "mask_full",
+      "detected": 457,
+      "read": 457
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_20_78.mp4",
+      "subject": "20",
+      "species": "mask_full",
+      "detected": 372,
+      "read": 372
+    },
+    {
+      "file": "Mf_NT_HW_g_E_21_75.mp4",
+      "subject": "21",
+      "species": "mask_full",
+      "detected": 199,
+      "read": 199
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_22_80.mp4",
+      "subject": "22",
+      "species": "mask_full",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_23_54.mp4",
+      "subject": "23",
+      "species": "mask_full",
+      "detected": 191,
+      "read": 191
+    },
+    {
+      "file": "Mf_NT_HW_g_E_3_75.mp4",
+      "subject": "3",
+      "species": "mask_full",
+      "detected": 180,
+      "read": 180
+    },
+    {
+      "file": "Mf_NT_5s_g_E_4_71.mp4",
+      "subject": "4",
+      "species": "mask_full",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_5_78.mp4",
+      "subject": "5",
+      "species": "mask_full",
+      "detected": 345,
+      "read": 371
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_6_79.mp4",
+      "subject": "6",
+      "species": "mask_full",
+      "detected": 207,
+      "read": 207
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_7_54.mp4",
+      "subject": "7",
+      "species": "mask_full",
+      "detected": 162,
+      "read": 162
+    },
+    {
+      "file": "Mf_NT_IP_g_E_9_77.mp4",
+      "subject": "9",
+      "species": "mask_full",
+      "detected": 387,
+      "read": 387
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_10_46.mp4",
+      "subject": "10",
+      "species": "mask_full",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "Mf_NT_HW_g_E_11_75.mp4",
+      "subject": "11",
+      "species": "mask_full",
+      "detected": 262,
+      "read": 263
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_12_73.mp4",
+      "subject": "12",
+      "species": "mask_full",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mf_NT_HW_g_E_13_77.mp4",
+      "subject": "13",
+      "species": "mask_full",
+      "detected": 250,
+      "read": 250
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_14_78.mp4",
+      "subject": "14",
+      "species": "mask_full",
+      "detected": 360,
+      "read": 361
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_15_54.mp4",
+      "subject": "15",
+      "species": "mask_full",
+      "detected": 175,
+      "read": 175
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_16_80.mp4",
+      "subject": "16",
+      "species": "mask_full",
+      "detected": 177,
+      "read": 177
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_17_78.mp4",
+      "subject": "17",
+      "species": "mask_full",
+      "detected": 397,
+      "read": 397
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_18_80.mp4",
+      "subject": "18",
+      "species": "mask_full",
+      "detected": 158,
+      "read": 158
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_2_76.mp4",
+      "subject": "2",
+      "species": "mask_full",
+      "detected": 194,
+      "read": 194
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_20_72.mp4",
+      "subject": "20",
+      "species": "mask_full",
+      "detected": 380,
+      "read": 380
+    },
+    {
+      "file": "Mf_NT_5s_g_E_21_71.mp4",
+      "subject": "21",
+      "species": "mask_full",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "Mf_NT_HW_wg_E_22_76.mp4",
+      "subject": "22",
+      "species": "mask_full",
+      "detected": 242,
+      "read": 242
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_23_48.mp4",
+      "subject": "23",
+      "species": "mask_full",
+      "detected": 377,
+      "read": 377
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_3_74.mp4",
+      "subject": "3",
+      "species": "mask_full",
+      "detected": 414,
+      "read": 415
+    },
+    {
+      "file": "Mf_NT_ZTE_wg_E_4_80.mp4",
+      "subject": "4",
+      "species": "mask_full",
+      "detected": 203,
+      "read": 203
+    },
+    {
+      "file": "Mf_NT_5s_wg_E_5_72.mp4",
+      "subject": "5",
+      "species": "mask_full",
+      "detected": 408,
+      "read": 408
+    },
+    {
+      "file": "Mf_NT_HS_wg_E_6_73.mp4",
+      "subject": "6",
+      "species": "mask_full",
+      "detected": 463,
+      "read": 463
+    },
+    {
+      "file": "Mf_NT_IP_wg_E_7_53.mp4",
+      "subject": "7",
+      "species": "mask_full",
+      "detected": 351,
+      "read": 351
+    },
+    {
+      "file": "Mf_NT_HW_g_E_9_75.mp4",
+      "subject": "9",
+      "species": "mask_full",
+      "detected": 193,
+      "read": 193
+    },
+    {
+      "file": "Mu_NT_HS_g_E_10_58.mp4",
+      "subject": "10",
+      "species": "mask_upper",
+      "detected": 318,
+      "read": 318
+    },
+    {
+      "file": "Mu_T_HW_g_E_11_95.mp4",
+      "subject": "11",
+      "species": "mask_upper",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mu_T_HS_g_E_12_92.mp4",
+      "subject": "12",
+      "species": "mask_upper",
+      "detected": 347,
+      "read": 347
+    },
+    {
+      "file": "Mu_NT_5s_g_E_13_84.mp4",
+      "subject": "13",
+      "species": "mask_upper",
+      "detected": 293,
+      "read": 293
+    },
+    {
+      "file": "Mu_NT_HS_g_E_14_83.mp4",
+      "subject": "14",
+      "species": "mask_upper",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Mu_NT_5s_g_E_15_57.mp4",
+      "subject": "15",
+      "species": "mask_upper",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Mu_NT_HS_g_E_16_84.mp4",
+      "subject": "16",
+      "species": "mask_upper",
+      "detected": 342,
+      "read": 343
+    },
+    {
+      "file": "Mu_NT_HW_g_E_17_85.mp4",
+      "subject": "17",
+      "species": "mask_upper",
+      "detected": 138,
+      "read": 138
+    },
+    {
+      "file": "Mu_T_HW_g_E_18_95.mp4",
+      "subject": "18",
+      "species": "mask_upper",
+      "detected": 187,
+      "read": 187
+    },
+    {
+      "file": "Mu_NT_IP_g_E_2_88.mp4",
+      "subject": "2",
+      "species": "mask_upper",
+      "detected": 337,
+      "read": 337
+    },
+    {
+      "file": "Mu_NT_HW_g_E_20_86.mp4",
+      "subject": "20",
+      "species": "mask_upper",
+      "detected": 169,
+      "read": 169
+    },
+    {
+      "file": "Mu_NT_5s_g_E_21_82.mp4",
+      "subject": "21",
+      "species": "mask_upper",
+      "detected": 502,
+      "read": 502
+    },
+    {
+      "file": "Mu_NT_HS_g_E_22_83.mp4",
+      "subject": "22",
+      "species": "mask_upper",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_23_75.mp4",
+      "subject": "23",
+      "species": "mask_upper",
+      "detected": 189,
+      "read": 189
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_3_89.mp4",
+      "subject": "3",
+      "species": "mask_upper",
+      "detected": 155,
+      "read": 155
+    },
+    {
+      "file": "Mu_T_HW_g_E_4_96.mp4",
+      "subject": "4",
+      "species": "mask_upper",
+      "detected": 195,
+      "read": 195
+    },
+    {
+      "file": "Mu_NT_HS_g_E_5_83.mp4",
+      "subject": "5",
+      "species": "mask_upper",
+      "detected": 471,
+      "read": 471
+    },
+    {
+      "file": "Mu_NT_HW_g_E_6_85.mp4",
+      "subject": "6",
+      "species": "mask_upper",
+      "detected": 168,
+      "read": 168
+    },
+    {
+      "file": "Mu_NT_HS_g_E_7_58.mp4",
+      "subject": "7",
+      "species": "mask_upper",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Mu_T_HS_g_E_9_94.mp4",
+      "subject": "9",
+      "species": "mask_upper",
+      "detected": 406,
+      "read": 406
+    },
+    {
+      "file": "Mu_T_HS_g_E_10_68.mp4",
+      "subject": "10",
+      "species": "mask_upper",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "Mu_T_5s_g_E_11_92.mp4",
+      "subject": "11",
+      "species": "mask_upper",
+      "detected": 300,
+      "read": 300
+    },
+    {
+      "file": "Mu_T_IP_g_E_12_96.mp4",
+      "subject": "12",
+      "species": "mask_upper",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_13_102.mp4",
+      "subject": "13",
+      "species": "mask_upper",
+      "detected": 166,
+      "read": 166
+    },
+    {
+      "file": "Mu_T_HS_g_E_14_93.mp4",
+      "subject": "14",
+      "species": "mask_upper",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Mu_T_5s_g_E_15_68.mp4",
+      "subject": "15",
+      "species": "mask_upper",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_16_89.mp4",
+      "subject": "16",
+      "species": "mask_upper",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "Mu_T_5s_g_E_17_91.mp4",
+      "subject": "17",
+      "species": "mask_upper",
+      "detected": 308,
+      "read": 308
+    },
+    {
+      "file": "Mu_T_HW_g_E_18_96.mp4",
+      "subject": "18",
+      "species": "mask_upper",
+      "detected": 170,
+      "read": 170
+    },
+    {
+      "file": "Mu_NT_5s_g_E_2_81.mp4",
+      "subject": "2",
+      "species": "mask_upper",
+      "detected": 327,
+      "read": 327
+    },
+    {
+      "file": "Mu_NT_HS_g_E_20_83.mp4",
+      "subject": "20",
+      "species": "mask_upper",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_21_89.mp4",
+      "subject": "21",
+      "species": "mask_upper",
+      "detected": 146,
+      "read": 146
+    },
+    {
+      "file": "Mu_NT_IP_g_E_22_88.mp4",
+      "subject": "22",
+      "species": "mask_upper",
+      "detected": 320,
+      "read": 320
+    },
+    {
+      "file": "Mu_NT_HS_g_E_23_59.mp4",
+      "subject": "23",
+      "species": "mask_upper",
+      "detected": 395,
+      "read": 395
+    },
+    {
+      "file": "Mu_T_5s_g_E_3_91.mp4",
+      "subject": "3",
+      "species": "mask_upper",
+      "detected": 355,
+      "read": 355
+    },
+    {
+      "file": "Mu_NT_HW_g_E_4_87.mp4",
+      "subject": "4",
+      "species": "mask_upper",
+      "detected": 162,
+      "read": 162
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_5_89.mp4",
+      "subject": "5",
+      "species": "mask_upper",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Mu_NT_IP_g_E_6_87.mp4",
+      "subject": "6",
+      "species": "mask_upper",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_7_64.mp4",
+      "subject": "7",
+      "species": "mask_upper",
+      "detected": 171,
+      "read": 171
+    },
+    {
+      "file": "Mu_NT_HW_g_E_9_86.mp4",
+      "subject": "9",
+      "species": "mask_upper",
+      "detected": 169,
+      "read": 169
+    },
+    {
+      "file": "Mu_T_HW_g_E_10_71.mp4",
+      "subject": "10",
+      "species": "mask_upper",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_11_98.mp4",
+      "subject": "11",
+      "species": "mask_upper",
+      "detected": 157,
+      "read": 157
+    },
+    {
+      "file": "Mu_NT_HS_g_E_12_83.mp4",
+      "subject": "12",
+      "species": "mask_upper",
+      "detected": 336,
+      "read": 336
+    },
+    {
+      "file": "Mu_NT_5s_g_E_13_83.mp4",
+      "subject": "13",
+      "species": "mask_upper",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_14_100.mp4",
+      "subject": "14",
+      "species": "mask_upper",
+      "detected": 194,
+      "read": 194
+    },
+    {
+      "file": "Mu_NT_HW_g_E_15_60.mp4",
+      "subject": "15",
+      "species": "mask_upper",
+      "detected": 181,
+      "read": 181
+    },
+    {
+      "file": "Mu_NT_IP_g_E_16_88.mp4",
+      "subject": "16",
+      "species": "mask_upper",
+      "detected": 334,
+      "read": 334
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_17_99.mp4",
+      "subject": "17",
+      "species": "mask_upper",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_18_100.mp4",
+      "subject": "18",
+      "species": "mask_upper",
+      "detected": 175,
+      "read": 175
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_2_89.mp4",
+      "subject": "2",
+      "species": "mask_upper",
+      "detected": 162,
+      "read": 162
+    },
+    {
+      "file": "Mu_NT_IP_g_E_20_88.mp4",
+      "subject": "20",
+      "species": "mask_upper",
+      "detected": 325,
+      "read": 325
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_21_88.mp4",
+      "subject": "21",
+      "species": "mask_upper",
+      "detected": 156,
+      "read": 156
+    },
+    {
+      "file": "Mu_NT_HS_g_E_22_84.mp4",
+      "subject": "22",
+      "species": "mask_upper",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_23_64.mp4",
+      "subject": "23",
+      "species": "mask_upper",
+      "detected": 211,
+      "read": 212
+    },
+    {
+      "file": "Mu_T_HW_g_E_3_96.mp4",
+      "subject": "3",
+      "species": "mask_upper",
+      "detected": 205,
+      "read": 205
+    },
+    {
+      "file": "Mu_T_HW_g_E_4_97.mp4",
+      "subject": "4",
+      "species": "mask_upper",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mu_NT_HW_g_E_5_85.mp4",
+      "subject": "5",
+      "species": "mask_upper",
+      "detected": 176,
+      "read": 176
+    },
+    {
+      "file": "Mu_NT_5s_g_E_6_81.mp4",
+      "subject": "6",
+      "species": "mask_upper",
+      "detected": 348,
+      "read": 348
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_7_75.mp4",
+      "subject": "7",
+      "species": "mask_upper",
+      "detected": 136,
+      "read": 136
+    },
+    {
+      "file": "Mu_NT_HS_g_E_9_83.mp4",
+      "subject": "9",
+      "species": "mask_upper",
+      "detected": 362,
+      "read": 362
+    },
+    {
+      "file": "Mu_NT_5s_g_E_10_55.mp4",
+      "subject": "10",
+      "species": "mask_upper",
+      "detected": 373,
+      "read": 373
+    },
+    {
+      "file": "Mu_NT_HS_g_E_11_83.mp4",
+      "subject": "11",
+      "species": "mask_upper",
+      "detected": 293,
+      "read": 324
+    },
+    {
+      "file": "Mu_NT_5s_g_E_12_80.mp4",
+      "subject": "12",
+      "species": "mask_upper",
+      "detected": 294,
+      "read": 294
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_13_92.mp4",
+      "subject": "13",
+      "species": "mask_upper",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Mu_T_HS_g_E_14_94.mp4",
+      "subject": "14",
+      "species": "mask_upper",
+      "detected": 343,
+      "read": 343
+    },
+    {
+      "file": "Mu_NT_IP_g_E_15_62.mp4",
+      "subject": "15",
+      "species": "mask_upper",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "Mu_T_IP_g_E_16_97.mp4",
+      "subject": "16",
+      "species": "mask_upper",
+      "detected": 317,
+      "read": 317
+    },
+    {
+      "file": "Mu_T_HW_g_E_17_96.mp4",
+      "subject": "17",
+      "species": "mask_upper",
+      "detected": 143,
+      "read": 143
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_18_90.mp4",
+      "subject": "18",
+      "species": "mask_upper",
+      "detected": 163,
+      "read": 163
+    },
+    {
+      "file": "Mu_T_IP_g_E_2_98.mp4",
+      "subject": "2",
+      "species": "mask_upper",
+      "detected": 373,
+      "read": 373
+    },
+    {
+      "file": "Mu_T_5s_g_E_20_92.mp4",
+      "subject": "20",
+      "species": "mask_upper",
+      "detected": 413,
+      "read": 413
+    },
+    {
+      "file": "Mu_NT_HW_g_E_21_85.mp4",
+      "subject": "21",
+      "species": "mask_upper",
+      "detected": 181,
+      "read": 181
+    },
+    {
+      "file": "Mu_T_IP_g_E_22_97.mp4",
+      "subject": "22",
+      "species": "mask_upper",
+      "detected": 342,
+      "read": 343
+    },
+    {
+      "file": "Mu_NT_IP_g_E_23_63.mp4",
+      "subject": "23",
+      "species": "mask_upper",
+      "detected": 365,
+      "read": 365
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_3_100.mp4",
+      "subject": "3",
+      "species": "mask_upper",
+      "detected": 136,
+      "read": 136
+    },
+    {
+      "file": "Mu_T_IP_g_E_4_98.mp4",
+      "subject": "4",
+      "species": "mask_upper",
+      "detected": 332,
+      "read": 332
+    },
+    {
+      "file": "Mu_T_5s_g_E_5_92.mp4",
+      "subject": "5",
+      "species": "mask_upper",
+      "detected": 416,
+      "read": 416
+    },
+    {
+      "file": "Mu_NT_HW_g_E_6_84.mp4",
+      "subject": "6",
+      "species": "mask_upper",
+      "detected": 167,
+      "read": 167
+    },
+    {
+      "file": "Mu_T_IP_g_E_7_73.mp4",
+      "subject": "7",
+      "species": "mask_upper",
+      "detected": 355,
+      "read": 355
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_9_90.mp4",
+      "subject": "9",
+      "species": "mask_upper",
+      "detected": 142,
+      "read": 142
+    },
+    {
+      "file": "Mu_NT_IP_g_E_10_61.mp4",
+      "subject": "10",
+      "species": "mask_upper",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Mu_T_5s_g_E_11_91.mp4",
+      "subject": "11",
+      "species": "mask_upper",
+      "detected": 312,
+      "read": 312
+    },
+    {
+      "file": "Mu_T_IP_g_E_12_97.mp4",
+      "subject": "12",
+      "species": "mask_upper",
+      "detected": 322,
+      "read": 322
+    },
+    {
+      "file": "Mu_T_HW_g_E_13_97.mp4",
+      "subject": "13",
+      "species": "mask_upper",
+      "detected": 120,
+      "read": 123
+    },
+    {
+      "file": "Mu_NT_HS_g_E_14_84.mp4",
+      "subject": "14",
+      "species": "mask_upper",
+      "detected": 331,
+      "read": 338
+    },
+    {
+      "file": "Mu_NT_HW_g_E_15_59.mp4",
+      "subject": "15",
+      "species": "mask_upper",
+      "detected": 180,
+      "read": 180
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_16_90.mp4",
+      "subject": "16",
+      "species": "mask_upper",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "Mu_T_HS_g_E_17_93.mp4",
+      "subject": "17",
+      "species": "mask_upper",
+      "detected": 312,
+      "read": 317
+    },
+    {
+      "file": "Mu_T_IP_g_E_18_98.mp4",
+      "subject": "18",
+      "species": "mask_upper",
+      "detected": 330,
+      "read": 330
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_2_90.mp4",
+      "subject": "2",
+      "species": "mask_upper",
+      "detected": 141,
+      "read": 141
+    },
+    {
+      "file": "Mu_T_5s_g_E_20_91.mp4",
+      "subject": "20",
+      "species": "mask_upper",
+      "detected": 419,
+      "read": 419
+    },
+    {
+      "file": "Mu_T_IP_g_E_21_98.mp4",
+      "subject": "21",
+      "species": "mask_upper",
+      "detected": 346,
+      "read": 346
+    },
+    {
+      "file": "Mu_T_HS_g_E_22_94.mp4",
+      "subject": "22",
+      "species": "mask_upper",
+      "detected": 365,
+      "read": 365
+    },
+    {
+      "file": "Mu_NT_5s_g_E_23_56.mp4",
+      "subject": "23",
+      "species": "mask_upper",
+      "detected": 369,
+      "read": 369
+    },
+    {
+      "file": "Mu_T_IP_g_E_3_98.mp4",
+      "subject": "3",
+      "species": "mask_upper",
+      "detected": 357,
+      "read": 357
+    },
+    {
+      "file": "Mu_T_HS_g_E_4_95.mp4",
+      "subject": "4",
+      "species": "mask_upper",
+      "detected": 350,
+      "read": 350
+    },
+    {
+      "file": "Mu_T_5s_g_E_5_91.mp4",
+      "subject": "5",
+      "species": "mask_upper",
+      "detected": 344,
+      "read": 344
+    },
+    {
+      "file": "Mu_T_IP_g_E_6_96.mp4",
+      "subject": "6",
+      "species": "mask_upper",
+      "detected": 399,
+      "read": 399
+    },
+    {
+      "file": "Mu_NT_5s_g_E_7_57.mp4",
+      "subject": "7",
+      "species": "mask_upper",
+      "detected": 300,
+      "read": 300
+    },
+    {
+      "file": "Mu_T_HW_g_E_9_95.mp4",
+      "subject": "9",
+      "species": "mask_upper",
+      "detected": 199,
+      "read": 199
+    },
+    {
+      "file": "Mu_NT_HW_g_E_10_59.mp4",
+      "subject": "10",
+      "species": "mask_upper",
+      "detected": 160,
+      "read": 160
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_11_89.mp4",
+      "subject": "11",
+      "species": "mask_upper",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Mu_T_5s_g_E_12_90.mp4",
+      "subject": "12",
+      "species": "mask_upper",
+      "detected": 302,
+      "read": 302
+    },
+    {
+      "file": "Mu_T_HS_g_E_13_95.mp4",
+      "subject": "13",
+      "species": "mask_upper",
+      "detected": 329,
+      "read": 329
+    },
+    {
+      "file": "Mu_NT_HW_g_E_14_85.mp4",
+      "subject": "14",
+      "species": "mask_upper",
+      "detected": 159,
+      "read": 159
+    },
+    {
+      "file": "Mu_T_5s_g_E_15_67.mp4",
+      "subject": "15",
+      "species": "mask_upper",
+      "detected": 397,
+      "read": 397
+    },
+    {
+      "file": "Mu_T_5s_g_E_16_92.mp4",
+      "subject": "16",
+      "species": "mask_upper",
+      "detected": 292,
+      "read": 292
+    },
+    {
+      "file": "Mu_NT_HW_g_E_17_86.mp4",
+      "subject": "17",
+      "species": "mask_upper",
+      "detected": 129,
+      "read": 129
+    },
+    {
+      "file": "Mu_T_5s_g_E_18_92.mp4",
+      "subject": "18",
+      "species": "mask_upper",
+      "detected": 339,
+      "read": 339
+    },
+    {
+      "file": "Mu_T_5s_g_E_2_91.mp4",
+      "subject": "2",
+      "species": "mask_upper",
+      "detected": 384,
+      "read": 384
+    },
+    {
+      "file": "Mu_NT_5s_g_E_20_82.mp4",
+      "subject": "20",
+      "species": "mask_upper",
+      "detected": 340,
+      "read": 340
+    },
+    {
+      "file": "Mu_NT_HS_g_E_21_84.mp4",
+      "subject": "21",
+      "species": "mask_upper",
+      "detected": 407,
+      "read": 411
+    },
+    {
+      "file": "Mu_NT_HW_g_E_22_86.mp4",
+      "subject": "22",
+      "species": "mask_upper",
+      "detected": 150,
+      "read": 152
+    },
+    {
+      "file": "Mu_T_HS_g_E_23_69.mp4",
+      "subject": "23",
+      "species": "mask_upper",
+      "detected": 541,
+      "read": 541
+    },
+    {
+      "file": "Mu_NT_IP_g_E_3_87.mp4",
+      "subject": "3",
+      "species": "mask_upper",
+      "detected": 375,
+      "read": 375
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_4_101.mp4",
+      "subject": "4",
+      "species": "mask_upper",
+      "detected": 147,
+      "read": 147
+    },
+    {
+      "file": "Mu_NT_ZTE_g_E_5_90.mp4",
+      "subject": "5",
+      "species": "mask_upper",
+      "detected": 154,
+      "read": 154
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_6_99.mp4",
+      "subject": "6",
+      "species": "mask_upper",
+      "detected": 186,
+      "read": 186
+    },
+    {
+      "file": "Mu_NT_HW_g_E_7_60.mp4",
+      "subject": "7",
+      "species": "mask_upper",
+      "detected": 161,
+      "read": 161
+    },
+    {
+      "file": "Mu_T_ZTE_g_E_9_100.mp4",
+      "subject": "9",
+      "species": "mask_upper",
+      "detected": 167,
+      "read": 167
+    }
+  ]
+}

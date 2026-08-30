@@ -1,0 +1,491 @@
+======================================================================
+Secure DMS rework â€” run 2026-08-13 21:55:01
+python 3.12.10 on Windows-11-10.0.26200-SP0
+numpy 2.5.1
+opencv 5.0.0
+mediapipe 1.0.0
+torch 2.11.0+cu128 | cuda available: True | NVIDIA GeForce RTX 4060 Laptop GPU
+artefact face_landmarker.task: sha256=64184E229B263107â€¦ OK
+artefact L2CSNet_gaze360.pkl: sha256=8A7F3480D868DD48â€¦ OK
+artefact 6DRepNet_300W_LP_AFLW2000.pth: sha256=9BDCD0E072DF0D21â€¦ OK
+seed 42 | run log: run_log_20260813_215501.txt
+DMD drowsiness: 16 rgb_face videos, 16 annotations | sample 1280x720 @ 29.76 fps, 5480 frames
+DMD distraction: 82 rgb_face videos, 82 annotations | sample 1280x720 @ 29.76 fps, 6777 frames
+
+DMD drowsiness ground truth: 16 sessions, 87,071 frames (48.8 min)
+  PERCLOS (ground truth, strict eyes-closed): 0.1034
+  per-session PERCLOS: min 0.0307 max 0.1757 mean 0.1028 sd 0.0410
+  blink events: 1,578 = 32.4/min (literature 15-30/min, R20 â€” DMD drowsiness is ACTED fatigue, see P1_FINDINGS Â§2)
+
+GATE G1 â€” NUAA temporal viability
+  client (bona fide)   captures   25 | median length   121 | median gap   1 | contiguous 61.3%
+  imposter (attack)    captures  118 | median length    80 | median gap   6 | contiguous 0.8%
+  truly-adjacent frame pairs â€” client 3,114 | imposter 56
+
+  GATE G1 VERDICT: NUAA temporal PAD corpus NOT VIABLE
+  -> NUAA retained for FRAME-LEVEL print-attack evaluation only (its designed purpose);
+     temporal PAD uses DMD video as bona fide + attack tiers C/D (P1_FINDINGS.md Â§4).
+perception backbone ready — EAR/MAR/iris/box/constellation per frame (DR-1)
+gaze + head-pose models loaded on cuda (inference-only, batched)
+
+P2 smoke test — gA_1_s5_2019-03-14T14;26;17+… (first 300 frames)
+  frames with face: 300/300 (100.0%)
+  EAR   mean 0.287 sd 0.128 min 0.022 max 0.652  (open-eye literature ~0.2-0.35, R9)
+  MAR   mean 0.047 sd 0.066
+  gaze  pitch +9.2+-24.0 yaw -0.0+-5.6 deg
+  head  pitch +6.3 yaw +12.5 roll -4.1 deg
+  quality guard: PASS (invalid gaze 0.000%, invalid head pose 0.000%)
+corpus drowsiness    16/16  sessions cached
+corpus distraction   82/82  sessions cached
+  full corpus available (1239 cache files, 217 MB) — downstream sections will run on all sessions
+driver-state module ready — PERCLOS P80 + R9 blink criterion + gaze-off-road (DR-2)
+
+==============================================================================
+P3 — driver-state validation vs DMD OpenLABEL ground truth
+==============================================================================
+session          frames   PERCLOS   truth   blinks  truth     F1   verdict
+gA/1/s5            5480    0.1579  0.1204       46     83  0.760    unsafe
+gA/2/s5            5416    0.1018  0.0779       42     66  0.845    unsafe
+gA/3/s5            5525    0.1698  0.0874      135    143  0.662    unsafe
+gA/4/s5            5228    0.1075  0.0937       74     90  0.757    unsafe
+gA/5/s5            5287    0.2041  0.1040       70    101  0.625    unsafe
+gB/10/s5           5965    0.1736  0.1734       81     93  0.828    unsafe
+gB/10/s5           5417    0.1056  0.1133       75     74  0.769    unsafe
+gB/6/s5            5397    0.0483  0.0325      160    186  0.700    unsafe
+gB/7/s5            5388    0.1627  0.1140      118    153  0.440    unsafe
+gB/8/s5            5403    0.0369  0.1576       44     71  0.322    unsafe
+gB/9/s5            5292    0.1514  0.1221       71     95  0.803    unsafe
+gC/11/s5           5272    0.0830  0.0750      105    112  0.765    unsafe
+gC/12/s5           5503    0.1954  0.1757       60     64  0.897    unsafe
+gC/13/s5           5380    0.0798  0.0307       84     90  0.562    unsafe
+gC/14/s5           5534    0.0567  0.0855       59     56  0.645      safe
+gC/15/s5           5377    0.1115  0.0809       81    101  0.694    unsafe
+
+frame-level eye-closure detection (pooled, n=86,864):
+  accuracy 0.9343 | precision 0.6562 | recall 0.7684 | F1 0.7079
+  majority-class baseline (DR-4): accuracy 0.8964 F1 0.0000
+
+session-level PERCLOS agreement (the measure that drives the verdict):
+  Pearson r +0.4900 | MAE 0.0385 | bias +0.0188
+  blink-count r +0.9326 | MAPE 18.4%
+
+==============================================================================
+P3 (distraction) — visual distraction vs DMD gaze_on_road ground truth
+==============================================================================
+sessions 82 | frames 792,018 | not-looking-road prevalence 17.5%
+  accuracy 0.7621 | precision 0.3927 | recall 0.6639 | F1 0.4935
+  majority-class baseline (DR-4): accuracy 0.8254 F1 0.0000
+
+indirect coverage of manual-action classes (DP-2a scope limit, made concrete):
+  action                                    frames  gaze off-road  we detect
+  driver_actions/phonecall_left            101,005          1.7%      19.7%
+  driver_actions/phonecall_right            90,961          2.5%      20.4%
+  driver_actions/reach_side                 80,013         29.5%      30.5%
+  driver_actions/texting_right              39,578         62.0%      50.8%
+  driver_actions/texting_left               34,559         61.8%      52.5%
+  driver_actions/radio                      31,631         56.4%      40.9%
+  driver_actions/hair_and_makeup            30,522         62.3%      45.9%
+  driver_actions/drinking                   23,928          2.7%      23.6%
+  driver_actions/talking_to_passenger       19,846         64.3%      65.8%
+  driver_actions/standstill_or_waiting         737          0.0%      28.1%
+  (a class with low 'gaze off-road' is one a gaze/head stack cannot see by design)
+
+==============================================================================
+P3 (a) — DR-4 baselines: frame-level eye closure
+==============================================================================
+method                                     acc    prec  recall      F1
+proposed (P80, R15/R16)                 0.9343  0.6562  0.7684  0.7079
+baseline EAR absolute (R9 literal)      0.9223  0.5791  0.9171  0.7099
+baseline EAR ratio-adapted              0.9385  0.6475  0.8917  0.7502
+majority class                          0.8964  0.0000  0.0000  0.0000
+
+==============================================================================
+P3 (c) — is the distraction corpus a valid non-drowsy control?
+==============================================================================
+  drowsiness sessions  n= 16  measured PERCLOS 0.1216 +- 0.0513
+  distraction sessions n= 82  measured PERCLOS 0.0256 +- 0.0268
+  separation: Cohen's d +2.346
+  (a control group is only valid if it is measurably less drowsy; a d near
+   zero would mean the 'contrast' is illusory and verdict metrics meaningless)
+
+==============================================================================
+P3 (b,c) — cue ablation and verdict discrimination
+==============================================================================
+cue                         drowsy flagged  control flagged  separation
+PERCLOS only                        75.0%             9.8%      +65.2%
+microsleep only                    100.0%            45.1%      +54.9%
+yawn only                           75.0%             0.0%      +75.0%
+blink-rate only                     87.5%            76.8%      +10.7%
+PERCLOS OR microsleep              100.0%            45.1%      +54.9%
+PERCLOS OR yawn (deployed)          87.5%             9.8%      +77.7%
+  'separation' = true-positive rate minus false-positive rate at session level;
+  a cue firing equally on both groups contributes nothing regardless of its rate.
+
+==============================================================================
+P3 — threshold sensitivity (deployed code path, full annotated corpus)
+==============================================================================
+sessions 16 | frames 86,864
+
+closure fraction of the driver's open-eye baseline (percentile fixed at 85):
+   fraction     acc    prec  recall      F1     bias
+       0.10  0.9252  0.7158  0.4615  0.5612  -0.0363
+       0.15  0.9339  0.6868  0.6655  0.6760  -0.0025
+       0.20  0.9343  0.6562  0.7684  0.7079  +0.0186  <- P80, the published criterion
+       0.25  0.9301  0.6221  0.8291  0.7108  +0.0355
+       0.30  0.9250  0.5940  0.8715  0.7065  +0.0495
+       0.40  0.9102  0.5396  0.9123  0.6781  +0.0730
+       0.50  0.8923  0.4898  0.9445  0.6451  +0.0978
+       0.60  0.8669  0.4360  0.9701  0.6016  +0.1289
+
+  best F1 0.7108 at fraction 0.25; P80 gives 0.7079 (difference +0.0029)
+  The published criterion is not the maximum on this corpus, but the curve is
+  flat around it: F1 varies by less than 0.01 between fractions 0.20 and 0.30.
+
+open-eye baseline percentile (fraction fixed at 0.20):
+     pctile     acc    prec  recall      F1
+         75  0.9349  0.6627  0.7569  0.7067
+         80  0.9347  0.6598  0.7632  0.7078
+         85  0.9343  0.6562  0.7684  0.7079
+         90  0.9341  0.6527  0.7771  0.7095
+         95  0.9339  0.6483  0.7922  0.7131
+         99  0.9325  0.6356  0.8166  0.7148
+  F1 spans 0.7067-0.7148 across the percentile range.
+PAD module ready — blink (R23/R24) + gaze variability (R26/R28) + rigidity (R25/R27), ISO 30107-3 metrics (R32)
+
+==============================================================================
+P4 — PAD: Tier A bona fide (real DMD video) vs Tier C simulated attacks
+==============================================================================
+thresholds calibrated on 2,937 GENUINE windows only (target 5% BPCER per cue):
+  ocular variability >= 6.896 deg
+  deformation residual >= 0.000520
+  blink count >= 1 per 10 s window (R20 physiology)
+
+bona fide: 98 sessions -> 2,937 windows of 10 s
+attack   : print_static     12 videos ->   12 windows
+attack   : print_handheld   12 videos ->   12 windows
+attack   : screen_replay    12 videos ->   12 windows
+
+ISO/IEC 30107-3 metrics (R32):
+  APCER print_static     0.0000   (attack windows wrongly accepted as live)
+  APCER print_handheld   0.0000   (attack windows wrongly accepted as live)
+  APCER screen_replay    0.0000   (attack windows wrongly accepted as live)
+  APCER worst-case      0.0000   (the standard reports the worst species)
+  BPCER                 0.1519   (genuine drivers wrongly rejected)
+  ACER                  0.0759
+
+cue firing rates (fraction of windows where the cue says 'live'):
+  group                     blink    ocular   deform  votes>=2
+  bona fide (real)         89.45%    94.99%   94.99%    84.81%
+  print_static              0.00%     0.00%    0.00%     0.00%
+  print_handheld            8.33%     8.33%  100.00%     0.00%
+  screen_replay             8.33%     0.00%   83.33%     0.00%
+
+underlying cue magnitudes (median per window):
+  group                    blinks  ocular sd deg  deform resid
+  bona fide (real)            3.0         25.299      0.001532
+  print_static                0.0          1.331      0.000224
+  print_handheld              0.0          2.540      0.001191
+  screen_replay               0.0          2.351      0.000638
+
+operating-point sweep — target BPCER per cue vs resulting worst-case APCER:
+   target BPCER  actual BPCER  APCER worst    ACER
+             1%        0.1151       0.0000  0.0575
+             2%        0.1239       0.0000  0.0620
+             5%        0.1519       0.0000  0.0759
+            10%        0.1978       0.0000  0.0989
+            20%        0.2853       0.0000  0.1427
+
+PAD cue ablation (same calibrated thresholds; subsets of the same three cues):
+  cue set                      BPCER   static  handheld   screen    ACER
+  blink                       0.1055   0.0000    0.0833   0.0833  0.0944
+  ocular                      0.0501   0.0000    0.0833   0.0000  0.0667
+  deform                      0.0501   0.0000    1.0000   0.8333  0.5250
+  blink+ocular (deployed)     0.1519   0.0000    0.0000   0.0000  0.0759
+  blink+deform                0.1478   0.0000    0.0833   0.0833  0.1156
+  ocular+deform               0.0858   0.0000    0.0833   0.0000  0.0846
+  blink+ocular+deform         0.0238   0.0000    0.1667   0.0833  0.0953
+  (a cue that fires equally on both classes adds nothing; one that fires MORE
+   on attacks than on genuine windows actively degrades the fusion)
+  WARNING: Vl_NT_ZTE_wg_E_10_132.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_10_140.mp4 has 147 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_10_144.mp4 has 8 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_11_169.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_11_176.mp4 has 7 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_11_179.mp4 has 3 usable frames < window 150 — contributes NO windows
+  WARNING: Ps_NT_IP_g_E_12_134.mp4 has 29 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_12_150.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_12_168.mp4 has 81 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_12_177.mp4 has 83 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_13_147.mp4 has 13 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_13_152.mp4 has 4 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_13_153.mp4 has 10 usable frames < window 65 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_13_170.mp4 has 20 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_14_146.mp4 has 48 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_14_148.mp4 has 3 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_14_150.mp4 has 29 usable frames < window 58 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_14_152.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HS_g_E_14_165.mp4 has 15 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_14_178.mp4 has 80 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_14_180.mp4 has 25 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_15_119.mp4 has 6 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_15_120.mp4 has 136 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_15_121.mp4 has 95 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_IP_g_E_17_154.mp4 has 4 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_17_157.mp4 has 19 usable frames < window 75 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_17_158.mp4 has 6 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_17_171.mp4 has 15 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_17_172.mp4 has 63 usable frames < window 77 — contributes NO windows
+  WARNING: Mc_NT_IP_g_E_18_57.mp4 has 63 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_18_146.mp4 has 50 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_18_152.mp4 has 64 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HS_g_E_18_166.mp4 has 44 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_18_167.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_2_157.mp4 has 36 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_2_158.mp4 has 33 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_2_177.mp4 has 55 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_20_144.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_20_167.mp4 has 23 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_21_145.mp4 has 28 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_21_149.mp4 has 9 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_21_169.mp4 has 36 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_21_170.mp4 has 11 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_22_148.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_22_157.mp4 has 34 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_22_168.mp4 has 32 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_22_169.mp4 has 9 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_22_179.mp4 has 148 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_23_132.mp4 has 37 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_23_134.mp4 has 12 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_23_143.mp4 has 4 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_23_145.mp4 has 60 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_3_145.mp4 has 60 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_3_148.mp4 has 72 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_3_169.mp4 has 46 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_3_170.mp4 has 3 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_3_180.mp4 has 26 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_4_147.mp4 has 11 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_4_178.mp4 has 37 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_4_180.mp4 has 105 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_5_148.mp4 has 45 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_5_178.mp4 has 10 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_6_150.mp4 has 15 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_6_158.mp4 has 17 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_6_180.mp4 has 61 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_7_123.mp4 has 42 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_7_124.mp4 has 29 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_7_133.mp4 has 42 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_7_135.mp4 has 50 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_7_143.mp4 has 2 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_7_152.mp4 has 13 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_9_145.mp4 has 21 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_9_146.mp4 has 14 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_9_151.mp4 has 4 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_IP_g_E_9_154.mp4 has 29 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_9_171.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_9_180.mp4 has 24 usable frames < window 150 — contributes NO windows
+
+==================================================================================
+P4-D — TIER D: ROSE-Youtu, REAL attack instruments (20 subjects, 5 devices)
+==================================================================================
+window 5 s | thresholds calibrated on 510 GENUINE ROSE windows only: ocular >= 11.115 deg, deform >= 0.000213
+
+species          clips  no-face  windows  accepted    APCER
+mask_cropped       120        0      236       108   0.4576
+mask_full          120        0      245         2   0.0082
+mask_upper         120        0      230       137   0.5957
+print_quiver       120        0      238         6   0.0252
+print_still        120        0      221         0   0.0000
+replay_lenovo      106        0      103        21   0.2039
+replay_mac         105        0      121        33   0.2727
+
+BPCER (genuine windows wrongly rejected): 0.5882
+APCER worst-case: 0.5957  ->  ACER 0.5919
+
+cue firing rates ('live' votes) — the decisive comparison:
+  group               blink   ocular   deform  accepted
+  genuine             41.6%    94.9%    94.9%     41.2%
+  mask_cropped        50.0%    88.6%   100.0%     45.8%
+  mask_full            0.8%    88.2%    95.9%      0.8%
+  mask_upper          60.9%    97.0%    98.7%     59.6%
+  print_quiver         2.5%    99.2%   100.0%      2.5%
+  print_still          0.0%    66.1%    70.1%      0.0%
+  replay_lenovo       58.3%    37.9%   100.0%     20.4%
+  replay_mac          72.7%    35.5%    90.9%     27.3%
+
+single-cue separability on REAL attacks (AUC, genuine=positive):
+  blink         0.4003
+  ocular        0.5683
+  deformation   0.3720
+  (P4_FINDINGS §4.1 left the deformation cue's exclusion PROVISIONAL because
+   its failure on Tier C could have been an artefact of synthetic warping;
+   this is the measurement that settles it.)
+
+Tier-D cue ablation (same calibrated thresholds; APCER worst-case shown):
+  cue set                    BPCER  APCER worst    ACER   worst species
+  blink                     0.5843       0.7273  0.6558   replay_mac
+  ocular                    0.0510       0.9916  0.5213   print_quiver
+  deform                    0.0510       1.0000  0.5255   mask_cropped
+  blink+ocular (deployed)   0.5882       0.5957  0.5919   mask_upper
+  blink+ocular+deform       0.0882       0.9916  0.5399   print_quiver
+
+==================================================================================
+GATE G3 — published PAD baselines vs proposed method (ROSE-Youtu, subject-disjoint)
+==================================================================================
+split: train subjects ['2', '3', '4', '5', '6', '7', '9', '10', '11', '12'] | test subjects ['13', '14', '15', '16', '17', '18', '20', '21', '22', '23']
+volumes: 1113 train / 894 test
+  WARNING: Vl_NT_ZTE_wg_E_10_132.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_10_140.mp4 has 147 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_10_144.mp4 has 8 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_11_169.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_11_176.mp4 has 7 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_11_179.mp4 has 3 usable frames < window 150 — contributes NO windows
+  WARNING: Ps_NT_IP_g_E_12_134.mp4 has 29 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_12_150.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_12_168.mp4 has 81 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_12_177.mp4 has 83 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_13_147.mp4 has 13 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_13_152.mp4 has 4 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_13_153.mp4 has 10 usable frames < window 65 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_13_170.mp4 has 20 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_14_146.mp4 has 48 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_14_148.mp4 has 3 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_14_150.mp4 has 29 usable frames < window 58 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_14_152.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HS_g_E_14_165.mp4 has 15 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_14_178.mp4 has 80 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_14_180.mp4 has 25 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_15_119.mp4 has 6 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_15_120.mp4 has 136 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_15_121.mp4 has 95 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_IP_g_E_17_154.mp4 has 4 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_17_157.mp4 has 19 usable frames < window 75 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_17_158.mp4 has 6 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_17_171.mp4 has 15 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_17_172.mp4 has 63 usable frames < window 77 — contributes NO windows
+  WARNING: Mc_NT_IP_g_E_18_57.mp4 has 63 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_18_146.mp4 has 50 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_18_152.mp4 has 64 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HS_g_E_18_166.mp4 has 44 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_18_167.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_2_157.mp4 has 36 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_2_158.mp4 has 33 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_2_177.mp4 has 55 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_20_144.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_20_167.mp4 has 23 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_21_145.mp4 has 28 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_21_149.mp4 has 9 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_21_169.mp4 has 36 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_21_170.mp4 has 11 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_22_148.mp4 has 1 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_22_157.mp4 has 34 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_22_168.mp4 has 32 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_22_169.mp4 has 9 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_22_179.mp4 has 148 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_23_132.mp4 has 37 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_23_134.mp4 has 12 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_23_143.mp4 has 4 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_23_145.mp4 has 60 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_3_145.mp4 has 60 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_3_148.mp4 has 72 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_3_169.mp4 has 46 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_HW_g_E_3_170.mp4 has 3 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_3_180.mp4 has 26 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_4_147.mp4 has 11 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_4_178.mp4 has 37 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_4_180.mp4 has 105 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_5_148.mp4 has 45 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_g_E_5_178.mp4 has 10 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_g_E_6_150.mp4 has 15 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_ZTE_g_E_6_158.mp4 has 17 usable frames < window 75 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_6_180.mp4 has 61 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_wg_E_7_123.mp4 has 42 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_7_124.mp4 has 29 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_7_133.mp4 has 42 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_ZTE_wg_E_7_135.mp4 has 50 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HS_wg_E_7_143.mp4 has 2 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_7_152.mp4 has 13 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_9_145.mp4 has 21 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HS_g_E_9_146.mp4 has 14 usable frames < window 150 — contributes NO windows
+  WARNING: Vl_NT_HW_wg_E_9_151.mp4 has 4 usable frames < window 77 — contributes NO windows
+  WARNING: Vl_NT_IP_g_E_9_154.mp4 has 29 usable frames < window 150 — contributes NO windows
+  WARNING: Vm_NT_HW_wg_E_9_171.mp4 has 1 usable frames < window 77 — contributes NO windows
+  WARNING: Vm_NT_ZTE_wg_E_9_180.mp4 has 24 usable frames < window 150 — contributes NO windows
+
+method                                           BPCER  APCERworst    ACER
+de Freitas Pereira et al. 2012 (LBP-TOP+SVM)    0.5083      0.3333  0.4208
+Maatta et al. 2011 (multi-scale LBP+SVM)        0.7583      0.1083  0.4333
+Proposed: temporal behavioural PAD (blink+ocular)  0.5820      0.7009  0.6414  <- ours
+
+best ACER: de Freitas Pereira et al. 2012 (LBP-TOP+SVM)  — a PUBLISHED BASELINE OUTPERFORMS the proposed method
+Per DR-4 this is an acceptable, reportable outcome: the contribution is the
+STRIDE architecture, whose perception stage is an interchangeable component.
+
+APCER per attack species (held-out test subjects):
+  species              ours   Maatta  LBP-TOP
+  mask_cropped       0.3966   0.0500   0.2833
+  mask_full          0.0167   0.1083   0.3333
+  mask_upper         0.7009   0.0500   0.1500
+  print_quiver       0.0336   0.0167   0.1167
+  print_still        0.0000   0.0333   0.1583
+  replay_lenovo      0.3111   0.0400   0.0667
+  replay_mac         0.3226   0.0202   0.1111
+
+published reference figures (DP-8 Option C external check — different corpora,
+cited for context, NOT a like-for-like comparison; all verified at P7-2 against
+the source PDF of R74, which reports both its own and Maatta's results):
+  Maatta et al. IJCB 2011  — NUAA: 2.9% EER (in-domain, single dataset)
+  de Freitas Pereira 2012  — REPLAY-ATTACK: HTER improved 15.16% -> 7.60%
+  Chingovska et al. 2012   — LBP baseline HTER 15.16% (Replay-Attack),
+                             19.03% (NUAA), 18.17% (CASIA) — same-database
+  => published in-domain error is 3-8%; every method here scores 42-64% ACER
+     on ROSE-Youtu, i.e. an order of magnitude worse out of domain.
+security layer ready — integrity(SHA-256+HMAC) · rate-limit · RBAC · forward-integrity audit chain (DP-4) · privacy guard
+6.1 integrity: 1-bit tamper detected; forged-hash-without-key detected
+6.1 rate-limit: 30 fps passes; 180-frame flood -> 30 admitted, 150 blocked (120 flood events)
+6.1 RBAC: 18/18 role x action cells behave per matrix; 7 violations correctly flagged
+6.1 audit chain: tamper/delete/reorder detected at exact index; DP-4 forward integrity holds (stolen K_15 cannot rewrite entry 10)
+6.1 privacy: pixelation collapses 50,113 distinct colours -> 196 (information destruction; recoverability tested in §9)
+6.1 ALL SECURITY SELF-TESTS PASS
+
+==============================================================================
+P5 — secure pipeline end-to-end smoke run (60 s of a genuine session)
+==============================================================================
+session: gA_1_s5_2019-03-14T14;26;17+01;00_rgb_fa…  role: driver
+frames processed 1,800 | admitted (monitored) 1,800 | hard-rejected 0 | spoof-flagged 1,502
+  stage rate_limit    pass  1,800  reject     0
+  stage integrity     pass  1,800  reject     0
+  stage access        pass  1,800  reject     0
+  stage pad           pass    298  reject 1,502  (flag only, not gated)
+  stage driver_state  pass  1,800  reject     0
+  stage audit         pass  1,800  reject     0
+  stage privacy       pass      0  reject     0
+driver state: {'verdict': 'unsafe', 'reasons': ['drowsy', 'visually_distracted'], 'perclos_max': 0.2785235047340393, 'n_yawns': 1}
+audit: 3,302 chained entries | chain intact: True
+P5 smoke run PASS — every genuine frame monitored; 1,502 PAD spoof flags raised (defence-in-depth, not gated). Full STRIDE suite = §9 (P6)
+
+==================================================================================
+P6 — STRIDE MITIGATION VALIDATION
+==================================================================================
+[S] FAIL  Spoofing                 FAILS on real instruments: worst-species APCER 59.57% (mask_upper), BPCER 58.82%, ACER 59.19% over 1,394 Tier-D attack windows. (Tier-C synthetic APCER was 0.00% — the gap is the finding, P4_FINDINGS §6.)
+[T] PASS  Tampering                500/500 16-byte tampers detected; 500/500 clean passed; 500/500 forged-hash-without-key rejected
+[R] PASS  Repudiation              200/200 entries signed & chained; field-tamper/deletion/reorder detected; tail-truncation caught by count anchor (chain prefix stays valid); DP-4: stolen current key cannot rewrite entry 100 = True
+[I] PASS  Information disclosure   0/60 faces recoverable after anonymisation; 0.0% sub-block detail retained; eff. res 14x14; face detector 60->0
+[D] PASS  Denial of service        30/180 admitted (= 30 fps cap); 150 throttled = 30 rate-limited + 120 flood-blocked (alarm at 60); counts reconcile
+[E] PASS  Elevation of privilege   6/6 unauthorised denied; 4/4 authorised granted; 18/18 role x action cells match policy
+----------------------------------------------------------------------------------
+STRIDE suite: 5/6 threats validated  — S FAILS on real attack instruments (Tier D)
+  The S row is reported as failing rather than shown against synthetic
+  attacks, which would pass. The mechanism is implemented, instrumented and
+  measured; its measured effectiveness against real instruments is the result.
+
+==================================================================================
+P7-1 — figure export
+==================================================================================
+  fig_driver_state             PERCLOS agreement + threshold sensitivity (P3)
+  fig_pad_tierC_vs_tierD       Tier-C synthetic vs Tier-D real PAD (P4 §6)
+  fig_gate_g3_baselines        Gate G3 baseline comparison (P4 §7)
+  fig_blink_diagnosis          Blink-rate diagnosis across corpora (P4 §6.2)
+  fig_stride_table             STRIDE validation summary (P6)
+  fig_privacy_guard            Privacy anonymisation before/after (P6, STRIDE-I)
+
+6 figures written to C:\Users\Ajitesh\Documents\Galway Notes\Adaptive Cybersecurity Project\dms_project_fixed_v3\dms_jupyter\outputs\figures (.png + .pdf, 300 dpi)

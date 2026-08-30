@@ -1,0 +1,97 @@
+{
+  "n_videos": 3497,
+  "n_subjects": 20,
+  "by_species": {
+    "genuine": 897,
+    "mask_cropped": 399,
+    "mask_full": 200,
+    "mask_upper": 400,
+    "print_quiver": 400,
+    "print_still": 400,
+    "replay_lenovo": 401,
+    "replay_mac": 400
+  },
+  "by_device": {
+    "5s": 700,
+    "HS": 699,
+    "HW": 701,
+    "IP": 700,
+    "ZTE": 697
+  },
+  "properties": {
+    "genuine": {
+      "fps": 27.48,
+      "frames": 340,
+      "seconds": 12.4,
+      "resolutions": [
+        "1280x720",
+        "640x480"
+      ]
+    },
+    "mask_cropped": {
+      "fps": 22.24,
+      "frames": 268,
+      "seconds": 12.1,
+      "resolutions": [
+        "1280x720",
+        "640x480"
+      ]
+    },
+    "mask_full": {
+      "fps": 24.99,
+      "frames": 309,
+      "seconds": 12.4,
+      "resolutions": [
+        "1280x720",
+        "640x480"
+      ]
+    },
+    "mask_upper": {
+      "fps": 24.99,
+      "frames": 290,
+      "seconds": 11.6,
+      "resolutions": [
+        "1280x720",
+        "640x480"
+      ]
+    },
+    "print_quiver": {
+      "fps": 24.99,
+      "frames": 280,
+      "seconds": 11.2,
+      "resolutions": [
+        "1280x720",
+        "640x480"
+      ]
+    },
+    "print_still": {
+      "fps": 27.16,
+      "frames": 294,
+      "seconds": 10.8,
+      "resolutions": [
+        "1280x720",
+        "640x480"
+      ]
+    },
+    "replay_lenovo": {
+      "fps": 29.98,
+      "frames": 324,
+      "seconds": 10.8,
+      "resolutions": [
+        "480x640",
+        "720x1280"
+      ]
+    },
+    "replay_mac": {
+      "fps": 22.7,
+      "frames": 224,
+      "seconds": 9.8,
+      "resolutions": [
+        "480x640",
+        "720x1280"
+      ]
+    }
+  },
+  "median_seconds": 11.606957217113155,
+  "estimated_frames": 1038836
+}

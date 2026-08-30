@@ -1,0 +1,142 @@
+{
+ "fixed_old": {
+  "recall_nohand": 0.4186046511627907,
+  "recall_hand": 0.030303030303030304,
+  "recall": 0.25,
+  "false_events": 0,
+  "drowsy_flag": 0.75,
+  "control_flag": 0.0
+ },
+ "sweep": {
+  "p98.0_f0.3": {
+   "recall_nohand": 0.8372093023255814,
+   "recall_hand": 0.15151515151515152,
+   "recall": 0.5394736842105263,
+   "false_events": 10,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p98.0_f0.4": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.09090909090909091,
+   "recall": 0.4868421052631579,
+   "false_events": 7,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p98.0_f0.5": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.09090909090909091,
+   "recall": 0.4868421052631579,
+   "false_events": 3,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p98.0_f0.6": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.09090909090909091,
+   "recall": 0.4868421052631579,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p98.0_f0.7": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.06060606060606061,
+   "recall": 0.47368421052631576,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.975609756097561
+  },
+  "p99.0_f0.3": {
+   "recall_nohand": 0.8372093023255814,
+   "recall_hand": 0.15151515151515152,
+   "recall": 0.5394736842105263,
+   "false_events": 8,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p99.0_f0.4": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.09090909090909091,
+   "recall": 0.4868421052631579,
+   "false_events": 2,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p99.0_f0.5": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.09090909090909091,
+   "recall": 0.4868421052631579,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.9878048780487805
+  },
+  "p99.0_f0.6": {
+   "recall_nohand": 0.7674418604651163,
+   "recall_hand": 0.06060606060606061,
+   "recall": 0.4605263157894737,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.9512195121951219
+  },
+  "p99.0_f0.7": {
+   "recall_nohand": 0.7674418604651163,
+   "recall_hand": 0.06060606060606061,
+   "recall": 0.4605263157894737,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.9024390243902439
+  },
+  "p99.5_f0.3": {
+   "recall_nohand": 0.8372093023255814,
+   "recall_hand": 0.15151515151515152,
+   "recall": 0.5394736842105263,
+   "false_events": 7,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p99.5_f0.4": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.09090909090909091,
+   "recall": 0.4868421052631579,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 1.0
+  },
+  "p99.5_f0.5": {
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.06060606060606061,
+   "recall": 0.47368421052631576,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.9634146341463414
+  },
+  "p99.5_f0.6": {
+   "recall_nohand": 0.7674418604651163,
+   "recall_hand": 0.06060606060606061,
+   "recall": 0.4605263157894737,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.9024390243902439
+  },
+  "p99.5_f0.7": {
+   "recall_nohand": 0.7209302325581395,
+   "recall_hand": 0.030303030303030304,
+   "recall": 0.42105263157894735,
+   "false_events": 1,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.7682926829268293
+  }
+ },
+ "deployed": {
+  "percentile": 99.5,
+  "fraction": 0.5,
+  "recall_nohand": 0.7906976744186046,
+  "recall_hand": 0.06060606060606061,
+  "recall": 0.47368421052631576,
+  "false_events": 1,
+  "drowsy_flag": 1.0,
+  "control_flag": 0.9634146341463414
+ }
+}

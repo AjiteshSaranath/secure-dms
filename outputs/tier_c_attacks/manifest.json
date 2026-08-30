@@ -1,0 +1,261 @@
+{
+  "seed": 42,
+  "fps": 29.76,
+  "duration_s": 20.0,
+  "attack_model": "rigid-planar presentation (R25, R27)",
+  "domain_control": "rendered from DMD frames \u2014 same camera/subjects as bona fide",
+  "items": [
+    {
+      "file": "print_static_00.mp4",
+      "species": "print_static",
+      "source_session": "gF/22/s1",
+      "source_video": "gF_22_s1_2019-03-04T14;54;55+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_01.mp4",
+      "species": "print_static",
+      "source_session": "gA/3/s2",
+      "source_video": "gA_3_s2_2019-03-08T10;16;48+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_02.mp4",
+      "species": "print_static",
+      "source_session": "gZ/37/s1",
+      "source_video": "gZ_37_s1_2019-04-08T15;56;41+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_03.mp4",
+      "species": "print_static",
+      "source_session": "gA/2/s1",
+      "source_video": "gA_2_s1_2019-03-08T10;01;44+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_04.mp4",
+      "species": "print_static",
+      "source_session": "gB/8/s2",
+      "source_video": "gB_8_s2_2019-03-11T14;38;44+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_05.mp4",
+      "species": "print_static",
+      "source_session": "gC/13/s1",
+      "source_video": "gC_13_s1_2019-03-04T10;26;12+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_06.mp4",
+      "species": "print_static",
+      "source_session": "gZ/36/s2",
+      "source_video": "gZ_36_s2_2019-04-09T10;39;38+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_07.mp4",
+      "species": "print_static",
+      "source_session": "gB/10/s2",
+      "source_video": "gB_10_s2_2019-03-11T15;15;21+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_08.mp4",
+      "species": "print_static",
+      "source_session": "gE/28/s1",
+      "source_video": "gE_28_s1_2019-03-15T10;23;30+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_09.mp4",
+      "species": "print_static",
+      "source_session": "gC/12/s2",
+      "source_video": "gC_12_s2_2019-03-13T10;14;41+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_10.mp4",
+      "species": "print_static",
+      "source_session": "gA/3/s5",
+      "source_video": "gA_3_s5_2019-03-13T09;36;25+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_static_11.mp4",
+      "species": "print_static",
+      "source_session": "gA/5/s2",
+      "source_video": "gA_5_s2_2019-03-08T10;46;46+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_00.mp4",
+      "species": "print_handheld",
+      "source_session": "gA/5/s1",
+      "source_video": "gA_5_s1_2019-03-08T10;57;00+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_01.mp4",
+      "species": "print_handheld",
+      "source_session": "gE/27/s2",
+      "source_video": "gE_27_s2_2019-03-07T13;05;11+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_02.mp4",
+      "species": "print_handheld",
+      "source_session": "gZ/32/s1",
+      "source_video": "gZ_32_s1_2019-04-08T16;35;53+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_03.mp4",
+      "species": "print_handheld",
+      "source_session": "gZ/37/s2",
+      "source_video": "gZ_37_s2_2019-04-08T15;45;15+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_04.mp4",
+      "species": "print_handheld",
+      "source_session": "gZ/32/s1",
+      "source_video": "gZ_32_s1_2019-04-08T12;01;26+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_05.mp4",
+      "species": "print_handheld",
+      "source_session": "gF/22/s2",
+      "source_video": "gF_22_s2_2019-03-04T14;47;01+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_06.mp4",
+      "species": "print_handheld",
+      "source_session": "gA/5/s5",
+      "source_video": "gA_5_s5_2019-03-13T09;06;49+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_07.mp4",
+      "species": "print_handheld",
+      "source_session": "gZ/34/s1",
+      "source_video": "gZ_34_s1_2019-04-08T16;55;42+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_08.mp4",
+      "species": "print_handheld",
+      "source_session": "gZ/35/s2",
+      "source_video": "gZ_35_s2_2019-04-09T12;50;14+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_09.mp4",
+      "species": "print_handheld",
+      "source_session": "gC/11/s2",
+      "source_video": "gC_11_s2_2019-03-04T09;25;33+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_10.mp4",
+      "species": "print_handheld",
+      "source_session": "gB/6/s1",
+      "source_video": "gB_6_s1_2019-03-11T13;55;14+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "print_handheld_11.mp4",
+      "species": "print_handheld",
+      "source_session": "gF/25/s1",
+      "source_video": "gF_25_s1_2019-03-04T15;53;22+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_00.mp4",
+      "species": "screen_replay",
+      "source_session": "gB/6/s5",
+      "source_video": "gB_6_s5_2019-03-13T13;37;11+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_01.mp4",
+      "species": "screen_replay",
+      "source_session": "gF/23/s1",
+      "source_video": "gF_23_s1_2019-03-04T16;21;10+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_02.mp4",
+      "species": "screen_replay",
+      "source_session": "gF/23/s1",
+      "source_video": "gF_23_s1_2019-03-05T10;17;36+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_03.mp4",
+      "species": "screen_replay",
+      "source_session": "gB/10/s1",
+      "source_video": "gB_10_s1_2019-03-11T15;24;54+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_04.mp4",
+      "species": "screen_replay",
+      "source_session": "gF/25/s2",
+      "source_video": "gF_25_s2_2019-03-05T11;00;55+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_05.mp4",
+      "species": "screen_replay",
+      "source_session": "gZ/31/s2",
+      "source_video": "gZ_31_s2_2019-04-08T09;35;25+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_06.mp4",
+      "species": "screen_replay",
+      "source_session": "gC/12/s1",
+      "source_video": "gC_12_s1_2019-03-13T10;23;45+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_07.mp4",
+      "species": "screen_replay",
+      "source_session": "gA/1/s5",
+      "source_video": "gA_1_s5_2019-03-14T14;26;17+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_08.mp4",
+      "species": "screen_replay",
+      "source_session": "gZ/33/s2",
+      "source_video": "gZ_33_s2_2019-04-08T09;59;25+02;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_09.mp4",
+      "species": "screen_replay",
+      "source_session": "gF/24/s2",
+      "source_video": "gF_24_s2_2019-03-05T10;38;25+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_10.mp4",
+      "species": "screen_replay",
+      "source_session": "gB/9/s5",
+      "source_video": "gB_9_s5_2019-03-07T16;31;48+01;00_rgb_face.mp4",
+      "frames": 595
+    },
+    {
+      "file": "screen_replay_11.mp4",
+      "species": "screen_replay",
+      "source_session": "gB/6/s2",
+      "source_video": "gB_6_s2_2019-03-11T13;46;14+01;00_rgb_face.mp4",
+      "frames": 595
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+======================================================================
+Secure DMS rework” run 2026-08-30 18:40:28
+python 3.12.10 on Windows-11-10.0.26200-SP0
+numpy 2.5.1
+opencv 5.0.0
+mediapipe 1.0.0
+torch 2.11.0+cu128 | cuda available: True | NVIDIA GeForce RTX 4060 Laptop GPU
+artefact face_landmarker.task: sha256=64184E229B263107â€¦ OK
+artefact L2CSNet_gaze360.pkl: sha256=8A7F3480D868DD48â€¦ OK
+artefact 6DRepNet_300W_LP_AFLW2000.pth: sha256=9BDCD0E072DF0D21â€¦ OK
+seed 42 | run log: run_log_20260830_184028.txt

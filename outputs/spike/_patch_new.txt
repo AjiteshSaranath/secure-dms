@@ -1,0 +1,10 @@
+try:
+    import torch
+    # Seed torch as well, so "all seeds are fixed" is literally true. Inference
+    # here is already deterministic — every model runs in eval() under no_grad()
+    # with no stochastic layer — but the seed costs nothing and removes the need
+    # to qualify the claim in the write-up.
+    torch.manual_seed(SEED)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(SEED)
+    log("torch", torch.__version__, "| cuda available:", torch.cuda.is_available(),

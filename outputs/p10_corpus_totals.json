@@ -1,0 +1,11 @@
+{
+ "distraction_sessions": 82,
+ "distraction_annotated_frames": 822521,
+ "distraction_not_looking_frames": 157408,
+ "distraction_not_looking_fraction": 0.19137262148929937,
+ "rose_clips_drawn": 1080,
+ "rose_clips_usable": 1051,
+ "rose_frames_read": 307197,
+ "rose_frames_face_detected": 286361,
+ "rose_face_detection_rate": 0.9321738168015964
+}

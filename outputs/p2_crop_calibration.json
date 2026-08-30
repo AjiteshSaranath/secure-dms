@@ -1,0 +1,15 @@
+{
+  "n_paired_detections": 120,
+  "transform": {
+    "dx0": -0.0031058005918950526,
+    "dy0": -0.11934917410859588,
+    "dx1": -0.0037712014183883097,
+    "dy1": 0.023445996811554074
+  },
+  "videos": [
+    "gA_1_s5_2019-03-14T14;26;17+01;00_rgb_face.mp4",
+    "gA_2_s5_2019-03-13T09;19;23+01;00_rgb_face.mp4",
+    "gA_3_s5_2019-03-13T09;36;25+01;00_rgb_face.mp4"
+  ],
+  "note": "median offsets of RetinaFace box relative to MediaPipe landmark box, in units of the MediaPipe box size"
+}

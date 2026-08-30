@@ -1,0 +1,88 @@
+======================================================================
+Secure DMS rework â€” run 2026-08-10 00:05:22
+python 3.12.10 on Windows-11-10.0.26200-SP0
+numpy 2.5.1
+opencv 5.0.0
+mediapipe 1.0.0
+torch 2.11.0+cu128 | cuda available: True | NVIDIA GeForce RTX 4060 Laptop GPU
+artefact face_landmarker.task: sha256=64184E229B263107â€¦ OK
+artefact L2CSNet_gaze360.pkl: sha256=8A7F3480D868DD48â€¦ OK
+artefact 6DRepNet_300W_LP_AFLW2000.pth: sha256=9BDCD0E072DF0D21â€¦ OK
+seed 42 | run log: run_log_20260810_000522.txt
+DMD drowsiness: 16 rgb_face videos, 16 annotations | sample 1280x720 @ 29.76 fps, 5480 frames
+DMD distraction: 82 rgb_face videos, 82 annotations | sample 1280x720 @ 29.76 fps, 6777 frames
+
+DMD drowsiness ground truth: 16 sessions, 87,071 frames (48.8 min)
+  PERCLOS (ground truth, strict eyes-closed): 0.1034
+  per-session PERCLOS: min 0.0307 max 0.1757 mean 0.1028 sd 0.0410
+  blink events: 1,578 = 32.4/min (literature 15-30/min, R20 â€” DMD drowsiness is ACTED fatigue, see P1_FINDINGS Â§2)
+
+GATE G1 â€” NUAA temporal viability
+  client (bona fide)   captures   25 | median length   121 | median gap   1 | contiguous 61.3%
+  imposter (attack)    captures  118 | median length    80 | median gap   6 | contiguous 0.8%
+  truly-adjacent frame pairs â€” client 3,114 | imposter 56
+
+  GATE G1 VERDICT: NUAA temporal PAD corpus NOT VIABLE
+  -> NUAA retained for FRAME-LEVEL print-attack evaluation only (its designed purpose);
+     temporal PAD uses DMD video as bona fide + attack tiers C/D (P1_FINDINGS.md Â§4).
+perception backbone ready — EAR/MAR/iris/box/constellation per frame (DR-1)
+gaze + head-pose models loaded on cuda (inference-only, batched)
+
+P2 smoke test — gA_1_s5_2019-03-14T14;26;17+… (first 300 frames)
+  frames with face: 300/300 (100.0%)
+  EAR   mean 0.287 sd 0.128 min 0.022 max 0.652  (open-eye literature ~0.2-0.35, R9)
+  MAR   mean 0.047 sd 0.066
+  gaze  pitch +9.2+-24.0 yaw -0.0+-5.6 deg
+  head  pitch +6.3 yaw +12.5 roll -4.1 deg
+  quality guard: PASS (invalid gaze 0.000%, invalid head pose 0.000%)
+driver-state module ready — PERCLOS P80 + R9 blink criterion + gaze-off-road (DR-2)
+
+==============================================================================
+P3 — driver-state validation vs DMD OpenLABEL ground truth
+==============================================================================
+session          frames   PERCLOS   truth   blinks  truth     F1   verdict
+gA/1/s5            5480    0.1579  0.1204       46     83  0.760    unsafe
+gA/2/s5            5416    0.1018  0.0779       42     66  0.845    unsafe
+gA/3/s5            5525    0.1698  0.0874      135    143  0.662    unsafe
+gA/4/s5            5228    0.1075  0.0937       74     90  0.757    unsafe
+gA/5/s5            5287    0.2041  0.1040       70    101  0.625    unsafe
+gB/10/s5           5965    0.1736  0.1734       81     93  0.828    unsafe
+gB/10/s5           5417    0.1056  0.1133       75     74  0.769    unsafe
+gB/6/s5            5397    0.0483  0.0325      160    186  0.700    unsafe
+gB/7/s5            5388    0.1627  0.1140      118    153  0.440    unsafe
+gB/8/s5            5403    0.0369  0.1576       44     71  0.322    unsafe
+gB/9/s5            5292    0.1514  0.1221       71     95  0.803    unsafe
+gC/11/s5           5272    0.0830  0.0750      105    112  0.765    unsafe
+gC/12/s5           5503    0.1954  0.1757       60     64  0.897    unsafe
+gC/13/s5           5380    0.0798  0.0307       84     90  0.562    unsafe
+gC/14/s5           5534    0.0567  0.0855       59     56  0.645    unsafe
+gC/15/s5           5377    0.1115  0.0809       81    101  0.694    unsafe
+
+frame-level eye-closure detection (pooled, n=86,864):
+  accuracy 0.9343 | precision 0.6562 | recall 0.7684 | F1 0.7079
+  majority-class baseline (DR-4): accuracy 0.8964 F1 0.0000
+
+session-level PERCLOS agreement (the measure that drives the verdict):
+  Pearson r +0.4900 | MAE 0.0385 | bias +0.0188
+  blink-count r +0.9326 | MAPE 18.4%
+
+==============================================================================
+P3 (distraction) — visual distraction vs DMD gaze_on_road ground truth
+==============================================================================
+sessions 82 | frames 792,018 | not-looking-road prevalence 17.5%
+  accuracy 0.7486 | precision 0.3621 | recall 0.5773 | F1 0.4450
+  majority-class baseline (DR-4): accuracy 0.8254 F1 0.0000
+
+indirect coverage of manual-action classes (DP-2a scope limit, made concrete):
+  action                                    frames  gaze off-road  we detect
+  driver_actions/phonecall_left            101,005          1.7%      19.4%
+  driver_actions/phonecall_right            90,961          2.5%      20.3%
+  driver_actions/reach_side                 80,013         29.5%      28.9%
+  driver_actions/texting_right              39,578         62.0%      40.8%
+  driver_actions/texting_left               34,559         61.8%      51.0%
+  driver_actions/radio                      31,631         56.4%      32.4%
+  driver_actions/hair_and_makeup            30,522         62.3%      36.9%
+  driver_actions/drinking                   23,928          2.7%      23.2%
+  driver_actions/talking_to_passenger       19,846         64.3%      62.2%
+  driver_actions/standstill_or_waiting         737          0.0%      15.2%
+  (a class with low 'gaze off-road' is one a gaze/head stack cannot see by design)

@@ -1,0 +1,79 @@
+{
+  "window_s": 5.0,
+  "calibration": {
+    "gaze_variability_deg": 11.115108871459961,
+    "deformation_residual": 0.00021315292542567477,
+    "target_bpcer_per_cue": 0.05,
+    "n_calibration_windows": 510
+  },
+  "ablation": {
+    "blink": {
+      "bpcer": 0.5843137254901961,
+      "apcer_worst": 0.7272727272727273,
+      "acer": 0.6557932263814616,
+      "worst_species": "replay_mac"
+    },
+    "ocular": {
+      "bpcer": 0.050980392156862744,
+      "apcer_worst": 0.9915966386554622,
+      "acer": 0.5212885154061625,
+      "worst_species": "print_quiver"
+    },
+    "deform": {
+      "bpcer": 0.050980392156862744,
+      "apcer_worst": 1.0,
+      "acer": 0.5254901960784314,
+      "worst_species": "mask_cropped"
+    },
+    "blink+ocular (deployed)": {
+      "bpcer": 0.5882352941176471,
+      "apcer_worst": 0.5956521739130435,
+      "acer": 0.5919437340153453,
+      "worst_species": "mask_upper"
+    },
+    "blink+ocular+deform": {
+      "bpcer": 0.08823529411764706,
+      "apcer_worst": 0.9915966386554622,
+      "acer": 0.5399159663865546,
+      "worst_species": "print_quiver"
+    }
+  },
+  "apcer_per_species": {
+    "mask_cropped": 0.4576271186440678,
+    "mask_full": 0.00816326530612245,
+    "mask_upper": 0.5956521739130435,
+    "print_quiver": 0.025210084033613446,
+    "print_still": 0.0,
+    "replay_lenovo": 0.20388349514563106,
+    "replay_mac": 0.2727272727272727
+  },
+  "apcer_worst": 0.5956521739130435,
+  "bpcer": 0.5882352941176471,
+  "acer": 0.5919437340153453,
+  "clips": {
+    "genuine": 240,
+    "mask_cropped": 120,
+    "mask_full": 120,
+    "mask_upper": 120,
+    "print_quiver": 120,
+    "print_still": 120,
+    "replay_lenovo": 106,
+    "replay_mac": 105
+  },
+  "no_face_clips": {},
+  "n_genuine_windows": 510,
+  "n_attack_windows": {
+    "mask_cropped": 236,
+    "mask_full": 245,
+    "mask_upper": 230,
+    "print_quiver": 238,
+    "print_still": 221,
+    "replay_lenovo": 103,
+    "replay_mac": 121
+  },
+  "cue_auc": {
+    "blink": 0.40026021886516444,
+    "ocular": 0.5682518918614792,
+    "deformation": 0.37198779081216415
+  }
+}

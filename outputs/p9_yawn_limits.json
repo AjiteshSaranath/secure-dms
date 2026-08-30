@@ -1,0 +1,46 @@
+{
+ "deployed_threshold": 0.6,
+ "events_total": 76,
+ "events_by_type": {
+  "with hand": 33,
+  "without hand": 43
+ },
+ "recall_by_type": {
+  "with hand": 0.030303030303030304,
+  "without hand": 0.4186046511627907
+ },
+ "recall_pooled": 0.25,
+ "median_peak_mar": {
+  "with hand": 0.3920254707336426,
+  "without hand": 0.648086667060852
+ },
+ "false_openings": 0,
+ "relative_reference": {
+  "percentile": 99.5,
+  "fraction": 0.5,
+  "flag_rates": {
+   "drowsiness": {
+    "sessions": 16,
+    "flagged": 16,
+    "rate": 1.0
+   },
+   "distraction": {
+    "sessions": 82,
+    "flagged": 79,
+    "rate": 0.9634146341463414
+   }
+  }
+ },
+ "absolute_flag_rates": {
+  "drowsiness": {
+   "sessions": 16,
+   "flagged": 12,
+   "rate": 0.75
+  },
+  "distraction": {
+   "sessions": 82,
+   "flagged": 0,
+   "rate": 0.0
+  }
+ }
+}

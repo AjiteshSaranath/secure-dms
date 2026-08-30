@@ -1,0 +1,61 @@
+{
+  "maatta_R73": {
+    "method": "Maatta et al. 2011 (multi-scale LBP+SVM)",
+    "apcer_per_species": {
+      "mask_cropped": 0.05,
+      "mask_full": 0.10833333333333334,
+      "mask_upper": 0.05,
+      "print_quiver": 0.016666666666666666,
+      "print_still": 0.03333333333333333,
+      "replay_lenovo": 0.04,
+      "replay_mac": 0.020202020202020204
+    },
+    "apcer_worst": 0.10833333333333334,
+    "bpcer": 0.7583333333333333,
+    "acer": 0.43333333333333335,
+    "n_train": 1113,
+    "n_test": 894
+  },
+  "lbptop_R74": {
+    "method": "de Freitas Pereira et al. 2012 (LBP-TOP+SVM)",
+    "apcer_per_species": {
+      "mask_cropped": 0.2833333333333333,
+      "mask_full": 0.3333333333333333,
+      "mask_upper": 0.15,
+      "print_quiver": 0.11666666666666667,
+      "print_still": 0.15833333333333333,
+      "replay_lenovo": 0.06666666666666667,
+      "replay_mac": 0.1111111111111111
+    },
+    "apcer_worst": 0.3333333333333333,
+    "bpcer": 0.5083333333333333,
+    "acer": 0.4208333333333333,
+    "n_train": 1113,
+    "n_test": 894
+  },
+  "ours": {
+    "method": "Proposed: temporal behavioural PAD (blink+ocular)",
+    "apcer_per_species": {
+      "mask_cropped": 0.39655172413793105,
+      "mask_full": 0.016666666666666666,
+      "mask_upper": 0.7008547008547008,
+      "print_quiver": 0.03361344537815126,
+      "print_still": 0.0,
+      "replay_lenovo": 0.3111111111111111,
+      "replay_mac": 0.3225806451612903
+    },
+    "apcer_worst": 0.7008547008547008,
+    "bpcer": 0.5819672131147541,
+    "acer": 0.6414109569847275,
+    "n_test_genuine_windows": 244,
+    "n_test_attack_windows": {
+      "mask_cropped": 116,
+      "mask_full": 120,
+      "mask_upper": 117,
+      "print_quiver": 119,
+      "print_still": 113,
+      "replay_lenovo": 45,
+      "replay_mac": 62
+    }
+  }
+}

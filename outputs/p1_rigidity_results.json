@@ -1,0 +1,400 @@
+{
+  "summary": {
+    "residual_full_median": {
+      "client_median": 0.00145,
+      "imposter_median": 0.00162,
+      "cohens_d": -0.453,
+      "auc": 0.383
+    },
+    "residual_deformable_median": {
+      "client_median": 0.00743,
+      "imposter_median": 0.01009,
+      "cohens_d": -0.49,
+      "auc": 0.367
+    },
+    "residual_rigid_median": {
+      "client_median": 0.01128,
+      "imposter_median": 0.01268,
+      "cohens_d": -0.164,
+      "auc": 0.445
+    },
+    "deform_over_rigid": {
+      "client_median": 0.65511,
+      "imposter_median": 0.73398,
+      "cohens_d": -0.587,
+      "auc": 0.339
+    }
+  },
+  "client": [
+    {
+      "capture": "0001_00_00_01",
+      "pairs": 36,
+      "residual_full_median": 0.000700332528826615,
+      "residual_deformable_median": 0.0033618341057831316,
+      "residual_rigid_median": 0.006385726391110463,
+      "deform_over_rigid": 0.5264606363345736
+    },
+    {
+      "capture": "0001_00_00_02",
+      "pairs": 22,
+      "residual_full_median": 0.0010817649670761243,
+      "residual_deformable_median": 0.005572135813344009,
+      "residual_rigid_median": 0.009900163167206839,
+      "deform_over_rigid": 0.5628326681491881
+    },
+    {
+      "capture": "0002_01_00_01",
+      "pairs": 15,
+      "residual_full_median": 0.0025852035148460468,
+      "residual_deformable_median": 0.013665670069632641,
+      "residual_rigid_median": 0.023742970546774333,
+      "deform_over_rigid": 0.5755669648472973
+    },
+    {
+      "capture": "0003_01_00_01",
+      "pairs": 26,
+      "residual_full_median": 0.0009368596318998961,
+      "residual_deformable_median": 0.005227256656728595,
+      "residual_rigid_median": 0.007605011513253824,
+      "deform_over_rigid": 0.6873435970839842
+    },
+    {
+      "capture": "0004_01_00_01",
+      "pairs": 37,
+      "residual_full_median": 0.0016280035090990293,
+      "residual_deformable_median": 0.00787702324424502,
+      "residual_rigid_median": 0.01191990425211564,
+      "deform_over_rigid": 0.6608293503714674
+    },
+    {
+      "capture": "0004_01_00_02",
+      "pairs": 38,
+      "residual_full_median": 0.0009206975229767145,
+      "residual_deformable_median": 0.005869477360293027,
+      "residual_rigid_median": 0.006963821357209375,
+      "deform_over_rigid": 0.8428528269703182
+    },
+    {
+      "capture": "0004_01_06_03",
+      "pairs": 39,
+      "residual_full_median": 0.0008166697467172671,
+      "residual_deformable_median": 0.004653708606056517,
+      "residual_rigid_median": 0.00689632868809945,
+      "deform_over_rigid": 0.6748094735214183
+    },
+    {
+      "capture": "0005_00_00_01",
+      "pairs": 37,
+      "residual_full_median": 0.0011916695717593983,
+      "residual_deformable_median": 0.0066001911474235205,
+      "residual_rigid_median": 0.008499761273876862,
+      "deform_over_rigid": 0.7765147935617592
+    },
+    {
+      "capture": "0005_00_00_02",
+      "pairs": 36,
+      "residual_full_median": 0.0019234012773640735,
+      "residual_deformable_median": 0.010682245809650194,
+      "residual_rigid_median": 0.016955548546020348,
+      "deform_over_rigid": 0.6300147205878935
+    },
+    {
+      "capture": "0006_00_00_01",
+      "pairs": 8,
+      "residual_full_median": 0.002796273752765609,
+      "residual_deformable_median": 0.015161085462052687,
+      "residual_rigid_median": 0.027038871887605523,
+      "deform_over_rigid": 0.5607144027442967
+    },
+    {
+      "capture": "0006_00_00_02",
+      "pairs": 36,
+      "residual_full_median": 0.001425327103172395,
+      "residual_deformable_median": 0.00939653618397147,
+      "residual_rigid_median": 0.009463658207959608,
+      "deform_over_rigid": 0.9929072864403569
+    },
+    {
+      "capture": "0006_00_06_03",
+      "pairs": 29,
+      "residual_full_median": 0.0011058607926810713,
+      "residual_deformable_median": 0.006727103128259538,
+      "residual_rigid_median": 0.00945645374548044,
+      "deform_over_rigid": 0.711376864725615
+    },
+    {
+      "capture": "0007_01_00_01",
+      "pairs": 15,
+      "residual_full_median": 0.0012789174977131147,
+      "residual_deformable_median": 0.006266369896759931,
+      "residual_rigid_median": 0.008617608452358776,
+      "deform_over_rigid": 0.7271587244006198
+    },
+    {
+      "capture": "0007_01_00_02",
+      "pairs": 19,
+      "residual_full_median": 0.0016335376455872191,
+      "residual_deformable_median": 0.0069738717425241025,
+      "residual_rigid_median": 0.018120669542486357,
+      "deform_over_rigid": 0.3848572670736946
+    },
+    {
+      "capture": "0007_01_05_03",
+      "pairs": 14,
+      "residual_full_median": 0.0021420677093937565,
+      "residual_deformable_median": 0.015047777261987454,
+      "residual_rigid_median": 0.015572897038879025,
+      "deform_over_rigid": 0.9662798295101809
+    },
+    {
+      "capture": "0008_00_00_02",
+      "pairs": 32,
+      "residual_full_median": 0.000995009401100283,
+      "residual_deformable_median": 0.00621150562013878,
+      "residual_rigid_median": 0.009565046335791104,
+      "deform_over_rigid": 0.6493962237799046
+    },
+    {
+      "capture": "0009_01_00_01",
+      "pairs": 12,
+      "residual_full_median": 0.0016478512144207692,
+      "residual_deformable_median": 0.009117405919850313,
+      "residual_rigid_median": 0.015157300439520061,
+      "deform_over_rigid": 0.6015190735785093
+    },
+    {
+      "capture": "0009_01_00_02",
+      "pairs": 6,
+      "residual_full_median": 0.0017390391464341538,
+      "residual_deformable_median": 0.011847127582234857,
+      "residual_rigid_median": 0.01749678652318836,
+      "deform_over_rigid": 0.6771030148553812
+    },
+    {
+      "capture": "0010_01_05_03",
+      "pairs": 27,
+      "residual_full_median": 0.0012864377483931787,
+      "residual_deformable_median": 0.00579396358134174,
+      "residual_rigid_median": 0.010633801100371385,
+      "deform_over_rigid": 0.5448628370786951
+    },
+    {
+      "capture": "0011_01_07_03",
+      "pairs": 30,
+      "residual_full_median": 0.001465308340520003,
+      "residual_deformable_median": 0.008567359945060818,
+      "residual_rigid_median": 0.012662990627496455,
+      "deform_over_rigid": 0.6765668174697067
+    },
+    {
+      "capture": "0012_01_07_03",
+      "pairs": 16,
+      "residual_full_median": 0.0016980625695441956,
+      "residual_deformable_median": 0.01026401349945886,
+      "residual_rigid_median": 0.015006516141361621,
+      "deform_over_rigid": 0.683970397845929
+    },
+    {
+      "capture": "0013_01_07_03",
+      "pairs": 23,
+      "residual_full_median": 0.001789898284149683,
+      "residual_deformable_median": 0.010836483402289609,
+      "residual_rigid_median": 0.016690415197631408,
+      "deform_over_rigid": 0.6492638214634486
+    },
+    {
+      "capture": "0014_01_06_03",
+      "pairs": 39,
+      "residual_full_median": 0.0008219878981229615,
+      "residual_deformable_median": 0.00451576900221108,
+      "residual_rigid_median": 0.008131971469678529,
+      "deform_over_rigid": 0.5553104144226888
+    },
+    {
+      "capture": "0015_01_05_03",
+      "pairs": 30,
+      "residual_full_median": 0.0017047714985003943,
+      "residual_deformable_median": 0.00903165216428067,
+      "residual_rigid_median": 0.0156550985359429,
+      "deform_over_rigid": 0.5769143877715178
+    }
+  ],
+  "imposter": [
+    {
+      "capture": "0016_01_02_03",
+      "pairs": 29,
+      "residual_full_median": 0.0021638030462921604,
+      "residual_deformable_median": 0.012692505395439015,
+      "residual_rigid_median": 0.026063522134457506,
+      "deform_over_rigid": 0.48698348761065147
+    },
+    {
+      "capture": "0003_01_00_01",
+      "pairs": 37,
+      "residual_full_median": 0.0009535051823606189,
+      "residual_deformable_median": 0.00490257545496084,
+      "residual_rigid_median": 0.0064231736009045986,
+      "deform_over_rigid": 0.7632636133338789
+    },
+    {
+      "capture": "0010_01_08_03",
+      "pairs": 8,
+      "residual_full_median": 0.001117121695353157,
+      "residual_deformable_median": 0.00641319330116371,
+      "residual_rigid_median": 0.009499080939681792,
+      "deform_over_rigid": 0.6751382230290082
+    },
+    {
+      "capture": "0003_01_01_02",
+      "pairs": 21,
+      "residual_full_median": 0.0014006138954428167,
+      "residual_deformable_median": 0.008016340531126643,
+      "residual_rigid_median": 0.011513670361735635,
+      "deform_over_rigid": 0.6962453833594757
+    },
+    {
+      "capture": "0015_01_01_03",
+      "pairs": 25,
+      "residual_full_median": 0.0028083018951192296,
+      "residual_deformable_median": 0.015320415356553874,
+      "residual_rigid_median": 0.02126399927882362,
+      "deform_over_rigid": 0.7204860400519821
+    },
+    {
+      "capture": "0007_01_01_03",
+      "pairs": 35,
+      "residual_full_median": 0.0019380738575588638,
+      "residual_deformable_median": 0.012902553814185659,
+      "residual_rigid_median": 0.0110448504584012,
+      "deform_over_rigid": 1.168196228150394
+    },
+    {
+      "capture": "0002_01_02_03",
+      "pairs": 37,
+      "residual_full_median": 0.0012235272976867135,
+      "residual_deformable_median": 0.006656903478170769,
+      "residual_rigid_median": 0.0076507518972645195,
+      "deform_over_rigid": 0.8700978279602919
+    },
+    {
+      "capture": "0012_01_02_03",
+      "pairs": 30,
+      "residual_full_median": 0.001697388663585661,
+      "residual_deformable_median": 0.010660860189527867,
+      "residual_rigid_median": 0.012601847875967107,
+      "deform_over_rigid": 0.845975879766271
+    },
+    {
+      "capture": "0005_00_01_03",
+      "pairs": 24,
+      "residual_full_median": 0.0029079087505892998,
+      "residual_deformable_median": 0.022347755281693367,
+      "residual_rigid_median": 0.018939645596426066,
+      "deform_over_rigid": 1.1799457380535503
+    },
+    {
+      "capture": "0006_00_02_03",
+      "pairs": 32,
+      "residual_full_median": 0.0015998146640471343,
+      "residual_deformable_median": 0.008445189523961975,
+      "residual_rigid_median": 0.012750388673056605,
+      "deform_over_rigid": 0.66234756274217
+    },
+    {
+      "capture": "0008_00_04_02",
+      "pairs": 7,
+      "residual_full_median": 0.0019737573034933724,
+      "residual_deformable_median": 0.013325824965093566,
+      "residual_rigid_median": 0.016536787182565963,
+      "deform_over_rigid": 0.805829089541246
+    },
+    {
+      "capture": "0001_00_04_03",
+      "pairs": 26,
+      "residual_full_median": 0.0012814157084455045,
+      "residual_deformable_median": 0.007794919611956788,
+      "residual_rigid_median": 0.007994054643473004,
+      "deform_over_rigid": 0.9750894864387382
+    },
+    {
+      "capture": "0014_01_08_03",
+      "pairs": 39,
+      "residual_full_median": 0.001631915398533459,
+      "residual_deformable_median": 0.010480263415485101,
+      "residual_rigid_median": 0.013393987952869448,
+      "deform_over_rigid": 0.782460210499119
+    },
+    {
+      "capture": "0006_00_00_01",
+      "pairs": 33,
+      "residual_full_median": 0.0009547298730784848,
+      "residual_deformable_median": 0.0052401175976103005,
+      "residual_rigid_median": 0.010525820884719941,
+      "deform_over_rigid": 0.49783453064289845
+    },
+    {
+      "capture": "0008_00_02_02",
+      "pairs": 9,
+      "residual_full_median": 0.0013880625447244635,
+      "residual_deformable_median": 0.010384272866602517,
+      "residual_rigid_median": 0.010148765663555983,
+      "deform_over_rigid": 1.023205401291985
+    },
+    {
+      "capture": "0011_01_08_03",
+      "pairs": 24,
+      "residual_full_median": 0.002187624512426242,
+      "residual_deformable_median": 0.010599203730679588,
+      "residual_rigid_median": 0.01850920641510517,
+      "deform_over_rigid": 0.5726449270880011
+    },
+    {
+      "capture": "0006_00_04_02",
+      "pairs": 22,
+      "residual_full_median": 0.0014757365921654478,
+      "residual_deformable_median": 0.00815238205830978,
+      "residual_rigid_median": 0.014003010519571823,
+      "deform_over_rigid": 0.5821877706031524
+    },
+    {
+      "capture": "0016_01_04_03",
+      "pairs": 38,
+      "residual_full_median": 0.0028797955471195924,
+      "residual_deformable_median": 0.01507412439966263,
+      "residual_rigid_median": 0.024407557082120314,
+      "deform_over_rigid": 0.6176006771732374
+    },
+    {
+      "capture": "0012_01_08_03",
+      "pairs": 33,
+      "residual_full_median": 0.0015455440039697217,
+      "residual_deformable_median": 0.009804043563553792,
+      "residual_rigid_median": 0.011335514717130337,
+      "deform_over_rigid": 0.8648961201419209
+    },
+    {
+      "capture": "0011_01_02_03",
+      "pairs": 13,
+      "residual_full_median": 0.0024131834398459333,
+      "residual_deformable_median": 0.010868741973235048,
+      "residual_rigid_median": 0.015968930463938463,
+      "deform_over_rigid": 0.6806179861050302
+    },
+    {
+      "capture": "0001_00_08_03",
+      "pairs": 21,
+      "residual_full_median": 0.0008423379262314832,
+      "residual_deformable_median": 0.004642354474733341,
+      "residual_rigid_median": 0.0062106730375660986,
+      "deform_over_rigid": 0.747479975064451
+    },
+    {
+      "capture": "0006_00_03_03",
+      "pairs": 25,
+      "residual_full_median": 0.001647002176470066,
+      "residual_deformable_median": 0.007326183957567808,
+      "residual_rigid_median": 0.014925800645067079,
+      "deform_over_rigid": 0.4908402330262163
+    }
+  ]
+}

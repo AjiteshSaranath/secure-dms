@@ -1,0 +1,37 @@
+======================================================================
+Secure DMS rework â€” run 2026-08-06 21:14:05
+python 3.12.10 on Windows-11-10.0.26200-SP0
+numpy 2.5.1
+opencv 5.0.0
+mediapipe 1.0.0
+torch 2.11.0+cu128 | cuda available: True | NVIDIA GeForce RTX 4060 Laptop GPU
+artefact face_landmarker.task: sha256=64184E229B263107â€¦ OK
+artefact L2CSNet_gaze360.pkl: sha256=8A7F3480D868DD48â€¦ OK
+artefact 6DRepNet_300W_LP_AFLW2000.pth: sha256=9BDCD0E072DF0D21â€¦ OK
+seed 42 | run log: run_log_20260806_211405.txt
+DMD drowsiness: 16 rgb_face videos, 16 annotations | sample 1280x720 @ 29.76 fps, 5480 frames
+DMD distraction: 82 rgb_face videos, 82 annotations | sample 1280x720 @ 29.76 fps, 6777 frames
+
+DMD drowsiness ground truth: 16 sessions, 87,071 frames (48.8 min)
+  PERCLOS (ground truth, strict eyes-closed): 0.1034
+  per-session PERCLOS: min 0.0307 max 0.1757 mean 0.1028 sd 0.0410
+  blink events: 1,578 = 32.4/min (literature 15-30/min, R20 â€” DMD drowsiness is ACTED fatigue, see P1_FINDINGS Â§2)
+
+GATE G1 â€” NUAA temporal viability
+  client (bona fide)   captures   25 | median length   121 | median gap   1 | contiguous 61.3%
+  imposter (attack)    captures  118 | median length    80 | median gap   6 | contiguous 0.8%
+  truly-adjacent frame pairs â€” client 3,114 | imposter 56
+
+  GATE G1 VERDICT: NUAA temporal PAD corpus NOT VIABLE
+  -> NUAA retained for FRAME-LEVEL print-attack evaluation only (its designed purpose);
+     temporal PAD uses DMD video as bona fide + attack tiers C/D (P1_FINDINGS.md Â§4).
+perception backbone ready — EAR/MAR/iris/box/constellation per frame (DR-1)
+gaze + head-pose models loaded on cuda (inference-only, batched)
+
+P2 smoke test — gA_1_s5_2019-03-14T14;26;17+…
+  frames with face: 300/300 (100.0%)
+  EAR   mean 0.287 sd 0.128 min 0.022 max 0.652  (open-eye literature ~0.2-0.35, R9)
+  MAR   mean 0.047 sd 0.066
+  gaze  pitch +9.2+-24.0 yaw -0.0+-5.6 deg
+  head  pitch +6.3 yaw +12.5 roll -4.1 deg
+  plausibility guard: PASS

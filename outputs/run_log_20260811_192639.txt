@@ -1,0 +1,213 @@
+======================================================================
+Secure DMS rework â€” run 2026-08-11 19:26:39
+python 3.12.10 on Windows-11-10.0.26200-SP0
+numpy 2.5.1
+opencv 5.0.0
+mediapipe 1.0.0
+torch 2.11.0+cu128 | cuda available: True | NVIDIA GeForce RTX 4060 Laptop GPU
+artefact face_landmarker.task: sha256=64184E229B263107â€¦ OK
+artefact L2CSNet_gaze360.pkl: sha256=8A7F3480D868DD48â€¦ OK
+artefact 6DRepNet_300W_LP_AFLW2000.pth: sha256=9BDCD0E072DF0D21â€¦ OK
+seed 42 | run log: run_log_20260811_192639.txt
+DMD drowsiness: 16 rgb_face videos, 16 annotations | sample 1280x720 @ 29.76 fps, 5480 frames
+DMD distraction: 82 rgb_face videos, 82 annotations | sample 1280x720 @ 29.76 fps, 6777 frames
+
+DMD drowsiness ground truth: 16 sessions, 87,071 frames (48.8 min)
+  PERCLOS (ground truth, strict eyes-closed): 0.1034
+  per-session PERCLOS: min 0.0307 max 0.1757 mean 0.1028 sd 0.0410
+  blink events: 1,578 = 32.4/min (literature 15-30/min, R20 â€” DMD drowsiness is ACTED fatigue, see P1_FINDINGS Â§2)
+
+GATE G1 â€” NUAA temporal viability
+  client (bona fide)   captures   25 | median length   121 | median gap   1 | contiguous 61.3%
+  imposter (attack)    captures  118 | median length    80 | median gap   6 | contiguous 0.8%
+  truly-adjacent frame pairs â€” client 3,114 | imposter 56
+
+  GATE G1 VERDICT: NUAA temporal PAD corpus NOT VIABLE
+  -> NUAA retained for FRAME-LEVEL print-attack evaluation only (its designed purpose);
+     temporal PAD uses DMD video as bona fide + attack tiers C/D (P1_FINDINGS.md Â§4).
+perception backbone ready — EAR/MAR/iris/box/constellation per frame (DR-1)
+gaze + head-pose models loaded on cuda (inference-only, batched)
+
+P2 smoke test — gA_1_s5_2019-03-14T14;26;17+… (first 300 frames)
+  frames with face: 300/300 (100.0%)
+  EAR   mean 0.287 sd 0.128 min 0.022 max 0.652  (open-eye literature ~0.2-0.35, R9)
+  MAR   mean 0.047 sd 0.066
+  gaze  pitch +9.2+-24.0 yaw -0.0+-5.6 deg
+  head  pitch +6.3 yaw +12.5 roll -4.1 deg
+  quality guard: PASS (invalid gaze 0.000%, invalid head pose 0.000%)
+corpus drowsiness    16/16  sessions cached
+corpus distraction   82/82  sessions cached
+  full corpus available (188 cache files, 167 MB) — downstream sections will run on all sessions
+driver-state module ready — PERCLOS P80 + R9 blink criterion + gaze-off-road (DR-2)
+
+==============================================================================
+P3 — driver-state validation vs DMD OpenLABEL ground truth
+==============================================================================
+session          frames   PERCLOS   truth   blinks  truth     F1   verdict
+gA/1/s5            5480    0.1579  0.1204       46     83  0.760    unsafe
+gA/2/s5            5416    0.1018  0.0779       42     66  0.845    unsafe
+gA/3/s5            5525    0.1698  0.0874      135    143  0.662    unsafe
+gA/4/s5            5228    0.1075  0.0937       74     90  0.757    unsafe
+gA/5/s5            5287    0.2041  0.1040       70    101  0.625    unsafe
+gB/10/s5           5965    0.1736  0.1734       81     93  0.828    unsafe
+gB/10/s5           5417    0.1056  0.1133       75     74  0.769    unsafe
+gB/6/s5            5397    0.0483  0.0325      160    186  0.700    unsafe
+gB/7/s5            5388    0.1627  0.1140      118    153  0.440    unsafe
+gB/8/s5            5403    0.0369  0.1576       44     71  0.322    unsafe
+gB/9/s5            5292    0.1514  0.1221       71     95  0.803    unsafe
+gC/11/s5           5272    0.0830  0.0750      105    112  0.765    unsafe
+gC/12/s5           5503    0.1954  0.1757       60     64  0.897    unsafe
+gC/13/s5           5380    0.0798  0.0307       84     90  0.562    unsafe
+gC/14/s5           5534    0.0567  0.0855       59     56  0.645      safe
+gC/15/s5           5377    0.1115  0.0809       81    101  0.694    unsafe
+
+frame-level eye-closure detection (pooled, n=86,864):
+  accuracy 0.9343 | precision 0.6562 | recall 0.7684 | F1 0.7079
+  majority-class baseline (DR-4): accuracy 0.8964 F1 0.0000
+
+session-level PERCLOS agreement (the measure that drives the verdict):
+  Pearson r +0.4900 | MAE 0.0385 | bias +0.0188
+  blink-count r +0.9326 | MAPE 18.4%
+
+==============================================================================
+P3 (distraction) — visual distraction vs DMD gaze_on_road ground truth
+==============================================================================
+sessions 82 | frames 792,018 | not-looking-road prevalence 17.5%
+  accuracy 0.7621 | precision 0.3927 | recall 0.6639 | F1 0.4935
+  majority-class baseline (DR-4): accuracy 0.8254 F1 0.0000
+
+indirect coverage of manual-action classes (DP-2a scope limit, made concrete):
+  action                                    frames  gaze off-road  we detect
+  driver_actions/phonecall_left            101,005          1.7%      19.7%
+  driver_actions/phonecall_right            90,961          2.5%      20.4%
+  driver_actions/reach_side                 80,013         29.5%      30.5%
+  driver_actions/texting_right              39,578         62.0%      50.8%
+  driver_actions/texting_left               34,559         61.8%      52.5%
+  driver_actions/radio                      31,631         56.4%      40.9%
+  driver_actions/hair_and_makeup            30,522         62.3%      45.9%
+  driver_actions/drinking                   23,928          2.7%      23.6%
+  driver_actions/talking_to_passenger       19,846         64.3%      65.8%
+  driver_actions/standstill_or_waiting         737          0.0%      28.1%
+  (a class with low 'gaze off-road' is one a gaze/head stack cannot see by design)
+
+==============================================================================
+P3 (a) — DR-4 baselines: frame-level eye closure
+==============================================================================
+method                                     acc    prec  recall      F1
+proposed (P80, R15/R16)                 0.9343  0.6562  0.7684  0.7079
+baseline EAR absolute (R9 literal)      0.8994  0.5079  0.9253  0.6558
+baseline EAR ratio-adapted              0.9385  0.6475  0.8917  0.7502
+majority class                          0.8964  0.0000  0.0000  0.0000
+
+==============================================================================
+P3 (c) — is the distraction corpus a valid non-drowsy control?
+==============================================================================
+  drowsiness sessions  n= 16  measured PERCLOS 0.1216 +- 0.0513
+  distraction sessions n= 82  measured PERCLOS 0.0256 +- 0.0268
+  separation: Cohen's d +2.346
+  (a control group is only valid if it is measurably less drowsy; a d near
+   zero would mean the 'contrast' is illusory and verdict metrics meaningless)
+
+==============================================================================
+P3 (b,c) — cue ablation and verdict discrimination
+==============================================================================
+cue                         drowsy flagged  control flagged  separation
+PERCLOS only                        75.0%             9.8%      +65.2%
+microsleep only                    100.0%            45.1%      +54.9%
+yawn only                           75.0%             0.0%      +75.0%
+blink-rate only                     43.8%            40.2%       +3.5%
+PERCLOS OR microsleep              100.0%            45.1%      +54.9%
+PERCLOS OR yawn (deployed)          87.5%             9.8%      +77.7%
+  'separation' = true-positive rate minus false-positive rate at session level;
+  a cue firing equally on both groups contributes nothing regardless of its rate.
+PAD module ready — blink (R23/R24) + gaze variability (R26/R28) + rigidity (R25/R27), ISO 30107-3 metrics (R32)
+
+==============================================================================
+P4 — PAD: Tier A bona fide (real DMD video) vs Tier C simulated attacks
+==============================================================================
+thresholds calibrated on 2,937 GENUINE windows only (target 5% BPCER per cue):
+  ocular variability >= 6.896 deg
+  deformation residual >= 0.000520
+  blink count >= 1 per 10 s window (R20 physiology)
+
+bona fide: 98 sessions -> 2,937 windows of 10 s
+attack   : print_static     12 videos ->   12 windows
+attack   : print_handheld   12 videos ->   12 windows
+attack   : screen_replay    12 videos ->   12 windows
+
+ISO/IEC 30107-3 metrics (R32):
+  APCER print_static     0.0000   (attack windows wrongly accepted as live)
+  APCER print_handheld   0.0000   (attack windows wrongly accepted as live)
+  APCER screen_replay    0.0000   (attack windows wrongly accepted as live)
+  APCER worst-case      0.0000   (the standard reports the worst species)
+  BPCER                 0.1519   (genuine drivers wrongly rejected)
+  ACER                  0.0759
+
+cue firing rates (fraction of windows where the cue says 'live'):
+  group                     blink    ocular   deform  votes>=2
+  bona fide (real)         89.45%    94.99%   94.99%    84.81%
+  print_static              0.00%     0.00%    0.00%     0.00%
+  print_handheld            8.33%     8.33%  100.00%     0.00%
+  screen_replay             8.33%     0.00%   83.33%     0.00%
+
+underlying cue magnitudes (median per window):
+  group                    blinks  ocular sd deg  deform resid
+  bona fide (real)            3.0         25.299      0.001532
+  print_static                0.0          1.331      0.000224
+  print_handheld              0.0          2.540      0.001191
+  screen_replay               0.0          2.351      0.000638
+
+operating-point sweep — target BPCER per cue vs resulting worst-case APCER:
+   target BPCER  actual BPCER  APCER worst    ACER
+             1%        0.1151       0.0000  0.0575
+             2%        0.1239       0.0000  0.0620
+             5%        0.1519       0.0000  0.0759
+            10%        0.1978       0.0000  0.0989
+            20%        0.2853       0.0000  0.1427
+
+PAD cue ablation (same calibrated thresholds; subsets of the same three cues):
+  cue set                      BPCER   static  handheld   screen    ACER
+  blink                       0.1055   0.0000    0.0833   0.0833  0.0944
+  ocular                      0.0501   0.0000    0.0833   0.0000  0.0667
+  deform                      0.0501   0.0000    1.0000   0.8333  0.5250
+  blink+ocular (deployed)     0.1519   0.0000    0.0000   0.0000  0.0759
+  blink+deform                0.1478   0.0000    0.0833   0.0833  0.1156
+  ocular+deform               0.0858   0.0000    0.0833   0.0000  0.0846
+  blink+ocular+deform         0.0238   0.0000    0.1667   0.0833  0.0953
+  (a cue that fires equally on both classes adds nothing; one that fires MORE
+   on attacks than on genuine windows actively degrades the fusion)
+security layer ready — integrity(SHA-256+HMAC) · rate-limit · RBAC · forward-integrity audit chain (DP-4) · privacy guard
+6.1 integrity: 1-bit tamper detected; forged-hash-without-key detected
+6.1 rate-limit: 30 fps passes; 180-frame flood -> 30 admitted, 150 blocked (120 flood events)
+6.1 RBAC: 18/18 role x action cells behave per matrix; 7 violations correctly flagged
+6.1 audit chain: tamper/delete/reorder detected at exact index; DP-4 forward integrity holds (stolen K_15 cannot rewrite entry 10)
+6.1 privacy: pixelation collapses 50,113 distinct colours -> 196 (information destruction; recoverability tested in §9)
+6.1 ALL SECURITY SELF-TESTS PASS
+
+==============================================================================
+P5 — secure pipeline end-to-end smoke run (60 s of a genuine session)
+==============================================================================
+session: gA_1_s5_2019-03-14T14;26;17+01;00_rgb_fa…  role: driver
+frames processed 1,800 | admitted (monitored) 1,800 | hard-rejected 0 | spoof-flagged 1,502
+  stage rate_limit    pass  1,800  reject     0
+  stage integrity     pass  1,800  reject     0
+  stage access        pass  1,800  reject     0
+  stage pad           pass    298  reject 1,502  (flag only, not gated)
+  stage driver_state  pass  1,800  reject     0
+  stage audit         pass  1,800  reject     0
+  stage privacy       pass      0  reject     0
+driver state: {'verdict': 'unsafe', 'reasons': ['drowsy', 'visually_distracted'], 'perclos_max': 0.2785235047340393, 'n_yawns': 1}
+audit: 3,302 chained entries | chain intact: True
+P5 smoke run PASS — every genuine frame monitored; 1,502 PAD spoof flags raised (defence-in-depth, not gated). Full STRIDE suite = §9 (P6)
+
+==================================================================================
+P6 — STRIDE MITIGATION VALIDATION
+==================================================================================
+[S] PASS  Spoofing                 36/36 Tier-C attack windows flagged as spoof (worst-species APCER 0.00%); genuine BPCER 15.19% (alert, not gated — §7)
+[T] PASS  Tampering                500/500 16-byte tampers detected; 500/500 clean passed; 500/500 forged-hash-without-key rejected
+[R] PASS  Repudiation              200/200 entries signed & chained; field-tamper/deletion/reorder detected; tail-truncation caught by count anchor (chain prefix stays valid); DP-4: stolen current key cannot rewrite entry 100 = True
+[I] PASS  Information disclosure   0/60 faces recoverable after anonymisation; 0.0% sub-block detail retained; eff. res 14x14; face detector 60->0
+[D] PASS  Denial of service        30/180 admitted (= 30 fps cap); 150 throttled = 30 rate-limited + 120 flood-blocked (alarm at 60); counts reconcile
+[E] PASS  Elevation of privilege   6/6 unauthorised denied; 4/4 authorised granted; 18/18 role x action cells match policy
+----------------------------------------------------------------------------------
+STRIDE suite: 6/6 threats validated -> ALL PASS

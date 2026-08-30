@@ -1,0 +1,43 @@
+{
+ "perclos_alone": {
+  "drowsy": 0.5625,
+  "control": 0.08536585365853659
+ },
+ "by_mar_threshold": {
+  "0.30": {
+   "yawn_drowsy": 1.0,
+   "yawn_control": 0.24390243902439024,
+   "or_drowsy": 1.0,
+   "or_control": 0.3048780487804878,
+   "or_sep": 0.6951219512195121
+  },
+  "0.35": {
+   "yawn_drowsy": 0.9375,
+   "yawn_control": 0.08536585365853659,
+   "or_drowsy": 0.9375,
+   "or_control": 0.15853658536585366,
+   "or_sep": 0.7789634146341463
+  },
+  "0.40": {
+   "yawn_drowsy": 0.9375,
+   "yawn_control": 0.036585365853658534,
+   "or_drowsy": 0.9375,
+   "or_control": 0.10975609756097561,
+   "or_sep": 0.8277439024390244
+  },
+  "0.50": {
+   "yawn_drowsy": 0.8125,
+   "yawn_control": 0.0,
+   "or_drowsy": 0.875,
+   "or_control": 0.08536585365853659,
+   "or_sep": 0.7896341463414634
+  },
+  "0.60": {
+   "yawn_drowsy": 0.75,
+   "yawn_control": 0.0,
+   "or_drowsy": 0.875,
+   "or_control": 0.08536585365853659,
+   "or_sep": 0.7896341463414634
+  }
+ }
+}

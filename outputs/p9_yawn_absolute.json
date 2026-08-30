@@ -1,0 +1,106 @@
+{
+ "grid": [
+  {
+   "thr": 0.15,
+   "n_sess": 16,
+   "recall": 0.5394736842105263,
+   "recall_nohand": 0.8372093023255814,
+   "recall_hand": 0.15151515151515152,
+   "false_events": 12,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.9390243902439024
+  },
+  {
+   "thr": 0.2,
+   "n_sess": 16,
+   "recall": 0.5131578947368421,
+   "recall_nohand": 0.813953488372093,
+   "recall_hand": 0.12121212121212122,
+   "false_events": 6,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.7560975609756098
+  },
+  {
+   "thr": 0.25,
+   "n_sess": 16,
+   "recall": 0.47368421052631576,
+   "recall_nohand": 0.7906976744186046,
+   "recall_hand": 0.06060606060606061,
+   "false_events": 3,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.5365853658536586
+  },
+  {
+   "thr": 0.3,
+   "n_sess": 16,
+   "recall": 0.4605263157894737,
+   "recall_nohand": 0.7674418604651163,
+   "recall_hand": 0.06060606060606061,
+   "false_events": 2,
+   "drowsy_flag": 1.0,
+   "control_flag": 0.24390243902439024
+  },
+  {
+   "thr": 0.35,
+   "n_sess": 16,
+   "recall": 0.4342105263157895,
+   "recall_nohand": 0.7209302325581395,
+   "recall_hand": 0.06060606060606061,
+   "false_events": 1,
+   "drowsy_flag": 0.9375,
+   "control_flag": 0.08536585365853659
+  },
+  {
+   "thr": 0.4,
+   "n_sess": 16,
+   "recall": 0.39473684210526316,
+   "recall_nohand": 0.6744186046511628,
+   "recall_hand": 0.030303030303030304,
+   "false_events": 1,
+   "drowsy_flag": 0.9375,
+   "control_flag": 0.036585365853658534
+  },
+  {
+   "thr": 0.5,
+   "n_sess": 16,
+   "recall": 0.35526315789473684,
+   "recall_nohand": 0.6046511627906976,
+   "recall_hand": 0.030303030303030304,
+   "false_events": 0,
+   "drowsy_flag": 0.8125,
+   "control_flag": 0.0
+  },
+  {
+   "thr": 0.6,
+   "n_sess": 16,
+   "recall": 0.25,
+   "recall_nohand": 0.4186046511627907,
+   "recall_hand": 0.030303030303030304,
+   "false_events": 0,
+   "drowsy_flag": 0.75,
+   "control_flag": 0.0
+  },
+  {
+   "thr": 0.7,
+   "n_sess": 16,
+   "recall": 0.10526315789473684,
+   "recall_nohand": 0.18604651162790697,
+   "recall_hand": 0.0,
+   "false_events": 0,
+   "drowsy_flag": 0.375,
+   "control_flag": 0.0
+  }
+ ],
+ "held_out": {
+  "chosen": 0.4,
+  "thr": 0.4,
+  "n_sess": 8,
+  "recall": 0.42105263157894735,
+  "recall_nohand": 0.7142857142857143,
+  "recall_hand": 0.058823529411764705,
+  "false_events": 0,
+  "drowsy_flag": 1.0,
+  "control_flag": 0.036585365853658534
+ },
+ "note": "relative per-driver criterion rejected: see p9_yawn_calibration.json"
+}
